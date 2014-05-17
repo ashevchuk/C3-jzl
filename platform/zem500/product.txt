@@ -1,0 +1,7 @@
+5000-1:
+CT232On=1
+MCUSound=0
+
+628:
+CT232On=0
+MCUSound=1

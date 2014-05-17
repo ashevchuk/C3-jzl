@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AUTH_CMD_ACQUIRE_DNSADDRS	net.h	37;"	d
+AUTH_CMD_ACQUIRE_FREEID	net.h	34;"	d
+AUTH_CMD_CHECK_ISIDLEID	net.h	35;"	d
+AUTH_CMD_FINGER_REGISTER	net.h	33;"	d
+AUTH_CMD_IMAGE_IDENTIFY	net.h	32;"	d
+AUTH_CMD_REFRESH_USERDATA	net.h	41;"	d
+AUTH_CMD_SYNC_LOCALTIME	net.h	42;"	d
+AUTH_CMD_UPLOAD_ATTLOG	net.h	39;"	d
+AUTH_CMD_UPLOAD_IDINFO	net.h	38;"	d
+AUTH_CMD_UPLOAD_PHOTO	net.h	40;"	d
+AUTH_GSM	net.h	45;"	d
+AUTH_LOCAL	net.h	44;"	d
+AuthServerSessionCount	net.c	/^int AuthServerSessionCount=0;$/;"	v
+AuthServerSessions	net.c	/^PAuthServerSession AuthServerSessions=NULL;$/;"	v
+BPP	net.h	/^        U8 BPP;$/;"	m	struct:_PhotoSize_
+BROADCASTPORT	net.c	47;"	d	file:
+CloseTCPSocket	net.c	/^int CloseTCPSocket(void *param)$/;"	f
+Connected	net.h	/^	BOOL Connected;$/;"	m	struct:_authserver_session_
+EthBoradcastCheck	net.c	/^int EthBoradcastCheck(void)$/;"	f
+EthCommCheck	net.c	/^int EthCommCheck(void)$/;"	f
+EthCommTCPCheck	net.c	/^int EthCommTCPCheck(void)$/;"	f
+EthFree	net.c	/^void EthFree(void)$/;"	f
+EthInit	net.c	/^int EthInit(void)$/;"	f
+ForceClearMACCacheIP	net.c	/^void ForceClearMACCacheIP(unsigned char *ipaddress)$/;"	f
+Group	net.h	/^	char Group[20];$/;"	m	struct:_FPResult_
+Height	net.h	/^        U16 Height;$/;"	m	struct:_PhotoSize_
+ImageSize	net.h	/^	U32 ImageSize;	$/;"	m	struct:_FPRegister_
+ImageSize	net.h	/^	U32 ImageSize;$/;"	m	struct:_FPIdentify_
+Index	net.h	/^	BYTE Index; \/\/Valid numbers 有效发送次数 Index=1表示新登记$/;"	m	struct:_FPRegister_
+InitTCPSocket	net.c	/^int InitTCPSocket()$/;"	f
+InitUDPSocket	net.c	/^int InitUDPSocket(U16 port, int *udpsocket) $/;"	f
+LastActive	net.h	/^	U32 LastActive;$/;"	m	struct:_authserver_session_
+LastREQ	net.h	/^	U32 LastREQ;$/;"	m	struct:_authserver_session_
+MachineNumber	net.h	/^	BYTE MachineNumber;$/;"	m	struct:_FPID_
+MachineNumber	net.h	/^	BYTE MachineNumber;$/;"	m	struct:_FPIdentify_
+MachineNumber	net.h	/^	BYTE MachineNumber;$/;"	m	struct:_FPRegister_
+MachineNumber	net.h	/^        BYTE MachineNumber;$/;"	m	struct:_PhotoSize_
+MaxAuthServerSessionCount	net.c	/^int MaxAuthServerSessionCount=0;$/;"	v
+Name	net.h	/^	char Name[20];$/;"	m	struct:_FPResult_
+PAuthServerSession	net.h	/^}TAuthServerSession, *PAuthServerSession;$/;"	t	typeref:struct:_authserver_session_
+PFPID	net.h	/^}GCC_PACKED TFPID, *PFPID;$/;"	t	typeref:struct:_FPID_
+PFPIdentify	net.h	/^}GCC_PACKED TFPIdentify, *PFPIdentify;$/;"	t	typeref:struct:_FPIdentify_
+PFPRegister	net.h	/^}GCC_PACKED TFPRegister, *PFPRegister;$/;"	t	typeref:struct:_FPRegister_
+PFPResult	net.h	/^}GCC_PACKED TFPResult, *PFPResult;$/;"	t	typeref:struct:_FPResult_
+PIN	net.h	/^	U32 PIN;$/;"	m	struct:_FPID_
+PIN	net.h	/^	U32 PIN;$/;"	m	struct:_FPIdentify_
+PIN	net.h	/^	U32 PIN;$/;"	m	struct:_FPRegister_
+PIN	net.h	/^	U32 PIN;$/;"	m	struct:_FPResult_
+PIN	net.h	/^        U32 PIN;$/;"	m	struct:_PhotoSize_
+PTPhotoSize	net.h	/^}GCC_PACKED TPhotoSize, *PTPhotoSize;$/;"	t	typeref:struct:_PhotoSize_
+ProcessTCPPackage	net.c	/^int ProcessTCPPackage(void *buf, int len, int tmp_server_socket)$/;"	f
+Reserved	net.h	/^	U32 Reserved;$/;"	m	struct:_FPIdentify_
+SendTCPData	net.c	/^int SendTCPData(void *buf, int size, void *param)$/;"	f
+SendUDPData	net.c	/^int SendUDPData(int socketId,void *buf, int size, void *param)$/;"	f
+State	net.h	/^	BYTE  State;$/;"	m	struct:_FPIdentify_
+StaticDNSCount	net.c	/^int StaticDNSCount=0;$/;"	v
+TAuthServerSession	net.h	/^}TAuthServerSession, *PAuthServerSession;$/;"	t	typeref:struct:_authserver_session_
+TFPID	net.h	/^}GCC_PACKED TFPID, *PFPID;$/;"	t	typeref:struct:_FPID_
+TFPIdentify	net.h	/^}GCC_PACKED TFPIdentify, *PFPIdentify;$/;"	t	typeref:struct:_FPIdentify_
+TFPRegister	net.h	/^}GCC_PACKED TFPRegister, *PFPRegister;$/;"	t	typeref:struct:_FPRegister_
+TFPResult	net.h	/^}GCC_PACKED TFPResult, *PFPResult;$/;"	t	typeref:struct:_FPResult_
+THEIP	net.c	45;"	d	file:
+THEUDP	net.c	46;"	d	file:
+TPhotoSize	net.h	/^}GCC_PACKED TPhotoSize, *PTPhotoSize;$/;"	t	typeref:struct:_PhotoSize_
+Type	net.h	/^        U8 Type;$/;"	m	struct:_PhotoSize_
+Width	net.h	/^        U16 Width;$/;"	m	struct:_PhotoSize_
+ZK_NET_H	net.h	22;"	d
+_FPID_	net.h	/^typedef struct _FPID_{$/;"	s
+_FPIdentify_	net.h	/^typedef struct _FPIdentify_{$/;"	s
+_FPRegister_	net.h	/^typedef struct _FPRegister_{$/;"	s
+_FPResult_	net.h	/^typedef struct _FPResult_{$/;"	s
+_PhotoSize_	net.h	/^typedef struct _PhotoSize_{$/;"	s
+_authserver_session_	net.h	/^typedef struct _authserver_session_{$/;"	s
+comm_socket	net.c	/^static int comm_socket,listenAuthServer_socket, receive_broadcast_socket; \/\/UDP$/;"	v	file:
+gateway	net.h	/^	unsigned char gateway[4];$/;"	m	struct:str_net_addr
+get_netlink_status	net.c	/^int get_netlink_status(void)$/;"	f
+gwifiaddr	net.h	/^}gwifiaddr;$/;"	v	typeref:struct:str_net_addr
+image_socket	net.c	/^static int image_socket=-1; \/\/TCP AuthServer$/;"	v	file:
+ip	net.h	/^	unsigned  char ip[4];$/;"	m	struct:str_net_addr
+listenAuthServer_socket	net.c	/^static int comm_socket,listenAuthServer_socket, receive_broadcast_socket; \/\/UDP$/;"	v	file:
+mIsTcpInit	net.c	/^static int mIsTcpInit=0;$/;"	v	file:
+mask	net.h	/^	unsigned char mask[4];$/;"	m	struct:str_net_addr
+name	net.h	/^	 char name[20];$/;"	m	struct:str_net_addr
+receive_broadcast_socket	net.c	/^static int comm_socket,listenAuthServer_socket, receive_broadcast_socket; \/\/UDP$/;"	v	file:
+rfds	net.c	/^fd_set rfds;$/;"	v
+server_socket	net.c	/^static int server_socket; \/\/TCP listen $/;"	v	file:
+sin	net.h	/^	struct sockaddr_in sin;$/;"	m	struct:_authserver_session_	typeref:struct:_authserver_session_::sockaddr_in
+str_net_addr	net.h	/^struct str_net_addr	\/\/ccc$/;"	s
+tv	net.c	/^struct timeval tv;$/;"	v	typeref:struct:timeval
+u16	net.c	/^typedef unsigned short u16; $/;"	t	file:
+u32	net.c	/^typedef unsigned int u32;   $/;"	t	file:
+u64	net.c	/^typedef unsigned long u64;  $/;"	t	file:
+u8	net.c	/^typedef unsigned char u8;   $/;"	t	file:

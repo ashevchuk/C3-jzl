@@ -1,0 +1,604 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AND	c3dataapi.h	/^typedef enum {NO_OP, NOT, AND, OR}OPT;$/;"	e	enum:__anon2
+ARCH	Makefile	/^ARCH:=mips$/;"	m
+AUTH_CMD_ACQUIRE_DNSADDRS	net/net.h	37;"	d
+AUTH_CMD_ACQUIRE_FREEID	net/net.h	34;"	d
+AUTH_CMD_CHECK_ISIDLEID	net/net.h	35;"	d
+AUTH_CMD_FINGER_REGISTER	net/net.h	33;"	d
+AUTH_CMD_IMAGE_IDENTIFY	net/net.h	32;"	d
+AUTH_CMD_REFRESH_USERDATA	net/net.h	41;"	d
+AUTH_CMD_SYNC_LOCALTIME	net/net.h	42;"	d
+AUTH_CMD_UPLOAD_ATTLOG	net/net.h	39;"	d
+AUTH_CMD_UPLOAD_IDINFO	net/net.h	38;"	d
+AUTH_CMD_UPLOAD_PHOTO	net/net.h	40;"	d
+AUTH_GSM	net/net.h	45;"	d
+AUTH_LOCAL	net/net.h	44;"	d
+AcessLogFields	c3dataapi_tabledesc.c	/^C3FIELD_DESC AcessLogFields[] = $/;"	v
+AdminName	main.c	/^char AdminName[MAXNAMELENGTH]={0};$/;"	v
+AppendRTLog	main.c	/^void AppendRTLog(int EventType,char *Data, int Len)$/;"	f
+AppendRTLogBuff	main.c	/^void AppendRTLogBuff(int cardno,int pin,BYTE verified,BYTE ReaderID,BYTE even_type,BYTE inoutstate,U32 time_second)$/;"	f
+AuthServerREQ	net/net.c	/^int AuthServerREQ(int TimeInterval, int mode)$/;"	f
+AuthServerSessionCount	net/net.c	/^int AuthServerSessionCount=0;$/;"	v
+AuthServerSessions	net/net.c	/^PAuthServerSession AuthServerSessions=NULL;$/;"	v
+AuthServerconncetset	net/net.c	/^int AuthServerconncetset(void)	\/\/ccc add for gprs 20071228$/;"	f
+BIGBUF_LEN	commfun.c	34;"	d	file:
+BOARD_ZEM500	Makefile	/^BOARD_ZEM500 := -DZEM500$/;"	m
+BPP	net/net.h	/^        U8 BPP;$/;"	m	struct:_PhotoSize_
+BROADCASTPORT	net/net.c	65;"	d	file:
+BufToDatabase	commfun.c	/^int BufToDatabase(char *buf ,int inbuflen )\/\/,int handle_datafile)$/;"	f
+C2connect	main.c	/^int C2connect=0;$/;"	v
+C3DPARAM	c3dataapi.h	/^}C3DPARAM;$/;"	t	typeref:struct:__anon6
+C3FIELD_DESC	c3dataapi.h	/^}C3FIELD_DESC;$/;"	t	typeref:struct:__anon3
+C3HolidayFields	c3dataapi_tabledesc.c	/^C3FIELD_DESC C3HolidayFields[]=$/;"	v
+C3TABLE_DESC	c3dataapi.h	/^}C3TABLE_DESC;$/;"	t	typeref:struct:__anon4
+C3TimezoneFields	c3dataapi_tabledesc.c	/^C3FIELD_DESC C3TimezoneFields[]=$/;"	v
+C3UserAuthorizeFields	c3dataapi_tabledesc.c	/^C3FIELD_DESC C3UserAuthorizeFields[]=$/;"	v
+C3UserInfoFields	c3dataapi_tabledesc.c	/^C3FIELD_DESC C3UserInfoFields[]=$/;"	v
+C3_END	dlc.h	2;"	d
+C3_GET_ADDR	dlc.h	/^	C3_GET_ADDR,					\/\/ Ω” ’¿¥‘¥µÿ÷∑$/;"	e	enum:_C3cmdstatus_
+C3_GET_CMD	dlc.h	/^	C3_GET_CMD,					\/\/ Ω” ’÷°√¸¡Ó$/;"	e	enum:_C3cmdstatus_
+C3_GET_CRC16H	dlc.h	/^	C3_GET_CRC16H,					\/\/ Ω” ’—≠ª∑–£—È¬Î∏ﬂ◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_GET_CRC16L	dlc.h	/^	C3_GET_CRC16L,					\/\/ Ω” ’—≠ª∑–£—È¬ÎµÕ◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_GET_DATA	dlc.h	/^	C3_GET_DATA,					\/\/ Ω” ’÷°ƒ⁄»›$/;"	e	enum:_C3cmdstatus_
+C3_GET_END	dlc.h	/^	C3_GET_END,					\/\/ Ω” ’÷°Ω· ¯$/;"	e	enum:_C3cmdstatus_
+C3_GET_HEAD	dlc.h	/^	C3_GET_HEAD= 0x20,				\/\/ Ω” ’÷°«∞µº◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_GET_LENH	dlc.h	/^	C3_GET_LENH,					\/\/ Ω” ’÷°≥§∂»∏ﬂ◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_GET_LENL	dlc.h	/^	C3_GET_LENL,					\/\/ Ω” ’÷°≥§∂»µÕ◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_HEAD	dlc.h	1;"	d
+C3_PUT_ADDR	dlc.h	/^	C3_PUT_ADDR,					\/\/ ∑¢ÀÕƒøµƒµÿ÷∑$/;"	e	enum:_C3cmdstatus_
+C3_PUT_CMD	dlc.h	/^	C3_PUT_CMD,					\/\/ ∑¢ÀÕ÷°√¸¡Ó$/;"	e	enum:_C3cmdstatus_
+C3_PUT_CRC16H	dlc.h	/^	C3_PUT_CRC16H,					\/\/ ∑¢ÀÕ—≠ª∑–£—È¬Î∏ﬂ◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_PUT_CRC16L	dlc.h	/^	C3_PUT_CRC16L,					\/\/ ∑¢ÀÕ—≠ª∑–£—È¬ÎµÕ◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_PUT_DATA	dlc.h	/^	C3_PUT_DATA,					\/\/ ∑¢ÀÕ÷°ƒ⁄»›$/;"	e	enum:_C3cmdstatus_
+C3_PUT_END	dlc.h	/^	C3_PUT_END						\/\/ ∑¢ÀÕ÷°Ω· ¯$/;"	e	enum:_C3cmdstatus_
+C3_PUT_HEAD	dlc.h	/^	C3_PUT_HEAD = 0x40,			\/\/ ∑¢ÀÕ÷°«∞µº◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_PUT_LENH	dlc.h	/^	C3_PUT_LENH,					\/\/ ∑¢ÀÕ÷°≥§∂»∏ﬂ◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_PUT_LENL	dlc.h	/^	C3_PUT_LENL,					\/\/ ∑¢ÀÕ÷°≥§∂»µÕ◊÷Ω⁄$/;"	e	enum:_C3cmdstatus_
+C3_STANDBY	dlc.h	/^	C3_STANDBY = 0x10,				\/\/ µ»¥˝$/;"	e	enum:_C3cmdstatus_
+C3tableDesc	c3dataapi.h	/^	C3TABLE_DESC		*C3tableDesc;$/;"	m	struct:__anon6
+C4_TYPE	Makefile	/^C4_TYPE = 1$/;"	m
+CC	Makefile	/^CC := $(CROSS_COMPILE)gcc$/;"	m
+CDM_RESPONE_ERROR	commfun.c	64;"	d	file:
+CDM_RESPONE_OK	commfun.c	62;"	d	file:
+CDM_RESPONE_OK_NOPARA	commfun.c	61;"	d	file:
+CFLAGS	Makefile	/^CFLAGS := -O2 -I. -I.\/$(MAKECMDGOALS) -I$(PLATFORM) -I$(PLATFORMZEM) -I$(PUBLIC) -I$(FINGERPRINT) -I$(LCD) -I$(DB)  -Wall -D__GNU__  $(PUSH_SDK) $(HTTPD_SDK)$/;"	m
+CHANGEMACLIB	Makefile	/^CHANGEMACLIB = $(PLATFORMZEM)\/libnandflashstatic.a$/;"	m
+CHAR_T	c3dataapi.h	/^typedef enum {CHAR_T, STRING_T, INT_T, UINT_T, TIME_T} DATA_TYPE;$/;"	e	enum:__anon1
+CHECK_C2_INTERVAL	main.c	138;"	d	file:
+CMD_ACK_DATA	commfun.h	74;"	d
+CMD_ACK_ERROR	commfun.h	46;"	d
+CMD_ACK_ERROR_DATA	commfun.h	77;"	d
+CMD_ACK_ERROR_INIT	commfun.h	76;"	d
+CMD_ACK_NO	commfun.h	75;"	d
+CMD_ACK_OK	commfun.h	45;"	d
+CMD_ACK_RETRY	commfun.h	78;"	d
+CMD_CONNECT	commfun.h	11;"	d
+CMD_CONTROL_DEVICE	commfun.h	15;"	d
+CMD_DATA	commfun.h	31;"	d
+CMD_DELETE_DATA	commfun.h	22;"	d
+CMD_DISCONNECT	commfun.h	12;"	d
+CMD_ETHBORAD_MODIFY	commfun.h	35;"	d
+CMD_ETHBORAD_SEARCH	commfun.h	34;"	d
+CMD_FREE_DATA	commfun.h	29;"	d
+CMD_GET_BINARYDATA	commfun.h	38;"	d
+CMD_GET_DATA	commfun.h	19;"	d
+CMD_GET_DATA_COUNT	commfun.h	23;"	d
+CMD_GET_DATA_OK	commfun.h	40;"	d
+CMD_GET_DEVICE_PARAM	commfun.h	14;"	d
+CMD_GET_REALTIME_LOG	commfun.h	24;"	d
+CMD_GET_TABLE_STRUCT	commfun.h	17;"	d
+CMD_HASH_DATA	commfun.h	50;"	d
+CMD_PREPARE_BREAK_DATA	commfun.h	30;"	d
+CMD_PREPARE_DATA	commfun.h	27;"	d
+CMD_QUERY_DATA	commfun.h	25;"	d
+CMD_READ_DATA	commfun.h	28;"	d
+CMD_SET_BINARYDATA	commfun.h	36;"	d
+CMD_SET_DATA	commfun.h	18;"	d
+CMD_SET_DEVICE_PARAM	commfun.h	13;"	d
+CMD_SUCCESS	commfun.h	53;"	d
+COMM	Makefile	/^COMM := ..\/comm$/;"	m
+COMM	Makefile	/^COMM = 1$/;"	m
+COMMBUFLEN_MAX_RS485_232	dlc.h	12;"	d
+COMMBUFLEN_MAX_TCP	dlc.h	14;"	d
+COMMBUFLEN_MAX_UDP	dlc.h	13;"	d
+COMM_BUFLEN_MAX	dlc.h	16;"	d
+COMM_NET	Makefile	/^COMM_NET := ..\/comm\/net$/;"	m
+COMM_RS232	Makefile	/^COMM_RS232 := ..\/comm\/rs232$/;"	m
+COUNT_RETRY_USER	main.c	108;"	d	file:
+CRC16	dlc.h	/^	WORD CRC16;$/;"	m	struct:_C3Cmdstruct_
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE := $(CROSS_COMPILE_MIPS)$/;"	m
+CROSS_COMPILE_ARCA	Makefile	/^CROSS_COMPILE_ARCA := arca-$/;"	m
+CROSS_COMPILE_MIPS	Makefile	/^CROSS_COMPILE_MIPS := mipsel-$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS := $(CFLAGS)$/;"	m
+Card	main.h	/^	BOOL Card;$/;"	m	struct:_VSStatus_
+Change_LockForceAction	main.c	/^int Change_LockForceAction(int state)$/;"	f
+CheckAllAuthServerRuning	net/net.c	/^BOOL CheckAllAuthServerRuning(void)$/;"	f
+CheckAuthServerSessionTimeOut	net/net.c	/^int CheckAuthServerSessionTimeOut(int TimeOutSec, int mode)$/;"	f
+CheckIsIdleIDFromAuthServer	net/net.c	/^BOOL CheckIsIdleIDFromAuthServer(U32 pin2, U8 *result)$/;"	f
+CheckSum	rs232/rs232comm.c	/^	WORD CheckSum;$/;"	m	struct:_RSHeader_	file:
+CheckUserPIN	main.c	/^U32 CheckUserPIN(char *pin)$/;"	f
+CloseTCPSocket	net/net.c	/^int CloseTCPSocket(void *param)$/;"	f
+Cmd	rs232/rs232comm.c	/^	unsigned char Cmd;$/;"	m	struct:_RSHeader_	file:
+CmdCheck	rs232/rs232comm.c	/^	unsigned char CmdCheck;$/;"	m	struct:_RSHeader_	file:
+Command	commfun.h	/^	BYTE Command;$/;"	m	struct:__anon7
+ConnectWithTimeout	net/net.c	/^BOOL ConnectWithTimeout(int sockfd, const struct sockaddr *serv_addr,$/;"	f
+Connected	net/net.h	/^	BOOL Connected;$/;"	m	struct:_authserver_session_
+ConstructMSG	msg.h	119;"	d
+CurBigDataBuf	commfun.c	/^TBigDataBuf CurBigDataBuf;$/;"	v
+CustDeviceID	main.c	/^int CustDeviceID=0;$/;"	v
+DATABUFLEN_MAX	dlc.h	17;"	d
+DATA_TYPE	c3dataapi.h	/^typedef enum {CHAR_T, STRING_T, INT_T, UINT_T, TIME_T} DATA_TYPE;$/;"	t	typeref:enum:__anon1
+DAYLIGHTSAVINGTIME	main.c	154;"	d	file:
+DB	Makefile	/^DB := ..\/db$/;"	m
+DEBUGTRACE	dlc.c	/^void DEBUGTRACE(char *buf,int len)$/;"	f
+DEBUGTRACE2	dlc.c	/^void DEBUGTRACE2(char *buf,int len)$/;"	f
+DELAYNEXTUSER	main.c	68;"	d	file:
+DEPS	Makefile	/^DEPS := $(patsubst %.o,%.d,$(OBJS))$/;"	m
+DataSize	commfun.h	/^	WORD DataSize;$/;"	m	struct:__anon7
+DatabaseToBuf	commfun.c	/^void DatabaseToBuf(char *buf,int inbuflen)\/\/,char *outbuf,int *outbuflen)$/;"	f
+DestAddr	commfun.h	/^	BYTE DestAddr;$/;"	m	struct:__anon7
+DoMsgProcess	msg.c	/^int DoMsgProcess(void *Obj, int ExitCommand)$/;"	f
+EC_ADDRERR	dlc.h	/^	EC_ADDRERR,$/;"	e	enum:_C3cmdResult_
+EC_BUFOVERFLOW	dlc.h	/^	EC_BUFOVERFLOW = 0 + 0x200,$/;"	e	enum:_C3cmdResult_
+EC_CRCERR	dlc.h	/^	EC_CRCERR,$/;"	e	enum:_C3cmdResult_
+EC_DATAERR	dlc.h	/^	EC_DATAERR,$/;"	e	enum:_C3cmdResult_
+EC_ERRTARGET	dlc.h	/^	EC_ERRTARGET,$/;"	e	enum:_C3cmdResult_
+EC_FINISH	dlc.h	/^	EC_FINISH = 0,$/;"	e	enum:_C3cmdResult_
+EC_FRAMEERR	dlc.h	/^	EC_FRAMEERR,$/;"	e	enum:_C3cmdResult_
+EC_NORECEIVE	dlc.h	/^	EC_NORECEIVE= 0 + 0x400,$/;"	e	enum:_C3cmdResult_
+EC_STANDBY	dlc.h	/^	EC_STANDBY$/;"	e	enum:_C3cmdResult_
+EC_TIMEOUT	dlc.h	/^	EC_TIMEOUT,$/;"	e	enum:_C3cmdResult_
+EC_UNKNOWNERR	dlc.h	/^	EC_UNKNOWNERR = 0 + 0x100,$/;"	e	enum:_C3cmdResult_
+ERR_BUFFER_NOT_ENOUGH	commfun.h	57;"	d
+ERR_CMD_ACK_UNKNOWN	commfun.h	69;"	d
+ERR_CMD_COMKEY_ERROR	commfun.h	68;"	d
+ERR_CMD_DATA_API_ERROR	commfun.h	64;"	d
+ERR_CMD_DATA_CRC_ERROR	commfun.h	63;"	d
+ERR_CMD_DATA_PARA_ERROR	commfun.h	65;"	d
+ERR_CMD_ERROR_CMD	commfun.h	67;"	d
+ERR_CMD_PROCESS_ERROR	commfun.h	66;"	d
+ERR_CMD_REPEAT	commfun.h	61;"	d
+ERR_CMD_UNAUTH	commfun.h	62;"	d
+ERR_DATA_COMPRESS_FAILED	commfun.h	58;"	d
+ERR_DATA_CPLENGTH_ERROR	commfun.h	60;"	d
+ERR_DATA_READ_LENGTH_ERROR	commfun.h	59;"	d
+ERR_NORESPOSE	commfun.h	56;"	d
+ERR_SEND_FAILED	commfun.h	55;"	d
+EXECUTABLE	Makefile	/^EXECUTABLE := main$/;"	m
+EXE_ZEM5007131	Makefile	/^EXE_ZEM5007131 := zem500$/;"	m
+EnableMsgType	msg.c	/^void EnableMsgType(int MsgType, int Enabled)$/;"	f
+EnabledMsg	msg.c	/^static U32 EnabledMsg=0;$/;"	v	file:
+EthAuthServerCheck	net/net.c	/^int EthAuthServerCheck(int mode)$/;"	f
+EthBoradcastCheck	net/net.c	/^int EthBoradcastCheck(void)$/;"	f
+EthCommCheck	net/net.c	/^int EthCommCheck(void)$/;"	f
+EthCommTCPCheck	net/net.c	/^int EthCommTCPCheck(void)$/;"	f
+EthFree	net/net.c	/^void EthFree(void)$/;"	f
+EthInit	net/net.c	/^int EthInit(void)$/;"	f
+Evt_ACPower	msg.h	80;"	d
+Evt_BatteryLower	msg.h	81;"	d
+Evt_C3_Weigend	msg.h	72;"	d
+Evt_Change485Addr	msg.h	82;"	d
+Evt_DogOver	msg.h	77;"	d
+Evt_KeyPress	msg.h	78;"	d
+Evt_MachineMal	msg.h	76;"	d
+Evt_McuReset	msg.h	79;"	d
+Evt_None	msg.h	69;"	d
+Evt_OnOff	msg.h	74;"	d
+Evt_ReadStrip	msg.h	75;"	d
+Evt_Weigend	msg.h	73;"	d
+Ex_ConctrolLock	main.c	/^void Ex_ConctrolLock(int opencause,int MachineType,int index,int time)$/;"	f
+ExecuteCMD	net/net.c	/^BOOL ExecuteCMD(U16 Command, void *Header, U16 HeaderLen, void *Data, U32 DataLen,$/;"	f
+FCT	c3dataapi.h	/^	int						FCT;			$/;"	m	struct:__anon4
+FINGERPRINT	Makefile	/^FINGERPRINT := ..\/fingerprint$/;"	m
+FKey	main.c	/^char FKey[4];$/;"	v
+FORCECLOSE	main.c	161;"	d	file:
+FORCENONE	main.c	159;"	d	file:
+FORCEOPEN	main.c	160;"	d	file:
+FP	main.h	/^	BOOL FP;$/;"	m	struct:_VSStatus_
+FPLIB	Makefile	/^FPLIB := -L.\/$(PLATFORMZEM) -lzkfp$/;"	m
+F_RELAY1	main.c	72;"	d	file:
+F_RELAY2	main.c	73;"	d	file:
+Filter_Group_Run	main.c	/^int Filter_Group_Run(int TID)$/;"	f
+Filter_Head_Run	main.c	/^int Filter_Head_Run(int TID)$/;"	f
+FirstCardFields	c3dataapi_tabledesc.c	/^C3FIELD_DESC FirstCardFields[] =$/;"	v
+FldCheckFunT	c3dataapi.h	/^typedef int (*FldCheckFunT)(void *data);$/;"	t
+FldSetFunT	c3dataapi.h	/^typedef int (*FldSetFunT)(void *data, char *valueBuffer, int bufferSize);$/;"	t
+FldValueFunT	c3dataapi.h	/^typedef int (*FldValueFunT)(void *data, char *valueBuffer, int bufferSize);$/;"	t
+ForceClearMACCacheIP	net/net.c	/^void ForceClearMACCacheIP(unsigned char *ipaddress)$/;"	f
+FreeAuthServer	net/net.c	/^int FreeAuthServer(void)$/;"	f
+GatherMsgs	msg.c	/^int GatherMsgs(PMsg msg)$/;"	f
+GetDNSAddrsFromAuthServer	net/net.c	/^BOOL GetDNSAddrsFromAuthServer(U8 *result, int len)$/;"	f
+GetDataCount	commfun.c	/^int	GetDataCount(BYTE *buf,int inbuflen,BYTE *outbuf,int *outbuflen)$/;"	f
+GetDataFromAuthServer	net/net.c	/^BOOL GetDataFromAuthServer(void *AuthResult, U32 Len)	\/\/ccc add 20071228$/;"	f
+GetDataType	commfun.c	/^void GetDataType(DATA_TYPE data,char *c)$/;"	f
+GetFreeIDFromAuthServer	net/net.c	/^BOOL GetFreeIDFromAuthServer(U32 *result)$/;"	f
+GetMsg	msg.c	/^int GetMsg(PMsg msg)$/;"	f
+GetTableCount	c3dataapi_tabledesc.c	/^int GetTableCount()$/;"	f
+GetTableStruct	commfun.c	/^int 	GetTableStruct(BYTE *outbuf,int *outbuflen)$/;"	f
+GetTimeFromAuthServer	net/net.c	/^BOOL GetTimeFromAuthServer(U32 *result)$/;"	f
+GetUserDataFromAuthServer	net/net.c	/^BOOL GetUserDataFromAuthServer(U8 *result, int len)$/;"	f
+GetUserPIN_16	main.c	/^U32 GetUserPIN_16(U32 pin)$/;"	f
+Group	net/net.h	/^	char Group[20];$/;"	m	struct:_FPResult_
+HTTP_MODE	dlc.h	8;"	d
+HasInputControl	msg.c	/^int HasInputControl(void)$/;"	f
+HeaderTag	rs232/rs232comm.c	/^	unsigned char HeaderTag[2];$/;"	m	struct:_RSHeader_	file:
+Height	net/net.h	/^        U16 Height;$/;"	m	struct:_PhotoSize_
+IDLE_LOOP_TIME	msg.c	96;"	d	file:
+IDLE_LOOP_TIME	msg.c	98;"	d	file:
+INT_T	c3dataapi.h	/^typedef enum {CHAR_T, STRING_T, INT_T, UINT_T, TIME_T} DATA_TYPE;$/;"	e	enum:__anon1
+ImageSize	net/net.h	/^	U32 ImageSize;	$/;"	m	struct:_FPRegister_
+ImageSize	net/net.h	/^	U32 ImageSize;$/;"	m	struct:_FPIdentify_
+InOutFunFields	c3dataapi_tabledesc.c	/^C3FIELD_DESC  InOutFunFields[] =$/;"	v
+Index	net/net.h	/^	BYTE Index; \/\/Valid numbers ”––ß∑¢ÀÕ¥Œ ˝ Index=1±Ì æ–¬µ«º«$/;"	m	struct:_FPRegister_
+InitAuthServer	net/net.c	/^int InitAuthServer(void)$/;"	f
+InitRTLoglist	main.c	/^void InitRTLoglist()$/;"	f
+InitTCPSocket	net/net.c	/^int InitTCPSocket()$/;"	f
+InitUDPSocket	net/net.c	/^int InitUDPSocket(U16 port, int *udpsocket) $/;"	f
+IsDaylightSavingTime	main.c	/^int IsDaylightSavingTime()$/;"	f
+LCD	Makefile	/^LCD := ..\/lcd$/;"	m
+LOWQLT	main.c	568;"	d	file:
+LastActive	net/net.h	/^	U32 LastActive;$/;"	m	struct:_authserver_session_
+LastCardNo	main.c	/^U32 LastCardNo=0;$/;"	v
+LastCheckInCount	main.c	/^int LastCheckInCount=0;$/;"	v
+LastLogsCount	main.c	/^int LastLogsCount=0;$/;"	v
+LastREQ	net/net.h	/^	U32 LastREQ;$/;"	m	struct:_authserver_session_
+LastTemplate	main.c	/^BYTE LastTemplate[1024];$/;"	v
+Len	rs232/rs232comm.c	/^	WORD Len;$/;"	m	struct:_RSHeader_	file:
+LittleDataBuf	commfun.c	/^TLittleDataBuf LittleDataBuf;$/;"	v
+MACHINETYPE	Makefile	/^MACHINETYPE := -DMACHINETYPE_C4$/;"	m
+MATHLIB	Makefile	/^MATHLIB := $(PLATFORMZEM)\/libm.a$/;"	m
+MATHLIB	Makefile	/^MATHLIB := -lm$/;"	m
+MAXRTLOGSCACHE	main.c	149;"	d	file:
+MAX_TRY_CMD_TIME	commfun.h	81;"	d
+MCUADDR	msg.c	/^static int MCUADDR[5]={0x03,0x7c,0x7d,0x7c,0x7d};\/\/, 0x7e, 0x7f};$/;"	v	file:
+MCUADDR	msg.c	/^static int MCUADDR[5]={0x03,0x7c,0x7d,0x7e,0x7f};$/;"	v	file:
+MISSING_DEPS	Makefile	/^MISSING_DEPS := $(filter-out $(wildcard $(DEPS)),$(DEPS))$/;"	m
+MISSING_DEPS_SOURCES	Makefile	/^MISSING_DEPS_SOURCES := $(wildcard $(patsubst %.d,%.c,$(MISSING_DEPS)) \\$/;"	m
+MSG_TYPE_BUTTON	msg.h	25;"	d
+MSG_TYPE_CMD	msg.h	18;"	d
+MSG_TYPE_DOOR	msg.h	28;"	d
+MSG_TYPE_ETHERNET	msg.h	23;"	d
+MSG_TYPE_FINGER	msg.h	21;"	d
+MSG_TYPE_HID	msg.h	27;"	d
+MSG_TYPE_MF	msg.h	26;"	d
+MSG_TYPE_RELAY	msg.h	20;"	d
+MSG_TYPE_TIMER	msg.h	24;"	d
+MSG_TYPE_USB	msg.h	22;"	d
+MSG_WIEGAND_KEY	msg.h	19;"	d
+MachineNumber	net/net.h	/^	BYTE MachineNumber;$/;"	m	struct:_FPID_
+MachineNumber	net/net.h	/^	BYTE MachineNumber;$/;"	m	struct:_FPIdentify_
+MachineNumber	net/net.h	/^	BYTE MachineNumber;$/;"	m	struct:_FPRegister_
+MachineNumber	net/net.h	/^        BYTE MachineNumber;$/;"	m	struct:_PhotoSize_
+MainProcMsg	main.c	/^int MainProcMsg(PMsg msg)$/;"	f
+Make_SendData	dlc.c	/^int Make_SendData(char *buf,char cmd,int len,char *outbuf,int *SendLen)$/;"	f
+MaxAdminVerify	main.c	67;"	d	file:
+MaxAuthServerSessionCount	net/net.c	/^int MaxAuthServerSessionCount=0;$/;"	v
+Message	msg.h	/^	int Message;$/;"	m	struct:_TAG_MSG
+MessageProcs	msg.c	/^static PMsgProc *MessageProcs=NULL;$/;"	v	file:
+MsgProcCount	msg.c	/^static int MsgProcCount=0;$/;"	v	file:
+MutiCardFields	c3dataapi_tabledesc.c	/^C3FIELD_DESC  MutiCardFields[] =$/;"	v
+NOT	c3dataapi.h	/^typedef enum {NO_OP, NOT, AND, OR}OPT;$/;"	e	enum:__anon2
+NO_OP	c3dataapi.h	/^typedef enum {NO_OP, NOT, AND, OR}OPT;$/;"	e	enum:__anon2
+Name	net/net.h	/^	char Name[20];$/;"	m	struct:_FPResult_
+News_Alarm_ErrTimes	msg.h	53;"	d
+News_Alarm_Strip	msg.h	51;"	d
+News_CancelInput	msg.h	55;"	d
+News_CommitInput	msg.h	56;"	d
+News_Door_Button	msg.h	49;"	d
+News_Door_Sensor	msg.h	50;"	d
+News_ErrorInput	msg.h	57;"	d
+News_Exit_Input	msg.h	31;"	d
+News_Exit_Program	msg.h	30;"	d
+News_FailedByFP	msg.h	43;"	d
+News_FailedByIDCard	msg.h	44;"	d
+News_FailedByMFCard	msg.h	46;"	d
+News_FailedByPIN	msg.h	45;"	d
+News_FailedByPwd	msg.h	42;"	d
+News_FailedByiCLASSCard	msg.h	47;"	d
+News_NextInput	msg.h	58;"	d
+News_PrevInput	msg.h	59;"	d
+News_Reset_Options	msg.h	52;"	d
+News_TimeOut	msg.h	60;"	d
+News_VerifiedByFP	msg.h	34;"	d
+News_VerifiedByFPRIS	msg.h	39;"	d
+News_VerifiedByIDCard	msg.h	35;"	d
+News_VerifiedByIDCardRIS	msg.h	38;"	d
+News_VerifiedByMFCard	msg.h	37;"	d
+News_VerifiedByPIN	msg.h	36;"	d
+News_VerifiedByPwd	msg.h	33;"	d
+News_VerifiedByiCLASSCard	msg.h	40;"	d
+OBJS	Makefile	/^OBJS := $(patsubst %.c,%.o,$(patsubst %.cc,%.o, $(SOURCE)))$/;"	m
+OPT	c3dataapi.h	/^typedef enum {NO_OP, NOT, AND, OR}OPT;$/;"	t	typeref:enum:__anon2
+OR	c3dataapi.h	/^typedef enum {NO_OP, NOT, AND, OR}OPT;$/;"	e	enum:__anon2
+Object	msg.h	/^	void *Object;$/;"	m	struct:_TAG_MSG
+OnTimer	main.c	/^void OnTimer(unsigned char cID)$/;"	f
+On_Button	processmsg.c	/^int	On_Button(int readerno,int keyvalue)$/;"	f
+On_InputPinChange	processmsg.c	/^int 	On_InputPinChange(int mcuID,int ioindex,int iostate)$/;"	f
+On_PollCard	processmsg.c	/^int	On_PollCard(cardno,readerno)$/;"	f
+On_Wiegandkey	processmsg.c	/^int	On_Wiegandkey(int keyvalue,int readerno)$/;"	f
+PAuthServerSession	net/net.h	/^}TAuthServerSession, *PAuthServerSession;$/;"	t	typeref:struct:_authserver_session_
+PBigDataBuf	commfun.c	/^}TBigDataBuf, *PBigDataBuf;$/;"	t	typeref:struct:_bigdatabuf_	file:
+PC3Cmdstruct	dlc.h	/^}TC3Cmdstruct, *PC3Cmdstruct;$/;"	t	typeref:struct:_C3Cmdstruct_
+PFPID	net/net.h	/^}GCC_PACKED TFPID, *PFPID;$/;"	t	typeref:struct:_FPID_
+PFPIdentify	net/net.h	/^}GCC_PACKED TFPIdentify, *PFPIdentify;$/;"	t	typeref:struct:_FPIdentify_
+PFPRegister	net/net.h	/^}GCC_PACKED TFPRegister, *PFPRegister;$/;"	t	typeref:struct:_FPRegister_
+PFPResult	net/net.h	/^}GCC_PACKED TFPResult, *PFPResult;$/;"	t	typeref:struct:_FPResult_
+PIN	main.h	/^	BOOL PIN;$/;"	m	struct:_VSStatus_
+PIN	net/net.h	/^	U32 PIN;$/;"	m	struct:_FPID_
+PIN	net/net.h	/^	U32 PIN;$/;"	m	struct:_FPIdentify_
+PIN	net/net.h	/^	U32 PIN;$/;"	m	struct:_FPRegister_
+PIN	net/net.h	/^	U32 PIN;$/;"	m	struct:_FPResult_
+PIN	net/net.h	/^        U32 PIN;$/;"	m	struct:_PhotoSize_
+PLATFORM	Makefile	/^PLATFORM := ..\/platform$/;"	m
+PLATFORMZEM	Makefile	/^PLATFORMZEM := ..\/platform\/$(MAKECMDGOALS)$/;"	m
+PLittleDataBuf	commfun.c	/^}TLittleDataBuf, *PLittleDataBuf;$/;"	t	typeref:struct:_Recdatabuf_	file:
+PMsg	msg.h	/^} TMsg, *PMsg;$/;"	t	typeref:struct:_TAG_MSG
+PMsgProc	msg.h	/^typedef int (*PMsgProc)(PMsg msg);$/;"	t
+PProtoHeader	commfun.h	/^}TProtoHeader,*PProtoHeader;$/;"	t	typeref:struct:__anon7
+PROCESS	Makefile	/^PROCESS  := -DCOMM_PROCESS$/;"	m
+PROCESS	Makefile	/^PROCESS  := -DMAIN_PROCESS$/;"	m
+PROTO_END_TAG	commfun.h	9;"	d
+PROTO_NODATA_LEN	commfun.h	72;"	d
+PROTO_START_TAG	commfun.h	8;"	d
+PRSHeader	rs232/rs232comm.c	/^}TRSHeader, *PRSHeader;$/;"	t	typeref:struct:_RSHeader_	file:
+PS1	rs232/rs232comm.c	/^WORD rsc=0, PS1[256], PS2[256], PSIndex=0;$/;"	v
+PS2	rs232/rs232comm.c	/^WORD rsc=0, PS1[256], PS2[256], PSIndex=0;$/;"	v
+PSIndex	rs232/rs232comm.c	/^WORD rsc=0, PS1[256], PS2[256], PSIndex=0;$/;"	v
+PTPhotoSize	net/net.h	/^}GCC_PACKED TPhotoSize, *PTPhotoSize;$/;"	t	typeref:struct:_PhotoSize_
+PUBLIC	Makefile	/^PUBLIC := ..\/public$/;"	m
+PVSStatus	main.h	/^}GCC_PACKED TVSStatus, *PVSStatus;$/;"	t	typeref:struct:_VSStatus_
+Param1	msg.h	/^	int Param1,Param2;$/;"	m	struct:_TAG_MSG
+Param2	msg.h	/^	int Param1,Param2;$/;"	m	struct:_TAG_MSG
+Password	main.h	/^	BOOL Password;$/;"	m	struct:_VSStatus_
+PostMsg	msg.c	/^int PostMsg(int message, int Param1, int param2, void *object)$/;"	f
+PrcocessCMD	net/net.c	/^BOOL PrcocessCMD(int sockfd, const struct sockaddr *serv_addr,$/;"	f
+ProcessMsg	msg.c	/^int ProcessMsg(PMsg msg)$/;"	f
+ProcessSaveAcessEvenLog	main.c	/^int ProcessSaveAcessEvenLog(U32 cardno,U32 pin,BYTE verified,BYTE ReaderID,$/;"	f
+ProcessTCPPackage	net/net.c	/^int ProcessTCPPackage(void *buf, int len, int tmp_server_socket)$/;"	f
+Process_ReceiveData	dlc.c	/^int Process_ReceiveData(char *buf,int len,void  *outbuf,int CommNetType)$/;"	f
+QueryMCUID	msg.c	/^static int QueryMCUID=0;$/;"	v	file:
+RS232Check	rs232/rs232comm.c	/^int RS232Check(serial_driver_t *rs)$/;"	f
+RS485_232_MODE	dlc.h	6;"	d
+RS_SendDataPack	rs232/rs232comm.c	/^void RS_SendDataPack(serial_driver_t *rs, unsigned char *buf, int len)$/;"	f
+RTCTimeValidSign	main.c	/^BOOL RTCTimeValidSign=TRUE;$/;"	v
+RefreshAuthServerByDNS	net/net.c	/^int RefreshAuthServerByDNS(U8 *result, int len)$/;"	f
+RefreshAuthServerListFromAuthServer	net/net.c	/^void RefreshAuthServerListFromAuthServer(void)$/;"	f
+RefreshUserDataFromAuthServer	net/net.c	/^BOOL RefreshUserDataFromAuthServer(void)$/;"	f
+RegMsgProc	msg.c	/^int RegMsgProc(PMsgProc MsgProc)$/;"	f
+RegMsgProcBottom	msg.c	/^int RegMsgProcBottom(PMsgProc MsgProc)$/;"	f
+Reserved	net/net.h	/^	U32 Reserved;$/;"	m	struct:_FPIdentify_
+SENDER_LEN	commfun.h	5;"	d
+SOURCE	Makefile	/^SOURCE := $(wildcard *.c) $(wildcard *.cc) $(wildcard $(MAKECMDGOALS)\/*.c $(PLATFORM)\/*.c $(PUBLIC)\/*.c $(FINGERPRINT)\/*.c $(LCD)\/*.c $(DB)\/*.c $(PLATFORMZEM)\/*.c $(COMM_NET)\/*.c $(COMM_RS232)\/*.c)$/;"	m
+STANDARDTIME	main.c	155;"	d	file:
+STRING_T	c3dataapi.h	/^typedef enum {CHAR_T, STRING_T, INT_T, UINT_T, TIME_T} DATA_TYPE;$/;"	e	enum:__anon1
+STRIP	Makefile	/^STRIP := $(CROSS_COMPILE)strip$/;"	m
+SelectNewMsgMask	msg.c	/^U32 SelectNewMsgMask(U32 newmsk)$/;"	f
+SendDataToAuthServer	net/net.c	/^BOOL SendDataToAuthServer(U16 Command, void *Header, U16 HeaderLen, $/;"	f
+SendImageAndIdentify	net/net.c	/^BOOL SendImageAndIdentify(char *buffer, int size, U32 pin2, PFPResult result)$/;"	f
+SendImageToRegister	net/net.c	/^BOOL SendImageToRegister(char *buffer, int size, U32 pin2, U8 Index, U16 *result)$/;"	f
+SendMsg	msg.c	/^int SendMsg(int message, int Param1, int param2, void *object)$/;"	f
+SendPhotoToAuthServer	net/net.c	/^BOOL SendPhotoToAuthServer(U32 pin, char *buffer, U16 width, U16 height, U8 bpp, U8 type)$/;"	f
+SendRSData	rs232/rs232comm.c	/^int SendRSData(void *buf, int size, void *param)$/;"	f
+SendTCPData	net/net.c	/^int SendTCPData(void *buf, int size, void *param)$/;"	f
+SendUDPData	net/net.c	/^int SendUDPData(int socketId,void *buf, int size, void *param)$/;"	f
+SensorBufInfo	msg.c	/^TSensorBufInfo SensorBufInfo;$/;"	v
+StartTag	commfun.h	/^	BYTE StartTag;$/;"	m	struct:__anon7
+State	net/net.h	/^	BYTE  State;$/;"	m	struct:_FPIdentify_
+StaticDNSCount	net/net.c	/^int StaticDNSCount=0;$/;"	v
+SumNum	main.c	/^int SumNum(int i)$/;"	f
+Switch24HTo12H	main.c	/^int Switch24HTo12H(int Hour, int Min, int *pHour, int *pMin)$/;"	f
+SyncLocalTimeFromAuthServer	net/net.c	/^BOOL SyncLocalTimeFromAuthServer()$/;"	f
+TAuthServerSession	net/net.h	/^}TAuthServerSession, *PAuthServerSession;$/;"	t	typeref:struct:_authserver_session_
+TBigDataBuf	commfun.c	/^}TBigDataBuf, *PBigDataBuf;$/;"	t	typeref:struct:_bigdatabuf_	file:
+TC3CmdResult	dlc.h	/^}TC3CmdResult;$/;"	t	typeref:enum:_C3cmdResult_
+TC3Cmdstatus	dlc.h	/^}TC3Cmdstatus;$/;"	t	typeref:enum:_C3cmdstatus_
+TC3Cmdstruct	dlc.h	/^}TC3Cmdstruct, *PC3Cmdstruct;$/;"	t	typeref:struct:_C3Cmdstruct_
+TCP_MODE	dlc.h	4;"	d
+TFPID	net/net.h	/^}GCC_PACKED TFPID, *PFPID;$/;"	t	typeref:struct:_FPID_
+TFPIdentify	net/net.h	/^}GCC_PACKED TFPIdentify, *PFPIdentify;$/;"	t	typeref:struct:_FPIdentify_
+TFPRegister	net/net.h	/^}GCC_PACKED TFPRegister, *PFPRegister;$/;"	t	typeref:struct:_FPRegister_
+TFPResult	net/net.h	/^}GCC_PACKED TFPResult, *PFPResult;$/;"	t	typeref:struct:_FPResult_
+THEIP	net/net.c	63;"	d	file:
+THEUDP	net/net.c	64;"	d	file:
+TIMEOUT_F_KEY	main.c	70;"	d	file:
+TIMEOUT_INPUT_PIN	main.c	64;"	d	file:
+TIMEOUT_SHOWSTATE	main.c	66;"	d	file:
+TIMEOUT_WAIT_ADMIN_VERIFY	main.c	69;"	d	file:
+TIME_T	c3dataapi.h	/^typedef enum {CHAR_T, STRING_T, INT_T, UINT_T, TIME_T} DATA_TYPE;$/;"	e	enum:__anon1
+TLittleDataBuf	commfun.c	/^}TLittleDataBuf, *PLittleDataBuf;$/;"	t	typeref:struct:_Recdatabuf_	file:
+TMsg	msg.h	/^} TMsg, *PMsg;$/;"	t	typeref:struct:_TAG_MSG
+TPhotoSize	net/net.h	/^}GCC_PACKED TPhotoSize, *PTPhotoSize;$/;"	t	typeref:struct:_PhotoSize_
+TProtoHeader	commfun.h	/^}TProtoHeader,*PProtoHeader;$/;"	t	typeref:struct:__anon7
+TRSHeader	rs232/rs232comm.c	/^}TRSHeader, *PRSHeader;$/;"	t	typeref:struct:_RSHeader_	file:
+TVSStatus	main.h	/^}GCC_PACKED TVSStatus, *PVSStatus;$/;"	t	typeref:struct:_VSStatus_
+TblDelRowFunT	c3dataapi.h	/^typedef int (*TblDelRowFunT)(void *rowData);$/;"	t
+TblGetAllPK	c3dataapi.h	/^typedef int (*TblGetAllPK)(void *dataIn, void *dataOut, int *size);$/;"	t
+TblIsDeletedFunT	c3dataapi.h	/^typedef int (*TblIsDeletedFunT)(void *rowData);$/;"	t
+TblRepRecord	c3dataapi.h	/^typedef int (*TblRepRecord)(void *data, int flag, int primaryKey);$/;"	t
+TblSetInit	c3dataapi.h	/^typedef int (*TblSetInit)(void *data);$/;"	t
+Tdatabuf	c3dataapi.h	/^}Tdatabuf;$/;"	t	typeref:struct:__anon5
+TestEnabledMsg	msg.c	/^int TestEnabledMsg(int MsgType)$/;"	f
+Timer1Count	main.c	/^unsigned int Timer1Count,Timer2Count;$/;"	v
+Timer2Count	main.c	/^unsigned int Timer1Count,Timer2Count;$/;"	v
+TimerCount	msg.c	/^static U32 TimerCount=0;$/;"	v	file:
+Timer_Hour	msg.h	65;"	d
+Timer_Minute	msg.h	64;"	d
+Timer_None	msg.h	62;"	d
+Timer_Second	msg.h	63;"	d
+TranslateMsg	msg.c	/^int TranslateMsg(int MsgType, PMsg msg)$/;"	f
+TrySendGprsTime	main.c	/^int TrySendGprsTime=0;$/;"	v
+Type	net/net.h	/^        U8 Type;$/;"	m	struct:_PhotoSize_
+UDP_BROAD_MODE	dlc.h	9;"	d
+UDP_MODE	dlc.h	5;"	d
+UINT_T	c3dataapi.h	/^typedef enum {CHAR_T, STRING_T, INT_T, UINT_T, TIME_T} DATA_TYPE;$/;"	e	enum:__anon1
+USB_MODE	dlc.h	7;"	d
+UnRegMsgProc	msg.c	/^int UnRegMsgProc(int index)$/;"	f
+UploadAttLogByAuthServer	net/net.c	/^void UploadAttLogByAuthServer(void)$/;"	f
+UploadAttLogByAuthServer_gprs	net/net.c	/^void UploadAttLogByAuthServer_gprs(void)$/;"	f
+UploadAttlogToAuthServer	net/net.c	/^BOOL UploadAttlogToAuthServer(char *buffer, int size, U8 *result)$/;"	f
+UploadIDCardToAuthServer	net/net.c	/^BOOL UploadIDCardToAuthServer(U32 cardnumber, PFPResult result)$/;"	f
+WAIT_VERIFY_IDLE_TIME	main.c	107;"	d	file:
+WG26	msg.c	119;"	d	file:
+WG34	msg.c	120;"	d	file:
+WG50	msg.c	121;"	d	file:
+WaitCheckC2	main.c	/^U16 WaitCheckC2=1;$/;"	v
+WaitFKeyTime	main.c	/^int WaitFKeyTime=0;$/;"	v
+WaitVerifyRetryCnt	main.c	/^int WaitVerifyRetryCnt=COUNT_RETRY_USER;$/;"	v
+WaitVerifyTypeIdleTime	main.c	/^int WaitVerifyTypeIdleTime=0;$/;"	v
+Width	net/net.h	/^        U16 Width;$/;"	m	struct:_PhotoSize_
+WiegandKey	msg.c	118;"	d	file:
+ZEM300	Makefile	/^ZEM300 := -DZEM300 $/;"	m
+ZK_NET_H	net/net.h	22;"	d
+_C3Cmdstruct_	dlc.h	/^typedef struct _C3Cmdstruct_{$/;"	s
+_C3cmdResult_	dlc.h	/^typedef enum _C3cmdResult_$/;"	g
+_C3cmdstatus_	dlc.h	/^typedef enum _C3cmdstatus_$/;"	g
+_FPID_	net/net.h	/^typedef struct _FPID_{$/;"	s
+_FPIdentify_	net/net.h	/^typedef struct _FPIdentify_{$/;"	s
+_FPRegister_	net/net.h	/^typedef struct _FPRegister_{$/;"	s
+_FPResult_	net/net.h	/^typedef struct _FPResult_{$/;"	s
+_MAIN_H_	main.h	2;"	d
+_MSG_H_	msg.h	12;"	d
+_PhotoSize_	net/net.h	/^typedef struct _PhotoSize_{$/;"	s
+_RS232COMM_H_	rs232/rs232comm.h	12;"	d
+_RSHeader_	rs232/rs232comm.c	/^typedef struct _RSHeader_{$/;"	s	file:
+_Recdatabuf_	commfun.c	/^typedef struct _Recdatabuf_{$/;"	s	file:
+_TAG_MSG	msg.h	/^typedef struct _TAG_MSG$/;"	s
+_VSStatus_	main.h	/^typedef struct _VSStatus_{$/;"	s
+_authserver_session_	net/net.h	/^typedef struct _authserver_session_{$/;"	s
+_bigdata_	commfun.c	/^typedef struct _bigdata_$/;"	s	file:
+_bigdatabuf_	commfun.c	/^typedef struct _bigdatabuf_{$/;"	s	file:
+addr	dlc.h	/^	BYTE addr;$/;"	m	struct:_C3Cmdstruct_
+bigbuf_cmd	commfun.c	/^	BYTE bigbuf_cmd;$/;"	m	struct:_bigdatabuf_	file:
+buf	commfun.c	/^	BYTE buf[BIGBUF_LEN];$/;"	m	struct:_bigdatabuf_	file:
+buf	commfun.c	/^	BYTE buf[COMMBUFLEN_MAX_TCP];$/;"	m	struct:_Recdatabuf_	file:
+buf	dlc.h	/^	BYTE buf[DATABUFLEN_MAX];$/;"	m	struct:_C3Cmdstruct_
+buffer	c3dataapi.h	/^	Tdatabuf 		buffer;			\/\/Áî®‰∫éÊé•Êî∂ËøîÂõûÊï∞ÊçÆÁöÑÁºìÂÜ≤Âå∫ÔºåËøîÂõûÁöÑÊï∞ÊçÆÊòØÊñáÊú¨Ê†ºÂºèÁöÑÔºåÂèØËÉΩÊòØÂ§öÊù°ËÆ∞ÂΩïÔºå$/;"	m	struct:__anon6
+buffer	c3dataapi.h	/^	char			buffer[2048];		\/\/ÊöÇÂ≠òÁöÑÁºìÂÜ≤1$/;"	m	struct:__anon3
+buffer	c3dataapi.h	/^    unsigned char *buffer;$/;"	m	struct:__anon5
+bufferSize	c3dataapi.h	/^    int bufferSize;$/;"	m	struct:__anon5
+buftovalue	c3dataapi.c	/^UINT32 buftovalue(UCHAR *buf,int size)$/;"	f
+c3CbQuery	c3dataapi.c	/^int c3CbQuery(void *data, int idx, void *param)$/;"	f
+c3table_descs	c3dataapi_tabledesc.c	/^C3TABLE_DESC c3table_descs[]=$/;"	v
+cbCheckVal	c3dataapi.h	/^	FldCheckFunT	cbCheckVal;			\/\/Ê£ÄÊü•ËØ•Â≠óÊÆµÂÄºÊó∂‰ΩøÁî®$/;"	m	struct:__anon3
+cbGetAllPKFun	c3dataapi.h	/^	TblGetAllPK				cbGetAllPKFun;	\/\/ËøîÂõû‰∏Ä‰∏™ÁªÑÂêàÔºåË°®Á§∫ÂîØ‰∏Ä$/;"	m	struct:__anon4
+cbGetFun	c3dataapi.h	/^	FldValueFunT	cbGetFun;			\/\/ËØªÂèñËØ•Â≠óÊÆµÂÄºÊó∂‰ΩøÁî®$/;"	m	struct:__anon3
+cbSetFun	c3dataapi.h	/^	FldSetFunT		cbSetFun;			\/\/ËÆæÁΩÆËØ•Â≠óÊÆµÂÄºÊó∂‰ΩøÁî®$/;"	m	struct:__anon3
+cbSetInit	c3dataapi.h	/^	TblSetInit				cbSetInit;$/;"	m	struct:__anon4
+comm_socket	net/net.c	/^static int comm_socket,listenAuthServer_socket, receive_broadcast_socket; \/\/UDP$/;"	v	file:
+command	dlc.h	/^	BYTE command;$/;"	m	struct:_C3Cmdstruct_
+compressed	commfun.c	/^	BYTE  compressed;\/\/ = Buf[0];	\/\/ ˝æ›—πÀı±Í÷æ$/;"	m	struct:_bigdata_	file:
+condition_buffer	c3dataapi.h	/^	char condition_buffer[100];\/\/æﬂÃÂƒ⁄»›	$/;"	m	struct:__anon3
+condition_field_count	c3dataapi.h	/^	int				condition_field_count;		\/\/Ãıº˛◊÷∂Œ ˝¡ø$/;"	m	struct:__anon6
+condition_field_desc	c3dataapi.h	/^	C3FIELD_DESC	condition_field_desc[50];		\/\/		$/;"	m	struct:__anon6
+dataLen	commfun.c	/^	U32 dataLen;\/\/ = GETDWORD(Buf + 1);	\/\/ ˝æ›¥´ÀÕ≥§∂»$/;"	m	struct:_bigdata_	file:
+datalen	dlc.h	/^	WORD datalen;$/;"	m	struct:_C3Cmdstruct_
+dev_handle_timer	main.c	/^int dev_handle_timer = 0;$/;"	v
+doDelFun	c3dataapi.h	/^	TblDelRowFunT			doDelFun;		\/\/Âà†Èô§ËØ•ËÆ∞ÂΩïÂõûË∞ÉÂáΩÊï∞$/;"	m	struct:__anon4
+fd	c3dataapi.h	/^	int						fd;				\/\/Êñá‰ª∂fd$/;"	m	struct:__anon4
+fieldCount	c3dataapi.h	/^	int						fieldCount;		\/\/Â≠óÊÆµÁöÑ‰∏™Êï∞$/;"	m	struct:__anon4
+fieldDesc	c3dataapi.h	/^	C3FIELD_DESC				*fieldDesc;		\/\/ÊåáÂêë‰∏Ä‰∏™Â≠óÊÆµÊèèËø∞ÁªìÊûÑ$/;"	m	struct:__anon4
+fieldID	c3dataapi.h	/^	int 			fieldID;		\/\/∂ŒID$/;"	m	struct:__anon3
+foriegnKey	c3dataapi.h	/^	void			*foriegnKey;		$/;"	m	struct:__anon3
+framehead	dlc.h	/^	BYTE framehead;$/;"	m	struct:_C3Cmdstruct_
+framelof	dlc.h	/^	BYTE framelof;$/;"	m	struct:_C3Cmdstruct_
+g1ToG	main.c	/^U32 g1ToG=FALSE;$/;"	v
+gBindID	main.c	/^U16 gBindID=0;$/;"	v
+gCurTime	main.h	/^TTime gCurTime;$/;"	v
+gDeploymentOn	main.c	/^int gDeploymentOn=0;$/;"	v
+gEnableClock	msg.c	/^int gEnableClock=0xFF;$/;"	v
+gErrTimes	main.c	/^int gErrTimes=0; \/\/press finger 5 times trigger alarm$/;"	v
+gErrTimesCLearDelayCnt	main.c	/^int gErrTimesCLearDelayCnt=0;$/;"	v
+gEthOpened	main.c	/^int gEthOpened=FALSE;$/;"	v
+gFPDirectProc	msg.c	/^int gFPDirectProc=0;$/;"	v
+gFilterBuf	main.c	/^PFilterRec gFilterBuf=NULL;$/;"	v
+gHIDiClassOpened	main.c	/^int gHIDiClassOpened=FALSE;$/;"	v
+gIdleMinute	main.c	/^int gIdleMinute=0;$/;"	v
+gIgnoreCardTimeOut	main.c	/^int gIgnoreCardTimeOut=0;$/;"	v
+gIgnoreCardTm	main.c	/^int gIgnoreCardTm=0;$/;"	v
+gImageBuffer	main.h	/^char *gImageBuffer;$/;"	v
+gInputPin	main.c	/^U32 gInputPin=0;$/;"	v
+gLockForceAction	main.c	/^int gLockForceAction=0;	\/\/ÈîÅÂº∫Âà∂Âä®‰ªø$/;"	v
+gLockForceState	main.c	/^int gLockForceState=0;		\/\/ÂΩìÂâçÈîÅÁä∂Âæø$/;"	v
+gMFOpened	main.c	/^int gMFOpened=FALSE;$/;"	v
+gMachineState	main.c	/^int gMachineState=STA_IDLE;$/;"	v
+gPhotoPath	main.c	/^char gPhotoPath[]="\/mnt\/ramdisk\/";$/;"	v
+gRTLogListCount	main.c	/^int gRTLogListCount=0;$/;"	v
+gSAMode	main.c	/^int gSAMode=0;	\/\/for south africa Escort money application$/;"	v
+gSensorNo	main.c	/^BYTE gSensorNo=0;$/;"	v
+gSetGatewayWaitCount	main.c	/^int gSetGatewayWaitCount=0;$/;"	v
+gSlave232	main.c	/^serial_driver_t *gSlave232=NULL;$/;"	v
+gUSB232Connected	main.c	/^int gUSB232Connected=0;$/;"	v
+gWaitworkcodeTimeOut	main.c	/^int gWaitworkcodeTimeOut=0;$/;"	v
+gateway	net/net.h	/^	unsigned char gateway[4];$/;"	m	struct:str_net_addr
+getConstTime1	main.c	/^TTime getConstTime1(void)$/;"	f
+getConstTime2	main.c	/^TTime getConstTime2(void)$/;"	f
+getMonthDayTime	main.c	/^TTime getMonthDayTime(int MonthDayTime)$/;"	f
+getQueMsg	msg.c	/^static int getQueMsg(PMsg msg)$/;"	f	file:
+get_netlink_status	net/net.c	/^int get_netlink_status(void)$/;"	f
+getc3TableDesc	c3dataapi_tabledesc.c	/^C3TABLE_DESC *getc3TableDesc(int TableID)$/;"	f
+gwifiaddr	net/net.h	/^}gwifiaddr;$/;"	v	typeref:struct:str_net_addr
+hash	commfun.c	/^	U32 hash;\/\/ = GETDWORD(Buf + 1 + 8);	\/\/π˛œ£–£—È¬Î$/;"	m	struct:_bigdata_	file:
+image_socket	net/net.c	/^static int image_socket=-1; \/\/TCP AuthServer$/;"	v	file:
+index	commfun.c	/^	U32 index;$/;"	m	struct:_Recdatabuf_	file:
+index	commfun.c	/^	U32 index;$/;"	m	struct:_bigdatabuf_	file:
+intvaluetobuf	c3dataapi.c	/^int intvaluetobuf(UCHAR  *in_value,UCHAR *buff,DATA_TYPE datatype)$/;"	f
+ip	net/net.h	/^	unsigned  char ip[4];$/;"	m	struct:str_net_addr
+isCommbufLenOK	dlc.c	/^int isCommbufLenOK(int len, int CommNetType)$/;"	f
+isDeviceToPC	commfun.c	/^U32 isDeviceToPC = 0;$/;"	v
+isPrimaryKey	c3dataapi.h	/^	int				isPrimaryKey;$/;"	m	struct:__anon3
+len	c3dataapi.h	/^	int len;\/\/Ãıº˛ƒ⁄»›≥§∂»$/;"	m	struct:__anon3
+len	commfun.c	/^	U32 len;$/;"	m	struct:_Recdatabuf_	file:
+len	commfun.c	/^	U32 len;$/;"	m	struct:_bigdatabuf_	file:
+listenAuthServer_socket	net/net.c	/^static int comm_socket,listenAuthServer_socket, receive_broadcast_socket; \/\/UDP$/;"	v	file:
+mIsTcpInit	net/net.c	/^static int mIsTcpInit=0;$/;"	v	file:
+main	main.c	/^int main(void)$/;"	f
+mask	net/net.h	/^	unsigned char mask[4];$/;"	m	struct:str_net_addr
+msgQue	msg.c	/^static TMsg *msgQue=NULL;$/;"	v	file:
+msgQueCount	msg.c	/^static int msgQueCount=0;$/;"	v	file:
+msgQueIndex	msg.c	/^static int msgQueIndex=0;$/;"	v	file:
+name	c3dataapi.h	/^	char					*name;			\/\/Ë°®Âêç$/;"	m	struct:__anon4
+name	c3dataapi.h	/^	char			*name;				\/\/Â≠óÊÆµÂêç$/;"	m	struct:__anon3
+name	net/net.h	/^	 char name[20];$/;"	m	struct:str_net_addr
+newData	c3dataapi.h	/^	char			newData[1024];		\/\/ÊöÇÂ≠òÁöÑÁºìÂÜ≤2$/;"	m	struct:__anon3
+offset	c3dataapi.h	/^	int 			offset;				$/;"	m	struct:__anon3
+oriLen	commfun.c	/^	U32 oriLen;\/\/ = GETDWORD(Buf + 1 + 4);	\/\/‘≠ º ˝æ›≥§∂»$/;"	m	struct:_bigdata_	file:
+packageLen	commfun.c	/^	U32 packageLen;\/\/ = GETDWORD(Buf + 1 + 12);$/;"	m	struct:_bigdata_	file:
+pollcard_struct_variable	main.c	/^Tpollcard pollcard_struct_variable;\/\/À¢ø®±‰¡øΩ·ππ$/;"	v
+praparedata	commfun.c	/^} praparedata;\/\/¥Û ˝æ›¥´ ‰◊º±∏Ω·ππ$/;"	t	typeref:struct:_bigdata_	file:
+processBuf_DelDatabase	commfun.c	/^void processBuf_DelDatabase(char *buf ,int inbuflen)\/\/ ,int judgePrimaryKey)$/;"	f
+process_comm_cmd	commfun.c	/^int process_comm_cmd(BYTE *cmd,BYTE *buf,int inbuflen,BYTE *outbuf,int *outbuflen,int commmode)$/;"	f
+putQueMsg	msg.c	/^static int putQueMsg(PMsg msg)$/;"	f	file:
+receive_broadcast_socket	net/net.c	/^static int comm_socket,listenAuthServer_socket, receive_broadcast_socket; \/\/UDP$/;"	v	file:
+rfds	net/net.c	/^fd_set rfds;$/;"	v
+rowDataWidth	c3dataapi.h	/^	int						rowDataWidth;	\/\/‰∏ÄË°åËÆ∞ÂΩïÁöÑÂ≠óËäÇÊï∞$/;"	m	struct:__anon4
+rsc	rs232/rs232comm.c	/^WORD rsc=0, PS1[256], PS2[256], PSIndex=0;$/;"	v
+rtlogheader	main.c	/^PRTLogNode rtlogheader;$/;"	v
+rtloglist	main.c	/^PRTLogNode rtloglist;$/;"	v
+select_field_count	c3dataapi.h	/^	int 				select_field_count;		\/\/œ‘ æ–Ë“™µƒ◊÷∂Œ$/;"	m	struct:__anon6
+select_field_desc	c3dataapi.h	/^	C3FIELD_DESC 	select_field_desc[50];	\/\/◊÷∂Œƒ⁄»›$/;"	m	struct:__anon6
+server_socket	net/net.c	/^static int server_socket; \/\/TCP listen $/;"	v	file:
+setup_auth_dns	net/net.c	/^int setup_auth_dns(void)				\/\/ccc 1228$/;"	f
+shared_Options	main.c	/^void *shared_Options = (void *)0;$/;"	v
+shared_RTLog	main.c	/^void *shared_RTLog = (void *)0;$/;"	v
+shared_RTLog_stuff	main.c	/^POverseeRTLog shared_RTLog_stuff;$/;"	v
+shared_option_stuff	main.c	/^struct shared_option *shared_option_stuff;$/;"	v	typeref:struct:shared_option
+shmid	main.c	/^int shmid;$/;"	v
+shmid2	main.c	/^int shmid2;$/;"	v
+sin	net/net.h	/^	struct sockaddr_in sin;$/;"	m	struct:_authserver_session_	typeref:struct:_authserver_session_::sockaddr_in
+str_net_addr	net/net.h	/^struct str_net_addr	\/\/ccc$/;"	s
+tableID	c3dataapi.h	/^	int 					tableID;			\/\/±ÌID$/;"	m	struct:__anon4
+table_para	c3dataapi.h	/^	int table_para;								\/\/±Ì≤Œ ˝ƒ⁄»›  ƒø«∞◊Ó∂‡1 ∏ˆ£¨À˘“‘√ª”–∂®“ÂŒ™ ˝◊È	$/;"	m	struct:__anon6
+table_para_num	c3dataapi.h	/^	int table_para_num;							\/\/±Ì≤Œ ˝ ˝¡ø$/;"	m	struct:__anon6
+testDelFun	c3dataapi.h	/^	TblIsDeletedFunT		testDelFun;		\/\/ËØ•ËÆ∞ÂΩïÊòØÂê¶Ë¢´Âà†Èô§ËøáÂæó$/;"	m	struct:__anon4
+tv	net/net.c	/^struct timeval tv;$/;"	v	typeref:struct:timeval
+type	c3dataapi.h	/^	DATA_TYPE		type;				$/;"	m	struct:__anon3
+u16	net/net.c	/^typedef unsigned short u16; $/;"	t	file:
+u32	net/net.c	/^typedef unsigned int u32;   $/;"	t	file:
+u64	net/net.c	/^typedef unsigned long u64;  $/;"	t	file:
+u8	net/net.c	/^typedef unsigned char u8;   $/;"	t	file:
+width	c3dataapi.h	/^	int				width;				$/;"	m	struct:__anon3

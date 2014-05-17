@@ -1,0 +1,12 @@
+#Tue Feb 21 09:17:56 CST 2012
+Create\ Empty\ Directories=true
+Password=123456
+Recurse\ Subdirectories=true
+Save\ Password=true
+Site\ Root=/home/xiesc/workspace/ACPanel_release_20100920
+Username=xiesc
+eclipse.preferences.version=1
+port=22
+protocol=0
+server=192.168.8.248
+timeout=30

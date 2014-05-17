@@ -1,0 +1,959 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ABLC_EN	zem500/hv7131.c	165;"	d	file:
+AC97_CTL	zem500/arca.h	38;"	d
+ACTRA	zem500/hv7131.h	32;"	d
+ACTRB	zem500/hv7131.h	33;"	d
+APPTIME	c4i2c.h	/^} APPTIME;$/;"	t	typeref:struct:_APPTIME_
+BASELOOPTESTCNT	zem500/zem500.c	/^static int BASELOOPTESTCNT = 20;$/;"	v	file:
+BCG	zem500/hv7131.h	31;"	d
+BLCTH	zem500/hv7131.h	35;"	d
+BMCR_ANENABLE	zem500/netspeed.c	21;"	d	file:
+BMCR_SPEED100	zem500/netspeed.c	22;"	d	file:
+BOOL	zem500/arca.h	22;"	d
+BYTE	zem500/arca.h	23;"	d
+Bcd2Dec	c4i2c.h	184;"	d
+C4IIC_close	c4i2c.c	/^void C4IIC_close()$/;"	f
+C4IIC_open	c4i2c.c	/^int C4IIC_open()$/;"	f
+C4_DOWN	kb.h	41;"	d
+C4_ESC	kb.h	39;"	d
+C4_MENU	kb.h	37;"	d
+C4_OK	kb.h	38;"	d
+C4_UP	kb.h	40;"	d
+CMD_OK	c4i2c.c	19;"	d	file:
+CMD_QUERY	c4i2c.c	13;"	d	file:
+CMD_QUERY_REQ	c4i2c.c	14;"	d	file:
+CMOSGain	zem500/hv7131.c	/^static int CMOSGain=0x30;$/;"	v	file:
+CMOS_HEIGHT	zem500/sensor.h	20;"	d
+CMOS_WIDTH	zem500/sensor.h	19;"	d
+CONFIG_DEBUG	zem500/arca.h	28;"	d
+CSAL	zem500/hv7131.h	14;"	d
+CSAU	zem500/hv7131.h	13;"	d
+CTRL_REG1	c4i2c.h	164;"	d
+CTRL_REG2	c4i2c.h	165;"	d
+CalcDPI	zem500/fcenter.c	/^static int CalcDPI(int *HData, int Count)$/;"	f	file:
+CalcFCenter	zem500/fcenter.c	/^void CalcFCenter(char *Img, int IWidth, int IHeight, int CWidth, int CHeight, int *HCenter, int *VCenter)$/;"	f
+CalcImageDPI	zem500/fcenter.c	/^int CalcImageDPI(char *Img, int IWidth, int IHeight, int *XDPI, int *YDPI)$/;"	f
+CalibrationTimeBaseValue	zem500/zem500.c	/^void CalibrationTimeBaseValue(void)$/;"	f
+CheckC4State	c4i2c.c	/^int CheckC4State()$/;"	f
+CheckI2CState	c4i2c.c	/^int CheckI2CState(int Addr, char *buffer)$/;"	f
+CheckKeyPad	zem500/kb.c	/^BOOL CheckKeyPad(void)$/;"	f
+CheckProcBusUsb	usb_helper.c	/^int CheckProcBusUsb()$/;"	f
+ConvertBaudrate	serial.c	/^int ConvertBaudrate(int baudrate)$/;"	f
+ConvertKeyValueToASCII	zem500/kb.c	/^unsigned char ConvertKeyValueToASCII(unsigned char bits)$/;"	f
+ConvertWiegandKeyValueToASCII	zem500/kb.c	/^unsigned char ConvertWiegandKeyValueToASCII(int WiegandValue)$/;"	f
+CurrentPos	zem500/kb.c	/^static int CurrentPos = -1;$/;"	v	file:
+DATEANDTIME	c4i2c.h	/^} DATEANDTIME, *PDATEANDTIME;$/;"	t	typeref:enum:__anon1
+DBPRINTF	zem500/arca.h	31;"	d
+DBPRINTF	zem500/arca.h	33;"	d
+DEBUG	resolve.c	26;"	d	file:
+DEVID	zem500/hv7131.h	6;"	d
+DEVNAME	cpuid/read_cpuid.c	6;"	d	file:
+DPRINTF	resolve.c	29;"	d	file:
+DPRINTF	resolve.c	31;"	d	file:
+DWORD	zem500/arca.h	25;"	d
+Dec2Bcd	c4i2c.h	185;"	d
+DecCMOSGain	zem500/hv7131.c	/^int DecCMOSGain(void)$/;"	f
+DelayMS	zem500/zem500.c	/^void DelayMS(int ms)$/;"	f
+DelayNS	zem500/zem500.c	/^void DelayNS(long ns)$/;"	f
+DelayUS	zem500/zem500.c	/^void DelayUS(int us)$/;"	f
+DewarpedImgLen	zem500/sensor.h	/^   U32 DewarpedImgLen;$/;"	m	struct:_SensorBufInfo_
+DewarpedImgPtr	zem500/sensor.h	/^   BYTE *DewarpedImgPtr;$/;"	m	struct:_SensorBufInfo_
+DoLoopMount	usb_helper.c	/^int DoLoopMount(struct partitionEntry * Entry)$/;"	f
+DoMount	usb_helper.c	/^int DoMount(const char *device)$/;"	f
+DoMountUdisk	usb_helper.c	/^int DoMountUdisk(void)$/;"	f
+DoUmount	usb_helper.c	/^int DoUmount(void)$/;"	f
+DoUmountUdisk	usb_helper.c	/^void DoUmountUdisk(void)$/;"	f
+EEPROM	c4i2c.c	/^} EEPROM;$/;"	t	typeref:struct:__anon3	file:
+EEPROM	zem500/hv7131.c	/^} EEPROM;$/;"	t	typeref:struct:__anon8	file:
+EPOCH_YR	time.c	13;"	d	file:
+ERROR_OK	wiegand.h	9;"	d
+ERROR_PARITY_EVEN	wiegand.h	7;"	d
+ERROR_PARITY_ODD	wiegand.h	8;"	d
+ERTC_12_24_BIT	c4i2c.h	198;"	d
+ERTC_12_24_BIT	c4i2c.h	200;"	d
+ERTC_AGING_OFFSET	c4i2c.h	179;"	d
+ERTC_ALARM1_DATE_REG	c4i2c.h	170;"	d
+ERTC_ALARM1_HOUR_REG	c4i2c.h	169;"	d
+ERTC_ALARM1_MINUTE_REG	c4i2c.h	168;"	d
+ERTC_ALARM1_SECOND_REG	c4i2c.h	167;"	d
+ERTC_ALARM2_DATE_REG	c4i2c.h	175;"	d
+ERTC_ALARM2_HOUR_REG	c4i2c.h	174;"	d
+ERTC_ALARM2_MINUTE_REG	c4i2c.h	173;"	d
+ERTC_ALARM_DY_DT_BIT	c4i2c.h	203;"	d
+ERTC_ALARM_MASK_BIT	c4i2c.h	204;"	d
+ERTC_AM_PM_BIT	c4i2c.h	188;"	d
+ERTC_CENTURY_BIT	c4i2c.h	187;"	d
+ERTC_CONTROL_REG	c4i2c.h	177;"	d
+ERTC_CR_A1IE_BIT	c4i2c.h	206;"	d
+ERTC_CR_A2IE_BIT	c4i2c.h	207;"	d
+ERTC_CR_BBSQW_BIT	c4i2c.h	211;"	d
+ERTC_CR_CONV_BIT	c4i2c.h	210;"	d
+ERTC_CR_EOSC_BIT	c4i2c.h	212;"	d
+ERTC_CR_INTCN_BIT	c4i2c.h	208;"	d
+ERTC_CR_RS_BITS	c4i2c.h	209;"	d
+ERTC_DAYOFWEEK_REG	c4i2c.h	158;"	d
+ERTC_DAY_REG	c4i2c.h	159;"	d
+ERTC_HOUR_REG	c4i2c.h	157;"	d
+ERTC_MINUTE_REG	c4i2c.h	156;"	d
+ERTC_MONTH_REG	c4i2c.h	160;"	d
+ERTC_RD_ADDR	c4i2c.h	149;"	d
+ERTC_RD_ADDR	c4i2c.h	152;"	d
+ERTC_SECOND_REG	c4i2c.h	155;"	d
+ERTC_SR_A1F_BIT	c4i2c.h	214;"	d
+ERTC_SR_A2F_BIT	c4i2c.h	215;"	d
+ERTC_SR_BUSY_BIT	c4i2c.h	216;"	d
+ERTC_SR_EN32KHZ_BIT	c4i2c.h	217;"	d
+ERTC_SR_OSF_BIT	c4i2c.h	218;"	d
+ERTC_STATUS_REG	c4i2c.h	178;"	d
+ERTC_TEMP_LOWER_REG	c4i2c.h	182;"	d
+ERTC_TEMP_UPER_REG	c4i2c.h	181;"	d
+ERTC_WR_ADDR	c4i2c.h	148;"	d
+ERTC_WR_ADDR	c4i2c.h	151;"	d
+ERTC_YEAR_REG	c4i2c.h	161;"	d
+ETH_100MFD	zem500/netspeed.h	/^        ETH_100MFD  = 5,$/;"	e	enum:ETH_PHY_mode
+ETH_100MHD	zem500/netspeed.h	/^        ETH_100MHD  = 1,$/;"	e	enum:ETH_PHY_mode
+ETH_10MFD	zem500/netspeed.h	/^        ETH_10MFD   = 4,$/;"	e	enum:ETH_PHY_mode
+ETH_10MHD	zem500/netspeed.h	/^        ETH_10MHD   = 0,$/;"	e	enum:ETH_PHY_mode
+ETH_1M_HPNA	zem500/netspeed.h	/^        ETH_1M_HPNA = 0x10$/;"	e	enum:ETH_PHY_mode
+ETH_AUTO	zem500/netspeed.h	/^        ETH_AUTO    = 8,$/;"	e	enum:ETH_PHY_mode
+ETH_PHY_mode	zem500/netspeed.h	/^enum ETH_PHY_mode {$/;"	g
+EXT_GPIO_1	zem500/arca.h	57;"	d
+EXT_GPIO_2	zem500/arca.h	58;"	d
+EXT_GPIO_3	zem500/arca.h	59;"	d
+EXT_GPIO_4	zem500/arca.h	60;"	d
+EX_ConctrolAuxAlarm	c4i2c.c	/^void EX_ConctrolAuxAlarm(int index, int time)\/\/控制扩展报警 ，仅仅在 c4上用 于out 9 out 10$/;"	f
+EX_ConctrolReaderLedorBeep	c4i2c.c	/^void EX_ConctrolReaderLedorBeep(int MachineType,int ReaderID,int type,int time)$/;"	f
+ExBeep	c4i2c.c	/^int ExBeep(int Enable)$/;"	f
+ExBeepByMCU	c4i2c.c	/^void ExBeepByMCU(int delay)	\/\/delay 0:open  0xff:off 	else:open time $/;"	f
+ExCheckGPI	zem500/zem500.c	/^BOOL ExCheckGPI(BYTE GPIOPIN)$/;"	f
+ExClearLCD	c4i2c.c	/^void ExClearLCD(void)$/;"	f
+ExComI2C	c4i2c.c	/^int ExComI2C(char Addr, char cmd, char *data, int DataLen)$/;"	f
+ExComI2CWait	c4i2c.c	/^int ExComI2CWait(char Addr, int *cmd, char *data)$/;"	f
+ExEnableClock	c4i2c.c	/^int ExEnableClock(int Enable)$/;"	f
+ExGetLCDSize	c4i2c.c	/^void ExGetLCDSize(int *Width, int *Height, int *Data)$/;"	f
+ExGetState	c4i2c.c	/^int ExGetState(int ioFunction, int Addr, int ioIndex)$/;"	f
+ExInit	c4i2c.c	/^int ExInit(void)$/;"	f
+ExMcuDog	c4i2c.c	/^int ExMcuDog(int index,int delay)$/;"	f
+ExPutPixelBuffer16	c4i2c.c	/^void ExPutPixelBuffer16(int row, int col, unsigned char *Buffer)$/;"	f
+ExPutPixelBuffer16H	c4i2c.c	/^void ExPutPixelBuffer16H(int row, int col, unsigned char *Buffer)$/;"	f
+ExPutPixelBuffer32	c4i2c.c	/^void ExPutPixelBuffer32(int row, int col, unsigned char *Buffer)$/;"	f
+ExPutPixelBuffer_32	c4i2c.c	/^void ExPutPixelBuffer_32(int row, int col, unsigned char *Buffer)$/;"	f
+ExResetMCU	c4i2c.c	/^int ExResetMCU()$/;"	f
+ExResetMainMCU	c4i2c.c	/^int ExResetMainMCU()$/;"	f
+ExSetAux	c4i2c.c	/^int ExSetAux(int addr, int index, int state)$/;"	f
+ExSetButton	c4i2c.c	/^int ExSetButton(int addr, int index, int state)$/;"	f
+ExSetC3Reader	c4i2c.c	/^int ExSetC3Reader(int addr,int ReaderID,  int type, int time)$/;"	f
+ExSetC4Reader	c4i2c.c	/^int ExSetC4Reader(int addr, int type, int time)$/;"	f
+ExSetState	c4i2c.c	/^int ExSetState(int ioFunction,  int Addr, int ioIndex, int OpenDelay)		\/\/OpenDelay 0x00琛ㄧず鍏筹紝0xff琛ㄧず, 鍏朵綑琛ㄧず寮�澶氶暱鏃堕棿$/;"	f
+Ex_ConctrolAlarm	c4i2c.c	/^void Ex_ConctrolAlarm(int MachineType,int index, int time)$/;"	f
+FALSE	zem500/arca.h	17;"	d
+FIRSTDAYOF	time.c	18;"	d	file:
+FIRSTSUNDAY	time.c	17;"	d	file:
+FLASH_BASE	zem500/arca.h	80;"	d
+FilterRGB	zem500/hv7131.c	/^void FilterRGB(char *PixelsBuffer, int Width, int Height)$/;"	f
+FindCenter	zem500/fcenter.c	/^int FindCenter(int *data, int count, int width)$/;"	f
+FindMax	zem500/fcenter.c	/^int FindMax(int *Data, int Count)$/;"	f
+FunKeyCount	kb.h	16;"	d
+GAP	zem500/fcenter.c	93;"	d	file:
+GCG	zem500/hv7131.h	30;"	d
+GC_COL_H	zem500/hv7131.c	195;"	d	file:
+GC_COL_L	zem500/hv7131.c	196;"	d	file:
+GC_EXP_H	zem500/hv7131.c	190;"	d	file:
+GC_EXP_L	zem500/hv7131.c	191;"	d	file:
+GC_ROW_H	zem500/hv7131.c	193;"	d	file:
+GC_ROW_L	zem500/hv7131.c	194;"	d	file:
+GC_WINH_H	zem500/hv7131.c	197;"	d	file:
+GC_WINH_L	zem500/hv7131.c	198;"	d	file:
+GC_WINW_H	zem500/hv7131.c	199;"	d	file:
+GC_WINW_L	zem500/hv7131.c	200;"	d	file:
+GPIOCvtTbl	zem500/zem500.c	/^int GPIOCvtTbl[]={	33,100,101,0,0,0,105,104,0,0,$/;"	v
+GPIOGetLevel	zem500/zem500.c	/^BOOL GPIOGetLevel(BYTE IOPIN)$/;"	f
+GPIOSetLevel	zem500/zem500.c	/^void GPIOSetLevel(BYTE IOPIN, int High)$/;"	f
+GPIO_AC97_Mute	zem500/zem500.c	/^void GPIO_AC97_Mute(BOOL Switch)$/;"	f
+GPIO_GPALR	zem500/gpio.h	12;"	d
+GPIO_GPALR0	zem500/gpio.h	56;"	d
+GPIO_GPALR1	zem500/gpio.h	57;"	d
+GPIO_GPALR2	zem500/gpio.h	58;"	d
+GPIO_GPALR3	zem500/gpio.h	59;"	d
+GPIO_GPAUR	zem500/gpio.h	13;"	d
+GPIO_GPAUR0	zem500/gpio.h	60;"	d
+GPIO_GPAUR1	zem500/gpio.h	61;"	d
+GPIO_GPAUR2	zem500/gpio.h	62;"	d
+GPIO_GPAUR3	zem500/gpio.h	63;"	d
+GPIO_GPDIR	zem500/gpio.h	9;"	d
+GPIO_GPDIR0	zem500/gpio.h	44;"	d
+GPIO_GPDIR1	zem500/gpio.h	45;"	d
+GPIO_GPDIR2	zem500/gpio.h	46;"	d
+GPIO_GPDIR3	zem500/gpio.h	47;"	d
+GPIO_GPDR	zem500/gpio.h	8;"	d
+GPIO_GPDR0	zem500/gpio.h	40;"	d
+GPIO_GPDR1	zem500/gpio.h	41;"	d
+GPIO_GPDR2	zem500/gpio.h	42;"	d
+GPIO_GPDR3	zem500/gpio.h	43;"	d
+GPIO_GPFR	zem500/gpio.h	18;"	d
+GPIO_GPFR0	zem500/gpio.h	80;"	d
+GPIO_GPFR1	zem500/gpio.h	81;"	d
+GPIO_GPFR2	zem500/gpio.h	82;"	d
+GPIO_GPFR3	zem500/gpio.h	83;"	d
+GPIO_GPIDLR	zem500/gpio.h	14;"	d
+GPIO_GPIDLR0	zem500/gpio.h	64;"	d
+GPIO_GPIDLR1	zem500/gpio.h	65;"	d
+GPIO_GPIDLR2	zem500/gpio.h	66;"	d
+GPIO_GPIDLR3	zem500/gpio.h	67;"	d
+GPIO_GPIDUR	zem500/gpio.h	15;"	d
+GPIO_GPIDUR0	zem500/gpio.h	68;"	d
+GPIO_GPIDUR1	zem500/gpio.h	69;"	d
+GPIO_GPIDUR2	zem500/gpio.h	70;"	d
+GPIO_GPIDUR3	zem500/gpio.h	71;"	d
+GPIO_GPIER	zem500/gpio.h	16;"	d
+GPIO_GPIER0	zem500/gpio.h	72;"	d
+GPIO_GPIER1	zem500/gpio.h	73;"	d
+GPIO_GPIER2	zem500/gpio.h	74;"	d
+GPIO_GPIER3	zem500/gpio.h	75;"	d
+GPIO_GPIMR	zem500/gpio.h	17;"	d
+GPIO_GPIMR0	zem500/gpio.h	76;"	d
+GPIO_GPIMR1	zem500/gpio.h	77;"	d
+GPIO_GPIMR2	zem500/gpio.h	78;"	d
+GPIO_GPIMR3	zem500/gpio.h	79;"	d
+GPIO_GPODR	zem500/gpio.h	10;"	d
+GPIO_GPODR0	zem500/gpio.h	48;"	d
+GPIO_GPODR1	zem500/gpio.h	49;"	d
+GPIO_GPODR2	zem500/gpio.h	50;"	d
+GPIO_GPODR3	zem500/gpio.h	51;"	d
+GPIO_GPPUR	zem500/gpio.h	11;"	d
+GPIO_GPPUR0	zem500/gpio.h	52;"	d
+GPIO_GPPUR1	zem500/gpio.h	53;"	d
+GPIO_GPPUR2	zem500/gpio.h	54;"	d
+GPIO_GPPUR3	zem500/gpio.h	55;"	d
+GPIO_HY7131_Power	zem500/zem500.c	/^void GPIO_HY7131_Power(BOOL Switch)$/;"	f
+GPIO_IO_Free	zem500/zem500.c	/^void GPIO_IO_Free(void)$/;"	f
+GPIO_IO_Init	zem500/zem500.c	/^BOOL GPIO_IO_Init(void)$/;"	f
+GPIO_IRQ_FALLEDG	zem500/gpio.h	34;"	d
+GPIO_IRQ_HILEVEL	zem500/gpio.h	33;"	d
+GPIO_IRQ_LOLEVEL	zem500/gpio.h	32;"	d
+GPIO_IRQ_RAISEDG	zem500/gpio.h	35;"	d
+GPIO_KEY_GET	zem500/zem500.c	/^int GPIO_KEY_GET(void)$/;"	f
+GPIO_KEY_SET	zem500/zem500.c	/^void GPIO_KEY_SET(BYTE Value)$/;"	f
+GPIO_LCD_USB0_Power	zem500/zem500.c	/^void GPIO_LCD_USB0_Power(BOOL Switch)$/;"	f
+GPIO_PIN_CTL_SET	zem500/zem500.c	/^void GPIO_PIN_CTL_SET(int IsWiegandKeyPad, int IsNetSwitch)$/;"	f
+GPIO_RS485_Status	zem500/zem500.c	/^void GPIO_RS485_Status(U32 SendMode)$/;"	f
+GPIO_SYS_POWER	zem500/zem500.c	/^void GPIO_SYS_POWER(void)$/;"	f
+GPIO_WIEGAND_LED	zem500/zem500.c	/^void GPIO_WIEGAND_LED(BYTE GPIOPIN, BOOL Light)$/;"	f
+GPIO_netled_active_Status	zem500/zem500.c	/^void GPIO_netled_active_Status(U32 status)$/;"	f
+GPIO_netled_link_Status	zem500/zem500.c	/^void GPIO_netled_link_Status(U32 status)$/;"	f
+Get485HardAddr	c4i2c.c	/^int Get485HardAddr(int *Addr)$/;"	f
+GetDateOrTime	c4i2c.c	/^unsigned short GetDateOrTime(DATEANDTIME dt, int reg)$/;"	f
+GetDoorNumByMcu	c4i2c.c	/^int GetDoorNumByMcu(int *Num)$/;"	f
+GetExternelRTC	c4i2c.c	/^int GetExternelRTC(TTime *tm)$/;"	f
+GetKeyChar	zem500/kb.c	/^int GetKeyChar(int key, int *SecondFun)$/;"	f
+GetKeyFromBuffer	zem500/kb.c	/^BOOL GetKeyFromBuffer(unsigned char *KeyValue)$/;"	f
+GetKeyFromWiegand	zem500/kb.c	/^void GetKeyFromWiegand(int WiegandKey)$/;"	f
+GetKeyPadValue	zem500/kb.c	/^int GetKeyPadValue(unsigned char *KeyValue)$/;"	f
+GetMCUVersion	c4i2c.c	/^int GetMCUVersion(char *buf)$/;"	f
+GetPowerKeyCode	zem500/kb.c	/^int GetPowerKeyCode(void)$/;"	f
+GetStateKeyCode	zem500/kb.c	/^int GetStateKeyCode(int keychar)$/;"	f
+HBLL	zem500/hv7131.h	21;"	d
+HBLU	zem500/hv7131.h	20;"	d
+I2S_CTL	zem500/arca.h	39;"	d
+IDENTIFYSPEED	zem500/sensor.h	44;"	d
+IIC_ConctrolLock	c4i2c.c	/^void IIC_ConctrolLock(int MachineType,int index,int time)$/;"	f
+IKey0	kb.h	18;"	d
+IKeyBell	kb.h	31;"	d
+IKeyDown	kb.h	48;"	d
+IKeyDuress	kb.h	32;"	d
+IKeyESC	kb.h	46;"	d
+IKeyF	kb.h	33;"	d
+IKeyIn	kb.h	29;"	d
+IKeyMenu	kb.h	44;"	d
+IKeyOK	kb.h	45;"	d
+IKeyOTIn	kb.h	25;"	d
+IKeyOTOut	kb.h	26;"	d
+IKeyOut	kb.h	30;"	d
+IKeyPower	kb.h	24;"	d
+IKeyTIn	kb.h	27;"	d
+IKeyTOut	kb.h	28;"	d
+IKeyUp	kb.h	47;"	d
+IMG_PARAM	zem500/cim.c	/^} IMG_PARAM;$/;"	t	typeref:struct:__anon5	file:
+INPUT	c4i2c.h	230;"	d
+INTH	zem500/hv7131.h	24;"	d
+INTL	zem500/hv7131.h	26;"	d
+INTM	zem500/hv7131.h	25;"	d
+IOCTL_CIM_CONFIG	zem500/cim.c	75;"	d	file:
+IOCTL_READ_C4	c4i2c.c	16;"	d	file:
+IOCTL_READ_EEPROM	zem500/hv7131.c	18;"	d	file:
+IOCTL_READ_REG	c4i2c.h	141;"	d
+IOCTL_READ_REG	zem500/hv7131.c	15;"	d	file:
+IOCTL_SET_ADDR	zem500/hv7131.c	20;"	d	file:
+IOCTL_SET_CLK	c4i2c.h	144;"	d
+IOCTL_SET_CLK	zem500/hv7131.c	21;"	d	file:
+IOCTL_SET_IMG_PARAM	zem500/cim.c	74;"	d	file:
+IOCTL_SET_SLAVE_ID	c4i2c.h	143;"	d
+IOCTL_WRITE_C4	c4i2c.c	17;"	d	file:
+IOCTL_WRITE_EEPROM	zem500/hv7131.c	19;"	d	file:
+IOCTL_WRITE_REG	c4i2c.h	142;"	d
+IOCTL_WRITE_REG	zem500/hv7131.c	16;"	d	file:
+IO_ALARM_STRIP	zem500/arca.h	50;"	d
+IO_AUX	c4i2c.h	227;"	d
+IO_BEEP	c4i2c.h	224;"	d
+IO_BUTTON	c4i2c.h	226;"	d
+IO_C4_STATE	zem500/arca.h	46;"	d
+IO_DOOR_BUTTON	zem500/arca.h	54;"	d
+IO_DOOR_SENSOR	zem500/arca.h	55;"	d
+IO_INPUT	c4i2c.h	223;"	d
+IO_LED	c4i2c.h	225;"	d
+IO_LOCK	zem500/arca.h	49;"	d
+IO_OUTPUT	c4i2c.h	222;"	d
+IO_RED_LED	zem500/arca.h	48;"	d
+IO_WIEGAND_OUT_D0	zem500/arca.h	52;"	d
+IO_WIEGAND_OUT_D1	zem500/arca.h	53;"	d
+IRQ_GPIO_0	zem500/gpio.h	37;"	d
+IncCMOSGain	zem500/hv7131.c	/^int IncCMOSGain(void)$/;"	f
+IsLeapYear	c4i2c.c	/^BOOL IsLeapYear(int year)$/;"	f
+IsTimeStructureValid	c4i2c.c	/^int IsTimeStructureValid(TTime* tm)$/;"	f
+JZ_AC97_ACCR2_ENLBF	zem500/arca.h	86;"	d
+JZ_AC97_ACCR2_ENRBL	zem500/arca.h	87;"	d
+JZ_AC97_ACCR2_ENREC	zem500/arca.h	88;"	d
+JZ_AC97_ACCR2_RDMS	zem500/arca.h	84;"	d
+JZ_AC97_ACCR2_SA	zem500/arca.h	91;"	d
+JZ_AC97_ACCR2_SR	zem500/arca.h	89;"	d
+JZ_AC97_ACCR2_SS	zem500/arca.h	90;"	d
+JZ_AC97_ACCR2_TDMS	zem500/arca.h	85;"	d
+JZ_AC97_ACFR_ENB	zem500/arca.h	83;"	d
+JZ_AC97_ACFR_RST	zem500/arca.h	82;"	d
+JZ_AC97_ACIER_ECADT	zem500/arca.h	102;"	d
+JZ_AC97_ACIER_ERADR	zem500/arca.h	101;"	d
+JZ_AC97_ACIER_ERFS	zem500/arca.h	105;"	d
+JZ_AC97_ACIER_EROR	zem500/arca.h	103;"	d
+JZ_AC97_ACIER_ERSTO	zem500/arca.h	100;"	d
+JZ_AC97_ACIER_ETFS	zem500/arca.h	106;"	d
+JZ_AC97_ACIER_ETUR	zem500/arca.h	104;"	d
+JZ_AC97_ACSR_CADT	zem500/arca.h	95;"	d
+JZ_AC97_ACSR_CRDY	zem500/arca.h	92;"	d
+JZ_AC97_ACSR_RFS	zem500/arca.h	98;"	d
+JZ_AC97_ACSR_ROR	zem500/arca.h	96;"	d
+JZ_AC97_ACSR_RSTO	zem500/arca.h	93;"	d
+JZ_AC97_ACSR_SADR	zem500/arca.h	94;"	d
+JZ_AC97_ACSR_TFS	zem500/arca.h	99;"	d
+JZ_AC97_ACSR_TUR	zem500/arca.h	97;"	d
+JZ_AC97_REG	zem500/arca.h	75;"	d
+JZ_EMI_BASE	zem500/arca.h	78;"	d
+JZ_EMI_REG	zem500/arca.h	76;"	d
+JZ_GPIO_REG	zem500/arca.h	73;"	d
+JZ_I2C_REG	zem500/arca.h	74;"	d
+JZ_REG_BASE	zem500/arca.h	72;"	d
+KeyLayout_A6	kb.h	55;"	d
+KeyLayout_BioClockII	kb.h	52;"	d
+KeyLayout_BioClockIII	kb.h	53;"	d
+KeyLayout_F4	kb.h	54;"	d
+KeyLayouts	zem500/kb.c	/^unsigned char KeyLayouts[4][FunKeyCount]={$/;"	v
+KillTimer	timer.c	/^void KillTimer(unsigned char cID)$/;"	f
+LCM_BACK_LIGHT	zem500/arca.h	37;"	d
+LEAPYEAR	time.c	15;"	d	file:
+LOADDRIVERTIME	zem500/sensor.h	23;"	d
+LOADDRIVERTIME	zem500/sensor.h	25;"	d
+LOCAL_NETWORK	zem500/sensor.h	/^        LOCAL_NETWORK = 3$/;"	e	enum:USER_VERIFY_METHOD
+LONG	zem500/arca.h	26;"	d
+MAINMCU	c4i2c.h	4;"	d
+MAXKEYBUFFERLEN	zem500/kb.c	18;"	d	file:
+MAX_ALIAS	resolve.c	694;"	d	file:
+MAX_KEY_INTERVAL	zem500/kb.c	46;"	d	file:
+MAX_RECURSE	resolve.c	18;"	d	file:
+MAX_RETRIES	resolve.c	21;"	d	file:
+MAX_SEARCH	resolve.c	23;"	d	file:
+MAX_SERVERS	resolve.c	22;"	d	file:
+MAX_WG_BITS	wiegand.h	6;"	d
+MCU1	c4i2c.h	5;"	d
+MCU2	c4i2c.h	6;"	d
+MCU3	c4i2c.h	7;"	d
+MCU4	c4i2c.h	8;"	d
+MCUVersion	c4i2c.c	/^static int MCUVersion=0;$/;"	v	file:
+MCU_CMD_BEEP	c4i2c.h	96;"	d
+MCU_CMD_C3_READERSTATE	c4i2c.h	94;"	d
+MCU_CMD_C4_READERSTATE	c4i2c.h	93;"	d
+MCU_CMD_CLEARLCD	c4i2c.h	98;"	d
+MCU_CMD_CLOCK	c4i2c.h	76;"	d
+MCU_CMD_DOG	c4i2c.h	97;"	d
+MCU_CMD_GET485ADDR	c4i2c.h	104;"	d
+MCU_CMD_GETAUX	c4i2c.h	91;"	d
+MCU_CMD_GETCLOCK	c4i2c.h	77;"	d
+MCU_CMD_GETDOORNUM	c4i2c.h	103;"	d
+MCU_CMD_INPUT	c4i2c.h	101;"	d
+MCU_CMD_READERSET	c4i2c.h	87;"	d
+MCU_CMD_RESETMAINMCU	c4i2c.h	86;"	d
+MCU_CMD_RESETMCU	c4i2c.h	88;"	d
+MCU_CMD_SETAUX	c4i2c.h	90;"	d
+MCU_CMD_SETBUTTON	c4i2c.h	81;"	d
+MCU_CMD_SETKEYBEEP	c4i2c.h	74;"	d
+MCU_CMD_SETLOCK	c4i2c.h	82;"	d
+MCU_CMD_VERSION	c4i2c.h	100;"	d
+MCU_CMD_WRITELCD	c4i2c.h	79;"	d
+MSPEED_AUTO	zem500/sensor.h	43;"	d
+MapBaudrate	serial.c	/^static int MapBaudrate[V10_NUM_BAUDRATES]={$/;"	v	file:
+MapDatasize	serial.c	/^static int MapDatasize[V10_NUM_DATASIZES]={CS5, CS6, CS7, CS8};$/;"	v	file:
+NETWORK_LOCAL	zem500/sensor.h	/^        NETWORK_LOCAL = 1,$/;"	e	enum:USER_VERIFY_METHOD
+NET_DEVICE_NAME	zem500/netspeed.h	24;"	d
+NUM_GPIO	zem500/gpio.h	38;"	d
+OBluI	zem500/hv7131.h	38;"	d
+OGrnI	zem500/hv7131.h	37;"	d
+ONLY_LOCAL	zem500/sensor.h	/^        ONLY_LOCAL    = 0,$/;"	e	enum:USER_VERIFY_METHOD
+ONLY_NETWORK	zem500/sensor.h	/^        ONLY_NETWORK  = 2,$/;"	e	enum:USER_VERIFY_METHOD
+ORedI	zem500/hv7131.h	36;"	d
+OUTIV	zem500/hv7131.h	9;"	d
+OUTPUT	c4i2c.h	229;"	d
+OldDecodeWiegandIn	wiegand.c	/^U32 OldDecodeWiegandIn(char *bits, int bitsCount)$/;"	f
+PAG	zem500/hv7131.h	28;"	d
+PDATEANDTIME	c4i2c.h	/^} DATEANDTIME, *PDATEANDTIME;$/;"	t	typeref:enum:__anon1
+PSensorBufInfo	zem500/sensor.h	/^} TSensorBufInfo, *PSensorBufInfo;$/;"	t	typeref:struct:_SensorBufInfo_
+Pchar	zem500/arca.h	228;"	d
+Pint	zem500/arca.h	230;"	d
+PressKeyBuffer	zem500/kb.c	/^static int PressKeyBuffer[MAXKEYBUFFERLEN] = {-1, -1, -1, -1, -1};$/;"	v	file:
+Pshort	zem500/arca.h	229;"	d
+RCG	zem500/hv7131.h	29;"	d
+RCMD_LCD_SIZE	c4i2c.h	84;"	d
+READERBEEP	c4i2c.h	11;"	d
+READERGREENLED	c4i2c.h	13;"	d
+READEROKLED	c4i2c.h	14;"	d
+READERREDLED	c4i2c.h	12;"	d
+REG16	zem500/arca.h	223;"	d
+REG32	zem500/arca.h	224;"	d
+REG8	zem500/arca.h	222;"	d
+REG_GPIO_GPALR	zem500/gpio.h	24;"	d
+REG_GPIO_GPAUR	zem500/gpio.h	25;"	d
+REG_GPIO_GPDIR	zem500/gpio.h	21;"	d
+REG_GPIO_GPDR	zem500/gpio.h	20;"	d
+REG_GPIO_GPFR	zem500/gpio.h	30;"	d
+REG_GPIO_GPIDLR	zem500/gpio.h	26;"	d
+REG_GPIO_GPIDUR	zem500/gpio.h	27;"	d
+REG_GPIO_GPIER	zem500/gpio.h	28;"	d
+REG_GPIO_GPIMR	zem500/gpio.h	29;"	d
+REG_GPIO_GPODR	zem500/gpio.h	22;"	d
+REG_GPIO_GPPUR	zem500/gpio.h	23;"	d
+REPLY_TIMEOUT	resolve.c	19;"	d	file:
+RESOLV_ARGS	resolve.c	779;"	d	file:
+RS232_SetParameters	serial.c	/^int RS232_SetParameters(int port, int Baudrate, int Datasize, int Parity, int FlowControl)$/;"	f
+RS232_SetStopbits	serial.c	/^int RS232_SetStopbits (int port, int Stops)$/;"	f
+RS232_SetTimeouts	serial.c	/^int RS232_SetTimeouts (int port, int TenthOfSeconds)$/;"	f
+RS485_ChangeStatus	serial.c	/^void RS485_ChangeStatus(serial_driver_t *serial, U32 SendMode)$/;"	f
+RS485_SEND	zem500/arca.h	43;"	d
+RS485_setmode	serial.c	/^void RS485_setmode(U32 SendMode)$/;"	f
+RSAL	zem500/hv7131.h	12;"	d
+RSAU	zem500/hv7131.h	11;"	d
+RawImgLen	zem500/sensor.h	/^   U32 RawImgLen;$/;"	m	struct:_SensorBufInfo_
+RawImgPtr	zem500/sensor.h	/^   BYTE *RawImgPtr;$/;"	m	struct:_SensorBufInfo_
+Read24WC02	zem500/hv7131.c	/^int Read24WC02(int Address, char *data, int size)$/;"	f
+ReadC4IIC	c4i2c.c	/^int ReadC4IIC(int Address, int *cmd, char *data)$/;"	f
+ReadRTCClockToSyncSys	rtc.c	/^BOOL ReadRTCClockToSyncSys(TTime *tm)$/;"	f
+ReloadTimer	timer.c	/^int ReloadTimer(unsigned char cID)$/;"	f
+Req_Query	c4i2c.c	/^int Req_Query(int Addr, int cmd)$/;"	f
+Req_QueryOnoff	c4i2c.c	/^int Req_QueryOnoff(int Addr, int cmd, int no)$/;"	f
+SCTRA	zem500/hv7131.h	7;"	d
+SCTRB	zem500/hv7131.h	8;"	d
+SECS_DAY	time.c	14;"	d	file:
+SHUT_KEY	zem500/arca.h	62;"	d
+S_CFG	c4i2c.h	/^} S_CFG;$/;"	t	typeref:struct:__anon2
+S_CFG	zem500/hv7131.c	/^} S_CFG;$/;"	t	typeref:struct:__anon7	file:
+SensorNo	zem500/sensor.h	/^   BYTE SensorNo;$/;"	m	struct:_SensorBufInfo_
+SerialInputString	serial.c	/^int SerialInputString(serial_driver_t *serial, char *s, const int len, const int timeout)$/;"	f
+SerialOutputData	serial.c	/^void SerialOutputData(serial_driver_t *serial, char *s,int  _size_)$/;"	f
+SerialOutputString	serial.c	/^void SerialOutputString(serial_driver_t *serial, const char *s)$/;"	f
+SerialPrintf	serial.c	/^void SerialPrintf(serial_driver_t *serial, char * fmt, ...)$/;"	f
+SetAudioVol	mixer.c	/^void SetAudioVol(int vol)$/;"	f
+SetCMOSGain	zem500/hv7131.c	/^int SetCMOSGain(int Gain)$/;"	f
+SetExternelRTC	c4i2c.c	/^int SetExternelRTC(TTime *tm)$/;"	f
+SetGateway	netconfig.c	/^BOOL SetGateway(char *Action, unsigned char *ipaddress)$/;"	f
+SetIPAddress	netconfig.c	/^void SetIPAddress(char *Action, unsigned char *ipaddress)$/;"	f
+SetKeyLayouts	zem500/kb.c	/^void SetKeyLayouts(char *Buffer)$/;"	f
+SetMixer	mixer.c	/^int SetMixer(char *dev, int vol)$/;"	f
+SetNetIP_MASK	netconfig.c	/^void SetNetIP_MASK(const char *netname, BYTE *ipaddress, BYTE *netmask) \/\/ccc$/;"	f
+SetNetworkIP_MASK	netconfig.c	/^void SetNetworkIP_MASK(BYTE *ipaddress, BYTE *netmask)$/;"	f
+SetRTCClock	rtc.c	/^BOOL SetRTCClock(TTime *tm)$/;"	f
+SetTimer	timer.c	/^void SetTimer(unsigned char cID, unsigned int nTime)$/;"	f
+SmoothData	zem500/fcenter.c	/^void SmoothData(int *data, int *cdata, int count, int swidth)$/;"	f
+TIMERNUM	timer.c	10;"	d	file:
+TIME_MAX	time.c	20;"	d	file:
+TRUE	zem500/arca.h	16;"	d
+TSensorBufInfo	zem500/sensor.h	/^} TSensorBufInfo, *PSensorBufInfo;$/;"	t	typeref:struct:_SensorBufInfo_
+TWiegandData	wiegand.h	/^}TWiegandData;$/;"	t	typeref:struct:_WiegandData_
+TWiegandFmt	wiegand.h	/^}TWiegandFmt;$/;"	t	typeref:struct:_WiegandFmt_
+TestSerial	serial.c	/^void TestSerial(void)$/;"	f
+Timer_count	timer.c	/^void Timer_count()$/;"	f
+U16	zem500/arca.h	20;"	d
+U32	zem500/arca.h	21;"	d
+U8	zem500/arca.h	19;"	d
+USB_MOUNTPOINT	usb_helper.h	16;"	d
+USB_POWER_PIN	zem500/arca.h	36;"	d
+USER_VERIFY_METHOD	zem500/sensor.h	/^enum USER_VERIFY_METHOD {$/;"	g
+V10_5BIT	serial.h	/^    V10_5BIT=0,$/;"	e	enum:__ARCA_DATASIZE
+V10_6BIT	serial.h	/^    V10_6BIT,$/;"	e	enum:__ARCA_DATASIZE
+V10_7BIT	serial.h	/^    V10_7BIT,$/;"	e	enum:__ARCA_DATASIZE
+V10_8BIT	serial.h	/^    V10_8BIT,$/;"	e	enum:__ARCA_DATASIZE
+V10_B0	serial.h	/^    V10_B0=0,				     \/* used to drop DTR *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B110	serial.h	/^    V10_B110,				     \/* 110 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B115200	serial.h	/^    V10_B115200,		     \/* 115,200 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B1200	serial.h	/^    V10_B1200,			     \/* 1200 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B134	serial.h	/^    V10_B134,				     \/* 134.5 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B150	serial.h	/^    V10_B150,				     \/* 150 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B1800	serial.h	/^    V10_B1800,			     \/* 1800 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B19200	serial.h	/^    V10_B19200,			     \/* 19200 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B200	serial.h	/^    V10_B200,				     \/* 200 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B2400	serial.h	/^    V10_B2400,			     \/* 2400 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B300	serial.h	/^    V10_B300,				     \/* 300 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B38400	serial.h	/^    V10_B38400,			     \/* 38400 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B4800	serial.h	/^    V10_B4800,			     \/* 4800 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B50	serial.h	/^    V10_B50,				     \/* 50 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B57600	serial.h	/^    V10_B57600,			     \/* 57,600 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B600	serial.h	/^    V10_B600,				     \/* 600 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B75	serial.h	/^    V10_B75,				     \/* 75 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_B9600	serial.h	/^    V10_B9600,			     \/* 9600 baud *\/$/;"	e	enum:__ARCA_BAUDRATE
+V10_EVEN	serial.h	/^    V10_EVEN,			     \/* even parity *\/$/;"	e	enum:__ARCA_PARITY_FLAGS
+V10_IGNORE	serial.h	/^    V10_IGNORE			     \/* use parity but do not test it *\/$/;"	e	enum:__ARCA_PARITY_FLAGS
+V10_NONE	serial.h	/^    V10_NONE=0,			     \/* disable parity bit *\/$/;"	e	enum:__ARCA_PARITY_FLAGS
+V10_NUM_BAUDRATES	serial.h	/^    V10_NUM_BAUDRATES		     \/* the number of entries *\/    $/;"	e	enum:__ARCA_BAUDRATE
+V10_NUM_DATASIZES	serial.h	/^    V10_NUM_DATASIZES		     \/* number of datasize values *\/$/;"	e	enum:__ARCA_DATASIZE
+V10_ODD	serial.h	/^    V10_ODD,			     \/* odd parity *\/$/;"	e	enum:__ARCA_PARITY_FLAGS
+VBLL	zem500/hv7131.h	23;"	d
+VBLU	zem500/hv7131.h	22;"	d
+VPchar	zem500/arca.h	225;"	d
+VPint	zem500/arca.h	227;"	d
+VPshort	zem500/arca.h	226;"	d
+WEI_DN	zem500/arca.h	69;"	d
+WEI_DP	zem500/arca.h	70;"	d
+WIE_IN_D0	zem500/arca.h	64;"	d
+WIE_IN_D1	zem500/arca.h	65;"	d
+WIE_OUT_D0	zem500/arca.h	66;"	d
+WIE_OUT_D1	zem500/arca.h	67;"	d
+WIHL	zem500/hv7131.h	16;"	d
+WIHU	zem500/hv7131.h	15;"	d
+WIWL	zem500/hv7131.h	18;"	d
+WIWU	zem500/hv7131.h	17;"	d
+WORD	zem500/arca.h	24;"	d
+WiegandFmt26	wiegand.c	/^static TWiegandFmt WiegandFmt26 = {$/;"	v	file:
+WiegandFmt34	wiegand.c	/^static TWiegandFmt WiegandFmt34 = {$/;"	v	file:
+WiegandFmt37	wiegand.c	/^static TWiegandFmt WiegandFmt37 = {$/;"	v	file:
+WiegandFmt37a	wiegand.c	/^static TWiegandFmt WiegandFmt37a = {$/;"	v	file:
+WiegandFmt50	wiegand.c	/^static TWiegandFmt WiegandFmt50 = {$/;"	v	file:
+Write24WC02	zem500/hv7131.c	/^int Write24WC02(int Address, char *data, int size)$/;"	f
+WriteC4IIC	c4i2c.c	/^int WriteC4IIC(char Address, char cmd, char *data, int size)$/;"	f
+WriteKeyToBuffer	zem500/kb.c	/^void WriteKeyToBuffer(unsigned char KeyValue)$/;"	f
+YEAR0	time.c	12;"	d	file:
+YEARSIZE	time.c	16;"	d	file:
+ZK_SENSOR_INT	zem500/arca.h	40;"	d
+_APPTIME_	c4i2c.h	/^typedef struct _APPTIME_ {$/;"	s
+_JZ4730_H_	zem500/arca.h	12;"	d
+_JZ_GPIO_H_	zem500/gpio.h	2;"	d
+_KB_H_	kb.h	12;"	d
+_NETCONFIG_H_	netconfig.h	2;"	d
+_NETSPEED_H_	zem500/netspeed.h	12;"	d
+_RTC_H_	rtc.h	12;"	d
+_SENSOR_H_	zem500/sensor.h	12;"	d
+_SERIAL_H_	serial.h	12;"	d
+_SensorBufInfo_	zem500/sensor.h	/^typedef struct _SensorBufInfo_{$/;"	s
+_USB_HELPER_H_	usb_helper.h	12;"	d
+_WiegandData_	wiegand.h	/^typedef struct _WiegandData_$/;"	s
+_WiegandFmt_	wiegand.h	/^typedef struct _WiegandFmt_$/;"	s
+_XOPEN_SOURCE	netconfig.c	10;"	d	file:
+__ARCA_BAUDRATE	serial.h	/^enum __ARCA_BAUDRATE$/;"	g
+__ARCA_DATASIZE	serial.h	/^enum __ARCA_DATASIZE$/;"	g
+__ARCA_PARITY_FLAGS	serial.h	/^enum __ARCA_PARITY_FLAGS$/;"	g
+__C4I2C_H__	c4i2c.h	2;"	d
+__CIM_H__	zem500/cim.h	2;"	d
+__HV7131_H__	zem500/hv7131.h	2;"	d
+__WIEGAND_H__	wiegand.h	2;"	d
+__gpio_as_input	zem500/gpio.h	137;"	d
+__gpio_as_output	zem500/gpio.h	129;"	d
+__gpio_clear_pin	zem500/gpio.h	153;"	d
+__gpio_get_pin	zem500/gpio.h	/^static __inline__ unsigned int __gpio_get_pin(unsigned int n)$/;"	f
+__gpio_port_as_input	zem500/gpio.h	113;"	d
+__gpio_port_as_output	zem500/gpio.h	97;"	d
+__gpio_port_data	zem500/gpio.h	95;"	d
+__gpio_set_pin	zem500/gpio.h	145;"	d
+_daylight	time.c	/^int _daylight = 0;                  \/\/ Non-zero if daylight savings time is used$/;"	v
+_dstbias	time.c	/^long _dstbias = 0;                  \/\/ Offset for Daylight Saving Time$/;"	v
+_timezone	time.c	/^long _timezone = 0;                 \/\/ Difference in seconds between GMT and local time$/;"	v
+_wavmain_	wavmain.h	2;"	d
+_ytab	time.c	/^const int _ytab[2][12] = $/;"	v
+a	resolve.c	/^struct in_addr a;$/;"	v	typeref:struct:in_addr
+aa	resolve.c	/^	int qr,opcode,aa,tc,rd,ra,rcode;$/;"	m	struct:resolv_header	file:
+ac97_accar	zem500/arca.h	/^   unsigned int ac97_accar;$/;"	m	struct:jz_ac97
+ac97_accdr	zem500/arca.h	/^   unsigned int ac97_accdr;$/;"	m	struct:jz_ac97
+ac97_accr	zem500/arca.h	/^   unsigned int ac97_accr;$/;"	m	struct:jz_ac97
+ac97_accr1	zem500/arca.h	/^   unsigned int ac97_accr1;$/;"	m	struct:jz_ac97
+ac97_accr2	zem500/arca.h	/^   unsigned int ac97_accr2;$/;"	m	struct:jz_ac97
+ac97_acdr	zem500/arca.h	/^   unsigned int ac97_acdr;$/;"	m	struct:jz_ac97
+ac97_acfr	zem500/arca.h	/^   unsigned int ac97_acfr;$/;"	m	struct:jz_ac97
+ac97_acsar	zem500/arca.h	/^   unsigned int ac97_acsar;$/;"	m	struct:jz_ac97
+ac97_acsdr	zem500/arca.h	/^   unsigned int ac97_acsdr;$/;"	m	struct:jz_ac97
+ac97_acsr	zem500/arca.h	/^   unsigned int ac97_acsr;$/;"	m	struct:jz_ac97
+ac97_i2scr	zem500/arca.h	/^   unsigned int ac97_i2scr;$/;"	m	struct:jz_ac97
+ac97_i2sdiv	zem500/arca.h	/^   unsigned int ac97_i2sdiv;$/;"	m	struct:jz_ac97
+ac97_i2ssr	zem500/arca.h	/^   unsigned int ac97_i2ssr;$/;"	m	struct:jz_ac97
+ac97_sr	zem500/arca.h	/^   unsigned int ac97_sr;$/;"	m	struct:jz_ac97
+aclass	resolve.c	/^	int aclass;$/;"	m	struct:resolv_answer	file:
+addr_string	netconfig.c	/^static const char * addr_string (struct sockaddr *sa, char *buf, size_t size)$/;"	f	file:
+ancount	resolve.c	/^	int ancount;$/;"	m	struct:resolv_header	file:
+arca0_serial_flush_input	serial.c	/^static int arca0_serial_flush_input(void)$/;"	f	file:
+arca0_serial_flush_output	serial.c	/^static int arca0_serial_flush_output(void)$/;"	f	file:
+arca0_serial_free	serial.c	/^static void arca0_serial_free(void)$/;"	f	file:
+arca0_serial_get_lsr	serial.c	/^static int arca0_serial_get_lsr(void)$/;"	f	file:
+arca0_serial_init	serial.c	/^static int arca0_serial_init(int BaudRate, int DataSize, int Parity, int FlowControl)$/;"	f	file:
+arca0_serial_poll	serial.c	/^static int arca0_serial_poll(void)$/;"	f	file:
+arca0_serial_read	serial.c	/^static int arca0_serial_read(void)$/;"	f	file:
+arca0_serial_read_buf	serial.c	/^static int arca0_serial_read_buf(unsigned char* Data,int Size)$/;"	f	file:
+arca0_serial_tcdrain	serial.c	/^static int arca0_serial_tcdrain(void)$/;"	f	file:
+arca0_serial_write	serial.c	/^static int arca0_serial_write(int c)$/;"	f	file:
+arca0_serial_write_buf	serial.c	/^static int arca0_serial_write_buf(unsigned char* Data,int Size)$/;"	f	file:
+arca1_serial_flush_input	serial.c	/^static int arca1_serial_flush_input(void)$/;"	f	file:
+arca1_serial_flush_output	serial.c	/^static int arca1_serial_flush_output(void)$/;"	f	file:
+arca1_serial_free	serial.c	/^static void arca1_serial_free(void)$/;"	f	file:
+arca1_serial_get_lsr	serial.c	/^static int arca1_serial_get_lsr(void)$/;"	f	file:
+arca1_serial_init	serial.c	/^static int arca1_serial_init(int BaudRate, int DataSize, int Parity, int FlowControl)$/;"	f	file:
+arca1_serial_poll	serial.c	/^static int arca1_serial_poll(void)$/;"	f	file:
+arca1_serial_read	serial.c	/^static int arca1_serial_read(void)$/;"	f	file:
+arca1_serial_read_buf	serial.c	/^static int arca1_serial_read_buf(unsigned char* Data,int Size)$/;"	f	file:
+arca1_serial_tcdrain	serial.c	/^static int arca1_serial_tcdrain(void)$/;"	f	file:
+arca1_serial_write	serial.c	/^static int arca1_serial_write(int c)$/;"	f	file:
+arca1_serial_write_buf	serial.c	/^static int arca1_serial_write_buf(unsigned char* Data,int Size)$/;"	f	file:
+arca2_serial_flush_input	serial.c	/^static int arca2_serial_flush_input(void)$/;"	f	file:
+arca2_serial_flush_output	serial.c	/^static int arca2_serial_flush_output(void)$/;"	f	file:
+arca2_serial_free	serial.c	/^static void arca2_serial_free(void)$/;"	f	file:
+arca2_serial_get_lsr	serial.c	/^static int arca2_serial_get_lsr(void)$/;"	f	file:
+arca2_serial_init	serial.c	/^static int arca2_serial_init(int BaudRate, int DataSize, int Parity, int FlowControl)$/;"	f	file:
+arca2_serial_poll	serial.c	/^static int arca2_serial_poll(void)$/;"	f	file:
+arca2_serial_read	serial.c	/^static int arca2_serial_read(void)$/;"	f	file:
+arca2_serial_read_buf	serial.c	/^static int arca2_serial_read_buf(unsigned char* Data,int Size)$/;"	f	file:
+arca2_serial_tcdrain	serial.c	/^static int arca2_serial_tcdrain(void)$/;"	f	file:
+arca2_serial_write	serial.c	/^static int arca2_serial_write(int c)$/;"	f	file:
+arca2_serial_write_buf	serial.c	/^static int arca2_serial_write_buf(unsigned char* Data,int Size)$/;"	f	file:
+arca_serial_flush_input	serial.c	/^static int arca_serial_flush_input(void)$/;"	f	file:
+arca_serial_flush_output	serial.c	/^static int arca_serial_flush_output(void)$/;"	f	file:
+arca_serial_free	serial.c	/^static void arca_serial_free(void)$/;"	f	file:
+arca_serial_get_lsr	serial.c	/^static int arca_serial_get_lsr(void)$/;"	f	file:
+arca_serial_init	serial.c	/^static int arca_serial_init(int BaudRate, int DataSize, int Parity, int FlowControl)$/;"	f	file:
+arca_serial_poll	serial.c	/^static int arca_serial_poll(void)$/;"	f	file:
+arca_serial_read	serial.c	/^static int arca_serial_read(void)$/;"	f	file:
+arca_serial_read_buf	serial.c	/^static int arca_serial_read_buf(unsigned char* Data,int Size)$/;"	f	file:
+arca_serial_tcdrain	serial.c	/^static int arca_serial_tcdrain(void)$/;"	f	file:
+arca_serial_write	serial.c	/^static int arca_serial_write(int c)$/;"	f	file:
+arca_serial_write_buf	serial.c	/^static int arca_serial_write_buf(unsigned char* Data,int Size)$/;"	f	file:
+arcount	resolve.c	/^	int arcount;$/;"	m	struct:resolv_header	file:
+atype	resolve.c	/^	int atype;$/;"	m	struct:resolv_answer	file:
+blocks	usb_helper.c	/^	unsigned int blocks; $/;"	m	struct:partitionEntry	file:
+bpp	zem500/cim.c	/^        u32 bpp;        \/* bits per pixel: 8\/16\/32 *\/$/;"	m	struct:__anon5	file:
+bt232	serial.h	/^serial_driver_t bt232;$/;"	v
+buf	c4i2c.c	/^	U8 buf[256];$/;"	m	struct:__anon3	file:
+buf	zem500/hv7131.c	/^	U8 buf[256];$/;"	m	struct:__anon8	file:
+buf2bits64	wiegand.c	/^void buf2bits64(char *buf, char *bits, int bitsCount)$/;"	f
+cTCON	timer.c	/^unsigned int  cTCON[TIMERNUM];					\/\/ 扩展定时器控制标志$/;"	v
+cTnCounter	timer.c	/^unsigned int  cTnCounter[TIMERNUM];			\/\/ 扩展定时器计数器$/;"	v
+cTnPreset	timer.c	/^unsigned int  cTnPreset[TIMERNUM];				\/\/ 扩展定时器预置值$/;"	v
+cardNumber	wiegand.h	/^	U32 cardNumber;$/;"	m	struct:_WiegandData_
+cfg	zem500/cim.c	/^        unsigned int cfg;$/;"	m	struct:__anon6	file:
+cim_cfg	zem500/cim.c	/^static struct cim_config cim_cfg = {$/;"	v	typeref:struct:cim_config	file:
+cim_close	zem500/cim.c	/^void cim_close(void)$/;"	f
+cim_config	zem500/cim.c	/^struct cim_config {$/;"	s	file:
+cim_config_t	zem500/cim.c	/^} cim_config_t;$/;"	t	typeref:struct:__anon6	file:
+cim_fd	zem500/cim.c	/^static int cim_fd=-1;$/;"	v	file:
+cim_open	zem500/cim.c	/^int cim_open(int width, int height, int bpp)$/;"	f
+cim_read	zem500/cim.c	/^int cim_read(unsigned char *buf, int frame_size)$/;"	f
+code	wiegand.h	/^	char code[MAX_WG_BITS];$/;"	m	struct:_WiegandFmt_
+count	wiegand.h	/^	int count;$/;"	m	struct:_WiegandFmt_
+ct232	serial.c	/^serial_driver_t ct232 = {$/;"	v
+ctrl	zem500/cim.c	/^        unsigned int ctrl;$/;"	m	struct:__anon6	file:
+day	c4i2c.h	/^	U8 day;$/;"	m	struct:_APPTIME_
+decode_answer	resolve.c	/^int decode_answer(unsigned char *message, int offset,$/;"	f
+decode_dotted	resolve.c	/^int decode_dotted(const unsigned char *data, int offset,$/;"	f
+decode_header	resolve.c	/^int decode_header(unsigned char *data, struct resolv_header *h)$/;"	f
+decode_packet	resolve.c	/^int decode_packet(unsigned char *data, struct resolv_header *h)$/;"	f
+decode_question	resolve.c	/^int decode_question(unsigned char *message, int offset,$/;"	f
+dev_iic_fd	c4i2c.c	/^static int dev_iic_fd=-1;$/;"	v	file:
+device	usb_helper.c	/^	char * device;$/;"	m	struct:partitionEntry	file:
+dns_catch_signal	resolve.c	/^void dns_catch_signal(int signo)$/;"	f
+dns_caught_signal	resolve.c	/^int dns_caught_signal = 0;$/;"	v
+dns_lookup	resolve.c	/^int dns_lookup(const char *name, int type, int nscount, char **nsip,$/;"	f
+dotted	resolve.c	/^	char * dotted;$/;"	m	struct:resolv_answer	file:
+dotted	resolve.c	/^	char * dotted;$/;"	m	struct:resolv_question	file:
+dsm	zem500/cim.c	/^        int dsm; \/* Data Sampling Mode:0-CCIR656 Progressive Mode, 1-CCIR656 Interlace Mode,2-Gated Clock Mode,3-Non-Gated Clock Mode *\/$/;"	m	struct:cim_config	file:
+eDAY	c4i2c.h	/^	eDAY,$/;"	e	enum:__anon1
+eDAYOFWEEK	c4i2c.h	/^	eDAYOFWEEK,$/;"	e	enum:__anon1
+eHOUR	c4i2c.h	/^	eHOUR,$/;"	e	enum:__anon1
+eMINUTE	c4i2c.h	/^	eMINUTE,$/;"	e	enum:__anon1
+eMONTH	c4i2c.h	/^	eMONTH,$/;"	e	enum:__anon1
+eSECOND	c4i2c.h	/^	eSECOND$/;"	e	enum:__anon1
+eYEAR	c4i2c.h	/^	eYEAR = 0,$/;"	e	enum:__anon1
+emi_bcr	zem500/arca.h	/^   unsigned int   emi_bcr;$/;"	m	struct:jz_emi
+emi_dmar1	zem500/arca.h	/^   unsigned int   emi_dmar1;$/;"	m	struct:jz_emi
+emi_dmar2	zem500/arca.h	/^   unsigned int   emi_dmar2;$/;"	m	struct:jz_emi
+emi_dmcr	zem500/arca.h	/^   unsigned int   emi_dmcr;$/;"	m	struct:jz_emi
+emi_nfcsr	zem500/arca.h	/^   unsigned int   emi_nfcsr;$/;"	m	struct:jz_emi
+emi_nfecc	zem500/arca.h	/^   unsigned int   emi_nfecc;$/;"	m	struct:jz_emi
+emi_pccr1	zem500/arca.h	/^   unsigned int   emi_pccr1;$/;"	m	struct:jz_emi
+emi_pccr2	zem500/arca.h	/^   unsigned int   emi_pccr2;$/;"	m	struct:jz_emi
+emi_pccr3	zem500/arca.h	/^   unsigned int   emi_pccr3;$/;"	m	struct:jz_emi
+emi_pccr4	zem500/arca.h	/^   unsigned int   emi_pccr4;$/;"	m	struct:jz_emi
+emi_rtcnt	zem500/arca.h	/^   unsigned short emi_rtcnt;$/;"	m	struct:jz_emi
+emi_rtcor	zem500/arca.h	/^   unsigned short emi_rtcor;$/;"	m	struct:jz_emi
+emi_rtcsr	zem500/arca.h	/^   unsigned short emi_rtcsr;$/;"	m	struct:jz_emi
+emi_sacr0	zem500/arca.h	/^   unsigned int   emi_sacr0;$/;"	m	struct:jz_emi
+emi_sacr1	zem500/arca.h	/^   unsigned int   emi_sacr1;$/;"	m	struct:jz_emi
+emi_sacr2	zem500/arca.h	/^   unsigned int   emi_sacr2;$/;"	m	struct:jz_emi
+emi_sacr3	zem500/arca.h	/^   unsigned int   emi_sacr3;$/;"	m	struct:jz_emi
+emi_sacr4	zem500/arca.h	/^   unsigned int   emi_sacr4;$/;"	m	struct:jz_emi
+emi_sacr5	zem500/arca.h	/^   unsigned int   emi_sacr5;$/;"	m	struct:jz_emi
+emi_smcr0	zem500/arca.h	/^   unsigned int   emi_smcr0;$/;"	m	struct:jz_emi
+emi_smcr1	zem500/arca.h	/^   unsigned int   emi_smcr1;$/;"	m	struct:jz_emi
+emi_smcr2	zem500/arca.h	/^   unsigned int   emi_smcr2;$/;"	m	struct:jz_emi
+emi_smcr3	zem500/arca.h	/^   unsigned int   emi_smcr3;$/;"	m	struct:jz_emi
+emi_smcr4	zem500/arca.h	/^   unsigned int   emi_smcr4;$/;"	m	struct:jz_emi
+emi_smcr5	zem500/arca.h	/^   unsigned int   emi_smcr5;$/;"	m	struct:jz_emi
+encode_answer	resolve.c	/^int encode_answer(struct resolv_answer *a, unsigned char *dest, int maxlen)$/;"	f
+encode_dotted	resolve.c	/^int encode_dotted(const char *dotted, unsigned char *dest, int maxlen)$/;"	f
+encode_header	resolve.c	/^int encode_header(struct resolv_header *h, unsigned char *dest, int maxlen)$/;"	f
+encode_packet	resolve.c	/^int encode_packet(struct resolv_header *h,$/;"	f
+encode_question	resolve.c	/^int encode_question(struct resolv_question *q,$/;"	f
+facilityCode	wiegand.h	/^	U32 facilityCode;$/;"	m	struct:_WiegandData_
+failures	netconfig.c	/^static int failures;$/;"	v	file:
+fdJzIO	zem500/zem500.c	/^static int fdJzIO = -1;$/;"	v	file:
+fdRS0232	serial.c	/^static int fdRS0232 = -1;$/;"	v	file:
+fdRS1232	serial.c	/^static int fdRS1232 = -1;$/;"	v	file:
+fdRS2232	serial.c	/^static int fdRS2232 = -1;$/;"	v	file:
+fdRS232	serial.c	/^static int fdRS232 = -1;$/;"	v	file:
+fdUSB232	serial.c	/^static int fdUSB232 = -1;$/;"	v	file:
+fd_serial_cmux1	netconfig.c	/^int fd_serial_cmux1=-1;$/;"	v
+ff232	serial.c	/^serial_driver_t ff232 = {$/;"	v
+fhdl	zem500/sensor.h	/^HANDLE fhdl;$/;"	v
+findinhosts	resolve.c	/^int findinhosts=0;$/;"	v
+flush_input	serial.h	/^	serial_flush_input_func_t flush_input;$/;"	m	struct:__anon4
+flush_output	serial.h	/^	serial_flush_output_func_t flush_output;$/;"	m	struct:__anon4
+frc	zem500/cim.c	/^        int frc;        \/* Frame Rate Control:0-15 *\/$/;"	m	struct:cim_config	file:
+free	serial.h	/^	serial_free_func_t free;$/;"	m	struct:__anon4
+gLCDData	c4i2c.c	/^static int gLCDData=0;$/;"	v	file:
+gLCDHeight	c4i2c.c	/^static int gLCDHeight=0;$/;"	v	file:
+gLCDWidth	c4i2c.c	/^static int gLCDWidth=0;$/;"	v	file:
+gateway	netconfig.h	/^	unsigned char gateway[4];$/;"	m	struct:str_net_addr
+get_hosts_byname	resolve.c	/^struct hostent * get_hosts_byname(const char * name)$/;"	f
+get_lsr	serial.h	/^	serial_get_lsr_func_t get_lsr;$/;"	m	struct:__anon4
+gethost_byname1	resolve.c	/^int gethost_byname1(const char *url, const char *dns, char *tmp_ip)$/;"	f
+gethostbyname_t	resolve.c	/^struct hostent *gethostbyname_t(const char *name)$/;"	f
+getnetinfo	netconfig.c	/^void getnetinfo(const char *netname, struct str_net_addr *net_info) \/\/ccc$/;"	f
+getnetisalive	netconfig.c	/^int getnetisalive(const char *netname)$/;"	f
+gpio_gpalr0	zem500/arca.h	/^   unsigned int   gpio_gpalr0;$/;"	m	struct:jz_gpio
+gpio_gpalr1	zem500/arca.h	/^   unsigned int   gpio_gpalr1;$/;"	m	struct:jz_gpio
+gpio_gpalr2	zem500/arca.h	/^   unsigned int   gpio_gpalr2;$/;"	m	struct:jz_gpio
+gpio_gpalr3	zem500/arca.h	/^   unsigned int   gpio_gpalr3;$/;"	m	struct:jz_gpio
+gpio_gpaur0	zem500/arca.h	/^   unsigned int   gpio_gpaur0;$/;"	m	struct:jz_gpio
+gpio_gpaur1	zem500/arca.h	/^   unsigned int   gpio_gpaur1;$/;"	m	struct:jz_gpio
+gpio_gpaur2	zem500/arca.h	/^   unsigned int   gpio_gpaur2;$/;"	m	struct:jz_gpio
+gpio_gpaur3	zem500/arca.h	/^   unsigned int   gpio_gpaur3;$/;"	m	struct:jz_gpio
+gpio_gpdir0	zem500/arca.h	/^   unsigned int   gpio_gpdir0;$/;"	m	struct:jz_gpio
+gpio_gpdir1	zem500/arca.h	/^   unsigned int   gpio_gpdir1;$/;"	m	struct:jz_gpio
+gpio_gpdir2	zem500/arca.h	/^   unsigned int   gpio_gpdir2;$/;"	m	struct:jz_gpio
+gpio_gpdir3	zem500/arca.h	/^   unsigned int   gpio_gpdir3;$/;"	m	struct:jz_gpio
+gpio_gpdr0	zem500/arca.h	/^   unsigned int   gpio_gpdr0;$/;"	m	struct:jz_gpio
+gpio_gpdr1	zem500/arca.h	/^   unsigned int   gpio_gpdr1;$/;"	m	struct:jz_gpio
+gpio_gpdr2	zem500/arca.h	/^   unsigned int   gpio_gpdr2;$/;"	m	struct:jz_gpio
+gpio_gpdr3	zem500/arca.h	/^   unsigned int   gpio_gpdr3;$/;"	m	struct:jz_gpio
+gpio_gpfr0	zem500/arca.h	/^   unsigned int   gpio_gpfr0;$/;"	m	struct:jz_gpio
+gpio_gpfr1	zem500/arca.h	/^   unsigned int   gpio_gpfr1;$/;"	m	struct:jz_gpio
+gpio_gpfr2	zem500/arca.h	/^   unsigned int   gpio_gpfr2;$/;"	m	struct:jz_gpio
+gpio_gpfr3	zem500/arca.h	/^   unsigned int   gpio_gpfr3;$/;"	m	struct:jz_gpio
+gpio_gpidlr0	zem500/arca.h	/^   unsigned int   gpio_gpidlr0;$/;"	m	struct:jz_gpio
+gpio_gpidlr1	zem500/arca.h	/^   unsigned int   gpio_gpidlr1;$/;"	m	struct:jz_gpio
+gpio_gpidlr2	zem500/arca.h	/^   unsigned int   gpio_gpidlr2;$/;"	m	struct:jz_gpio
+gpio_gpidlr3	zem500/arca.h	/^   unsigned int   gpio_gpidlr3;$/;"	m	struct:jz_gpio
+gpio_gpidur0	zem500/arca.h	/^   unsigned int   gpio_gpidur0;$/;"	m	struct:jz_gpio
+gpio_gpidur1	zem500/arca.h	/^   unsigned int   gpio_gpidur1;$/;"	m	struct:jz_gpio
+gpio_gpidur2	zem500/arca.h	/^   unsigned int   gpio_gpidur2;$/;"	m	struct:jz_gpio
+gpio_gpidur3	zem500/arca.h	/^   unsigned int   gpio_gpidur3;$/;"	m	struct:jz_gpio
+gpio_gpier0	zem500/arca.h	/^   unsigned int   gpio_gpier0;$/;"	m	struct:jz_gpio
+gpio_gpier1	zem500/arca.h	/^   unsigned int   gpio_gpier1;$/;"	m	struct:jz_gpio
+gpio_gpier2	zem500/arca.h	/^   unsigned int   gpio_gpier2;$/;"	m	struct:jz_gpio
+gpio_gpier3	zem500/arca.h	/^   unsigned int   gpio_gpier3;$/;"	m	struct:jz_gpio
+gpio_gpimr0	zem500/arca.h	/^   unsigned int   gpio_gpimr0;$/;"	m	struct:jz_gpio
+gpio_gpimr1	zem500/arca.h	/^   unsigned int   gpio_gpimr1;$/;"	m	struct:jz_gpio
+gpio_gpimr2	zem500/arca.h	/^   unsigned int   gpio_gpimr2;$/;"	m	struct:jz_gpio
+gpio_gpimr3	zem500/arca.h	/^   unsigned int   gpio_gpimr3;$/;"	m	struct:jz_gpio
+gpio_gpodr0	zem500/arca.h	/^   unsigned int   gpio_gpodr0;$/;"	m	struct:jz_gpio
+gpio_gpodr1	zem500/arca.h	/^   unsigned int   gpio_gpodr1;$/;"	m	struct:jz_gpio
+gpio_gpodr2	zem500/arca.h	/^   unsigned int   gpio_gpodr2;$/;"	m	struct:jz_gpio
+gpio_gpodr3	zem500/arca.h	/^   unsigned int   gpio_gpodr3;$/;"	m	struct:jz_gpio
+gpio_gppur0	zem500/arca.h	/^   unsigned int   gpio_gppur0;$/;"	m	struct:jz_gpio
+gpio_gppur1	zem500/arca.h	/^   unsigned int   gpio_gppur1;$/;"	m	struct:jz_gpio
+gpio_gppur2	zem500/arca.h	/^   unsigned int   gpio_gppur2;$/;"	m	struct:jz_gpio
+gpio_gppur3	zem500/arca.h	/^   unsigned int   gpio_gppur3;$/;"	m	struct:jz_gpio
+gpio_reg	zem500/arca.h	/^jz_gpio_t *gpio_reg;$/;"	v
+gsim_id	netconfig.c	/^unsigned char gsim_id[64];$/;"	v
+gwifiaddr	netconfig.h	/^}gwifiaddr;$/;"	v	typeref:struct:str_net_addr
+he	resolve.c	/^struct hostent *he;$/;"	v	typeref:struct:hostent
+height	zem500/cim.c	/^        u32 height;     \/* height *\/$/;"	m	struct:__anon5	file:
+hour	c4i2c.h	/^	U8 hour;$/;"	m	struct:_APPTIME_
+hsp	zem500/cim.c	/^        int hsp; \/* HSYNC Polarity:0-rising edge is active,1-falling edge is active *\/$/;"	m	struct:cim_config	file:
+i2c_cr	zem500/arca.h	/^   unsigned char  i2c_cr;$/;"	m	struct:jz_i2c
+i2c_dr	zem500/arca.h	/^   unsigned char  i2c_dr;$/;"	m	struct:jz_i2c
+i2c_gr	zem500/arca.h	/^   unsigned short i2c_gr;$/;"	m	struct:jz_i2c
+i2c_readtime	c4i2c.c	/^int i2c_readtime(int slave_addr, int reg, unsigned char* value)$/;"	f
+i2c_set_addr	c4i2c.c	/^int i2c_set_addr(unsigned int slave_addr)$/;"	f
+i2c_set_clk	c4i2c.c	/^int i2c_set_clk(unsigned int clk)$/;"	f
+i2c_sr	zem500/arca.h	/^   unsigned char  i2c_sr;$/;"	m	struct:jz_i2c
+i2c_writetime	c4i2c.c	/^int i2c_writetime(int slave_addr, int reg, unsigned char value)$/;"	f
+id	resolve.c	/^	int id;$/;"	m	struct:resolv_header	file:
+init	serial.h	/^	serial_init_func_t init;$/;"	m	struct:__anon4
+integration_time	zem500/hv7131.c	/^static unsigned int integration_time = 35; \/* unit: ms *\/$/;"	v	file:
+inv_dat	zem500/cim.c	/^        int inv_dat;    \/* Inverse Input Data Enable *\/$/;"	m	struct:cim_config	file:
+ip	netconfig.h	/^	unsigned  char ip[4];$/;"	m	struct:str_net_addr
+jz_ac97	zem500/arca.h	/^typedef struct jz_ac97 {$/;"	s
+jz_ac97_t	zem500/arca.h	/^} jz_ac97_t;$/;"	t	typeref:struct:jz_ac97
+jz_emi	zem500/arca.h	/^typedef struct jz_emi {$/;"	s
+jz_emi_t	zem500/arca.h	/^} jz_emi_t;$/;"	t	typeref:struct:jz_emi
+jz_gpio	zem500/arca.h	/^typedef struct jz_gpio {$/;"	s
+jz_gpio_base	zem500/arca.h	/^unsigned char *jz_gpio_base;$/;"	v
+jz_gpio_t	zem500/arca.h	/^} jz_gpio_t;$/;"	t	typeref:struct:jz_gpio
+jz_i2c	zem500/arca.h	/^typedef struct jz_i2c {$/;"	s
+jz_i2c_t	zem500/arca.h	/^} jz_i2c_t;$/;"	t	typeref:struct:jz_i2c
+jz_reg	zem500/arca.h	/^unsigned char *jz_reg;$/;"	v
+len	c4i2c.c	/^	U8 len;$/;"	m	struct:__anon3	file:
+len	zem500/hv7131.c	/^	U8 len;$/;"	m	struct:__anon8	file:
+length_dotted	resolve.c	/^int length_dotted(const unsigned char *data, int offset)$/;"	f
+length_question	resolve.c	/^int length_question(unsigned char *message, int offset)$/;"	f
+m_sensor_opt	zem500/hv7131.c	/^static int m_sensor_opt = 0;$/;"	v	file:
+main	cpuid/read_cpuid.c	/^int main(int argc, char *argv[])$/;"	f
+manufactureCode	wiegand.h	/^	U32 manufactureCode;$/;"	m	struct:_WiegandData_
+mask	netconfig.h	/^	unsigned char mask[4];$/;"	m	struct:str_net_addr
+mclk	zem500/cim.c	/^        int mclk;\/* Master clock output to the sensor *\/$/;"	m	struct:cim_config	file:
+mclk	zem500/cim.c	/^        unsigned int mclk;$/;"	m	struct:__anon6	file:
+mclk_hz	zem500/hv7131.c	/^static unsigned int mclk_hz = 25000000;    \/* 25 MHz *\/$/;"	v	file:
+minute	c4i2c.h	/^	U8 minute;$/;"	m	struct:_APPTIME_
+mktime_1	time.c	/^time_t mktime_1(struct tm *tmbuf)$/;"	f
+month	c4i2c.h	/^	U8 month;$/;"	m	struct:_APPTIME_
+name	netconfig.h	/^	 char name[20];$/;"	m	struct:str_net_addr
+name_arg	resolve.c	/^unsigned char name_arg[50];$/;"	v
+nameserver	resolve.c	/^char * nameserver[MAX_SERVERS];$/;"	v
+nameservers	resolve.c	/^int nameservers;$/;"	v
+nscount	resolve.c	/^	int nscount;$/;"	m	struct:resolv_header	file:
+offset	c4i2c.c	/^	U8 offset;$/;"	m	struct:__anon3	file:
+offset	zem500/hv7131.c	/^	U8 offset;$/;"	m	struct:__anon8	file:
+opcode	resolve.c	/^	int qr,opcode,aa,tc,rd,ra,rcode;$/;"	m	struct:resolv_header	file:
+open_nameservers	resolve.c	/^int open_nameservers()$/;"	f
+open_timer	timer.c	/^int open_timer(void)$/;"	f
+pack	zem500/cim.c	/^        int pack; \/* Data Packing Mode: suppose received data sequence were 0x11 0x22 0x33 0x44, then packing mode will rearrange the sequence in the RXFIFO:$/;"	m	struct:cim_config	file:
+parity	wiegand.h	/^	char parity[MAX_WG_BITS];$/;"	m	struct:_WiegandFmt_
+partitionEntry	usb_helper.c	/^struct partitionEntry{$/;"	s	file:
+pcp	zem500/cim.c	/^        int pcp; \/* PCLK Polarity:0-rising edge sampling,1-falling edge sampling *\/$/;"	m	struct:cim_config	file:
+poll	serial.h	/^	serial_poll_func_t poll;$/;"	m	struct:__anon4
+qclass	resolve.c	/^	int qclass;$/;"	m	struct:resolv_question	file:
+qdcount	resolve.c	/^	int qdcount;$/;"	m	struct:resolv_header	file:
+qr	resolve.c	/^	int qr,opcode,aa,tc,rd,ra,rcode;$/;"	m	struct:resolv_header	file:
+qtype	resolve.c	/^	int qtype;$/;"	m	struct:resolv_question	file:
+ra	resolve.c	/^	int qr,opcode,aa,tc,rd,ra,rcode;$/;"	m	struct:resolv_header	file:
+rcode	resolve.c	/^	int qr,opcode,aa,tc,rd,ra,rcode;$/;"	m	struct:resolv_header	file:
+rd	resolve.c	/^	int qr,opcode,aa,tc,rd,ra,rcode;$/;"	m	struct:resolv_header	file:
+rdata	resolve.c	/^	unsigned char * rdata;$/;"	m	struct:resolv_answer	file:
+rdlength	resolve.c	/^	int rdlength;$/;"	m	struct:resolv_answer	file:
+rdoffset	resolve.c	/^	int rdoffset;$/;"	m	struct:resolv_answer	file:
+read	serial.h	/^	serial_read_func_t read;$/;"	m	struct:__anon4
+readPartitionList	usb_helper.c	/^static struct partitionEntry *readPartitionList(void)$/;"	f	file:
+read_buf	serial.h	/^	serial_read_buf_func_t read_buf;$/;"	m	struct:__anon4
+read_etc_hosts	resolve.c	/^struct hostent * read_etc_hosts(const char * name, int ip)$/;"	f
+read_phy_reg	zem500/netspeed.c	/^int read_phy_reg(unsigned char *dname, unsigned int reg_num, unsigned int *reg_val)$/;"	f
+read_reg	zem500/hv7131.c	/^static unsigned char read_reg(unsigned char reg)$/;"	f	file:
+reg	c4i2c.h	/^	unsigned char reg;$/;"	m	struct:__anon2
+reg	zem500/hv7131.c	/^	unsigned char reg;$/;"	m	struct:__anon7	file:
+res0	zem500/arca.h	/^   unsigned int   res0;$/;"	m	struct:jz_gpio
+res1	zem500/arca.h	/^   unsigned char  res1[3];$/;"	m	struct:jz_i2c
+res1	zem500/arca.h	/^   unsigned int   res1;$/;"	m	struct:jz_gpio
+res1	zem500/arca.h	/^   unsigned int   res1[3];$/;"	m	struct:jz_emi
+res2	zem500/arca.h	/^   unsigned char  res2[3];$/;"	m	struct:jz_i2c
+res2	zem500/arca.h	/^   unsigned int   res2;$/;"	m	struct:jz_gpio
+res2	zem500/arca.h	/^   unsigned int   res2[2];$/;"	m	struct:jz_emi
+res3	zem500/arca.h	/^   unsigned char  res3[3];$/;"	m	struct:jz_i2c
+res3	zem500/arca.h	/^   unsigned int   res3[2];$/;"	m	struct:jz_emi
+res4	zem500/arca.h	/^   unsigned char  res4[2];$/;"	m	struct:jz_i2c
+res4	zem500/arca.h	/^   unsigned int   res4[2];$/;"	m	struct:jz_emi
+res5	zem500/arca.h	/^   unsigned int   res5[4];$/;"	m	struct:jz_emi
+res6	zem500/arca.h	/^   unsigned short res6;$/;"	m	struct:jz_emi
+res7	zem500/arca.h	/^   unsigned short res7;$/;"	m	struct:jz_emi
+res8	zem500/arca.h	/^   unsigned short res8;$/;"	m	struct:jz_emi
+resolv_answer	resolve.c	/^struct resolv_answer {$/;"	s	file:
+resolv_header	resolve.c	/^struct resolv_header {$/;"	s	file:
+resolv_question	resolve.c	/^struct resolv_question {$/;"	s	file:
+searchdomain	resolve.c	/^char * searchdomain[MAX_SEARCH];$/;"	v
+searchdomains	resolve.c	/^int searchdomains;$/;"	v
+second	c4i2c.h	/^	U8 second;$/;"	m	struct:_APPTIME_
+sensor_close	zem500/hv7131.c	/^void sensor_close()$/;"	f
+sensor_fd	zem500/hv7131.c	/^static int sensor_fd=-1;$/;"	v	file:
+sensor_init	zem500/hv7131.c	/^static void sensor_init(int left, int top, int width, int height, int FPReaderOpt)$/;"	f	file:
+sensor_init_GC303	zem500/hv7131.c	/^static void sensor_init_GC303(int left, int top, int width, int height)$/;"	f	file:
+sensor_init_HV7131	zem500/hv7131.c	/^void sensor_init_HV7131(int left, int top,int width,int height)$/;"	f
+sensor_open	zem500/hv7131.c	/^int sensor_open(int left,int top, int width, int height, int FPReaderOpt)$/;"	f
+sensor_power_down	zem500/hv7131.c	/^static void sensor_power_down(void)$/;"	f	file:
+sensor_power_down_GC303	zem500/hv7131.c	/^void sensor_power_down_GC303(void)$/;"	f
+sensor_power_on	zem500/hv7131.c	/^static void sensor_power_on(void)$/;"	f	file:
+sensor_power_on_GC303	zem500/hv7131.c	/^void sensor_power_on_GC303(void)$/;"	f
+sensor_set_addr	zem500/hv7131.c	/^int sensor_set_addr(unsigned int addr)$/;"	f
+sensor_set_clk	zem500/hv7131.c	/^int sensor_set_clk(unsigned int clk)$/;"	f
+serial_driver_t	serial.h	/^} serial_driver_t;$/;"	t	typeref:struct:__anon4
+serial_flush_input_func_t	serial.h	/^typedef int (*serial_flush_input_func_t)(void);$/;"	t
+serial_flush_output_func_t	serial.h	/^typedef int (*serial_flush_output_func_t)(void);$/;"	t
+serial_free_func_t	serial.h	/^typedef void (*serial_free_func_t)(void);$/;"	t
+serial_get_lsr_func_t	serial.h	/^typedef int (*serial_get_lsr_func_t)(void);$/;"	t
+serial_init_func_t	serial.h	/^typedef int (*serial_init_func_t)(int, int, int, int);$/;"	t
+serial_poll_func_t	serial.h	/^typedef int (*serial_poll_func_t)(void);$/;"	t
+serial_read_buf_func_t	serial.h	/^typedef int (*serial_read_buf_func_t)(unsigned char*,int);$/;"	t
+serial_read_func_t	serial.h	/^typedef int (*serial_read_func_t)(void);$/;"	t
+serial_tcdrain_func_t	serial.h	/^typedef int (*serial_tcdrain_func_t)(void);$/;"	t
+serial_write_buf_func_t	serial.h	/^typedef int (*serial_write_buf_func_t)(unsigned char*,int);$/;"	t
+serial_write_func_t	serial.h	/^typedef int (*serial_write_func_t)(int);$/;"	t
+set_BLANK_GC303	zem500/hv7131.c	/^int set_BLANK_GC303(int d3,int d4)$/;"	f
+set_BRGB_GC303	zem500/hv7131.c	/^int set_BRGB_GC303(int d1,int d2,int d3,int d4)$/;"	f
+set_PRGB_GC303	zem500/hv7131.c	/^int set_PRGB_GC303(int d1,int d2,int d3,int d4,int d5)$/;"	f
+set_blanking_time	zem500/hv7131.c	/^static void set_blanking_time(unsigned short hb_time, unsigned short vb_time)$/;"	f	file:
+set_img_param	zem500/cim.c	/^static void set_img_param(IMG_PARAM *img)$/;"	f	file:
+set_integration_time	zem500/hv7131.c	/^static void set_integration_time(void)$/;"	f	file:
+set_network_speed	zem500/netspeed.c	/^int set_network_speed(unsigned char *net_device, int net_speed)$/;"	f
+set_sensor_clock	zem500/hv7131.c	/^static void set_sensor_clock(int div)$/;"	f	file:
+set_window	zem500/hv7131.c	/^static void set_window(int l, int t, int w, int h)$/;"	f	file:
+set_window_GC303	zem500/hv7131.c	/^static void set_window_GC303(int l, int t, int w, int h)$/;"	f	file:
+siteCode	wiegand.h	/^	U32 siteCode;$/;"	m	struct:_WiegandData_
+st232	serial.c	/^serial_driver_t st232 = {$/;"	v
+str_dateandtime	c4i2c.c	/^char *str_dateandtime[] ={"year","month","weekday","day","hour","minute","second"};$/;"	v
+str_net_addr	netconfig.h	/^struct str_net_addr	\/\/ccc$/;"	s
+tc	resolve.c	/^	int qr,opcode,aa,tc,rd,ra,rcode;$/;"	m	struct:resolv_header	file:
+tcdrain	serial.h	/^	serial_tcdrain_func_t tcdrain;$/;"	m	struct:__anon4
+thread_count	timer.c	/^unsigned int thread_count = 0;$/;"	v
+trig	zem500/cim.c	/^        int trig;   \/* RXFIFO Trigger:$/;"	m	struct:cim_config	file:
+ttl	resolve.c	/^	int ttl;$/;"	m	struct:resolv_answer	file:
+ttl232	serial.c	/^serial_driver_t ttl232 = {$/;"	v
+u32	zem500/cim.c	/^typedef unsigned int u32;$/;"	t	file:
+usb232	serial.c	/^serial_driver_t usb232 = {$/;"	v
+usb_serial_flush_input	serial.c	/^static int usb_serial_flush_input(void)$/;"	f	file:
+usb_serial_flush_output	serial.c	/^static int usb_serial_flush_output(void)$/;"	f	file:
+usb_serial_free	serial.c	/^static void usb_serial_free(void)$/;"	f	file:
+usb_serial_get_lsr	serial.c	/^static int usb_serial_get_lsr(void)$/;"	f	file:
+usb_serial_init	serial.c	/^static int usb_serial_init(int BaudRate, int DataSize, int Parity, int FlowControl)$/;"	f	file:
+usb_serial_poll	serial.c	/^static int usb_serial_poll(void)$/;"	f	file:
+usb_serial_read	serial.c	/^static int usb_serial_read(void)$/;"	f	file:
+usb_serial_read_buf	serial.c	/^static int usb_serial_read_buf(unsigned char* Data,int Size)$/;"	f	file:
+usb_serial_tcdrain	serial.c	/^static int usb_serial_tcdrain(void)$/;"	f	file:
+usb_serial_write	serial.c	/^static int usb_serial_write(int c)$/;"	f	file:
+usb_serial_write_buf	serial.c	/^static int usb_serial_write_buf(unsigned char* Data,int Size)$/;"	f	file:
+val	c4i2c.h	/^	unsigned char val;$/;"	m	struct:__anon2
+val	zem500/hv7131.c	/^	unsigned char val;$/;"	m	struct:__anon7	file:
+vclk_div	zem500/hv7131.c	/^static unsigned int vclk_div = 2;          \/* VCLK = MCLK\/vclk_div: 2,4,8,16,32 *\/$/;"	v	file:
+vsp	zem500/cim.c	/^        int vsp; \/* VSYNC Polarity:0-rising edge is active,1-falling edge is active *\/$/;"	m	struct:cim_config	file:
+weekday	c4i2c.h	/^	U8 weekday;$/;"	m	struct:_APPTIME_
+wgCreateFmt	wiegand.c	/^TWiegandFmt *wgCreateFmt(char *fmtstr)$/;"	f
+wgDecode	wiegand.c	/^int wgDecode(TWiegandFmt *fmt, char *bits, TWiegandData *data)$/;"	f
+wgGetBit1Count	wiegand.c	/^U32 wgGetBit1Count(char *bits, char *fmt, char key)$/;"	f
+wgGetValue	wiegand.c	/^U32 wgGetValue(char *bits, char *fmt, char key)$/;"	f
+width	zem500/cim.c	/^        u32 width;      \/* width *\/$/;"	m	struct:__anon5	file:
+wiegandDecode	wiegand.c	/^int wiegandDecode(char *bitStr, unsigned char *data, U32 *manufactureCode, U32 *facilityCode, U32 *siteCode, U32 *cardNumber)$/;"	f
+wiegandKeyDecode	wiegand.c	/^int wiegandKeyDecode(unsigned char *data, int *key)$/;"	f
+write	serial.h	/^	serial_write_func_t write;$/;"	m	struct:__anon4
+write_buf	serial.h	/^	serial_write_buf_func_t write_buf;$/;"	m	struct:__anon4
+write_phy_reg	zem500/netspeed.c	/^int write_phy_reg(unsigned char *dname, unsigned int reg_num, unsigned int reg_val)$/;"	f
+write_reg	zem500/hv7131.c	/^static int write_reg(unsigned char reg, unsigned char val)$/;"	f	file:
+year	c4i2c.h	/^	U16 year;$/;"	m	struct:_APPTIME_

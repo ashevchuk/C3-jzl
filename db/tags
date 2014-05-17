@@ -1,0 +1,586 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Admin	flashdb.h	/^	U16 Admin;		\/\/2$/;"	m	struct:_OPLog_
+AdminCnt	flashdb.c	/^	AdminCnt, PwdCnt,$/;"	m	struct:_FSizes_	file:
+AttLogCnt	flashdb.c	/^	AttLogCnt, AttLogFree,$/;"	m	struct:_FSizes_	file:
+AttLogFree	flashdb.c	/^	AttLogCnt, AttLogFree,$/;"	m	struct:_FSizes_	file:
+AttLogSize2	flashdb.c	49;"	d	file:
+BaseTime	flashdb.c	/^time_t BaseTime=0;$/;"	v
+CMD_CONTROL	flashdb.h	/^	CMD_CONTROL$/;"	e	enum:KEEPOPEN_TYPE
+COMMCONTROL	flashdb.h	/^	COMMCONTROL,$/;"	e	enum:_OPENLOCKCAUSE
+Card	flashdb.h	/^	U8 Card[5];		\/\/卡号码，用于存储对应的ID卡的号码$/;"	m	struct:_User_
+CardGroup	flashdb.h	/^TC3Cardgroup CardGroup[5];$/;"	m	struct:_muticardopendoor_
+Content	flashdb.h	/^	BYTE Content[MAX_SMS_CONTENT_SIZE+1];   \/\/短消息内容$/;"	m	struct:_SMS_
+ContentType	flashdb.h	/^	int ContentType;$/;"	m	struct:_SearchHandle
+ContentType	flashdb.h	/^	int ContentType;$/;"	m	struct:_fdoffset_
+CopyTableToMem	flashdb.c	/^void CopyTableToMem(PSearchHandle sh,BYTE *buf,int *len)$/;"	f
+CurAttLogCount	flashdb.h	/^U32 CurAttLogCount;$/;"	v
+CurGuarderEventLogCount	flashdb.h	/^U32 CurGuarderEventLogCount;$/;"	v
+CurGuarderEventLogCount2	flashdb.h	/^U32 CurGuarderEventLogCount2;$/;"	v
+CustState	flashdb.h	/^	U16 CustState;$/;"	m	struct:_CustState_
+DOORKEEPOPEN	flashdb.h	/^	DOORKEEPOPEN,$/;"	e	enum:_OPENLOCKCAUSE
+DOORSETKEEPOPEN	flashdb.h	/^	DOORSETKEEPOPEN,$/;"	e	enum:KEEPOPEN_TYPE
+DURESSFINGERTAG	flashdb.h	274;"	d
+Data	flashdb.h	/^	char Data[RTLOGDATASIZE];$/;"	m	struct:_RTLog_
+DeleteDataInSector	flash.c	/^int DeleteDataInSector(U32 Addr, U32 size)$/;"	f
+DoorLockOpenTimeOver	flashdb.h	/^	TC3doorOpenTimeOver  DoorLockOpenTimeOver[4];\/\/门打开超时判断$/;"	m	struct:_POLLCARD_
+DoorLockState	flashdb.h	/^	U32 DoorLockState;\/\/门锁状态  \/\/0为无门磁状态，1为关，2为开 $/;"	m	struct:_dooropentimeover_
+DoorOpenCause	flashdb.h	/^	U32 DoorOpenCause[4];\/\/门打开原因，刷卡1，门常开2，首卡常开3,远程通迅4，联动5，意外为 0$/;"	m	struct:_POLLCARD_
+Dooropentime	flashdb.h	/^	U32  Dooropentime;\/\/门打开计时$/;"	m	struct:_dooropentimeover_
+Dooropentimelimit	flashdb.h	/^	U32  Dooropentimelimit;\/\/门打开限时时间 来自于goption$/;"	m	struct:_dooropentimeover_
+EVENT_ANTIBACK_ERROR	flashdb.h	/^	EVENT_ANTIBACK_ERROR, 		\/\/返潜回		$/;"	e	enum:__EVENT_STYPE
+EVENT_ANTISTRIPALARM	flashdb.h	/^	EVENT_ANTISTRIPALARM,		\/\/防拆报警$/;"	e	enum:__EVENT_STYPE
+EVENT_AUXIN_CLOSE	flashdb.h	/^	EVENT_AUXIN_CLOSE,	\/\/扩展输入口关	$/;"	e	enum:__EVENT_STYPE
+EVENT_AUXIN_OPEN	flashdb.h	/^	EVENT_AUXIN_OPEN,		\/\/扩展输入口开	$/;"	e	enum:__EVENT_STYPE
+EVENT_BUTTONOPENDOOR	flashdb.h	/^	EVENT_BUTTONOPENDOOR,	\/\/按键开门	$/;"	e	enum:__EVENT_STYPE
+EVENT_CARD_NOTVALID_TIME	flashdb.h	/^	EVENT_CARD_NOTVALID_TIME,	\/\/卡过了有效期 $/;"	e	enum:__EVENT_STYPE
+EVENT_DOORCLOSE	flashdb.h	/^	EVENT_DOORCLOSE,	\/\/(门关闭)$/;"	e	enum:__EVENT_STYPE
+EVENT_DOORCONTACTOVERTIME	flashdb.h	/^	EVENT_DOORCONTACTOVERTIME,	\/\/  门磁超时报警    $/;"	e	enum:__EVENT_STYPE
+EVENT_DOORKEEPOPENACTIVED_OK	flashdb.h	/^	EVENT_DOORKEEPOPENACTIVED_OK,	\/\/门常开时段到了，开始激活,并启动开门$/;"	e	enum:__EVENT_STYPE
+EVENT_DOORKEEPOPEN_OK	flashdb.h	/^	EVENT_DOORKEEPOPEN_OK = 1,	\/\/门常开时段刷卡记录$/;"	e	enum:__EVENT_STYPE
+EVENT_DOOROPEN	flashdb.h	/^	EVENT_DOOROPEN= 200,	\/\/(门打开)$/;"	e	enum:__EVENT_STYPE
+EVENT_DOORSLEEP_ERROR	flashdb.h	/^	EVENT_DOORSLEEP_ERROR,		\/\/门非激活时间段$/;"	e	enum:__EVENT_STYPE
+EVENT_DOORSTATUS	flashdb.h	/^	EVENT_DOORSTATUS =255	\/\/门状态 		$/;"	e	enum:__EVENT_STYPE
+EVENT_FIRSTCARD_OK	flashdb.h	/^	EVENT_FIRSTCARD_OK,		\/\/首卡激活常开时段刷卡记录$/;"	e	enum:__EVENT_STYPE
+EVENT_FORCEALARM	flashdb.h	/^	EVENT_FORCEALARM,		\/\/协迫密码开门报警 $/;"	e	enum:__EVENT_STYPE
+EVENT_ILLEGALCARD	flashdb.h	/^	EVENT_ILLEGALCARD = 100,	\/\/非法卡，即用户表中无此卡  $/;"	e	enum:__EVENT_STYPE
+EVENT_ILLEGALTIME_ERROR	flashdb.h	/^	EVENT_ILLEGALTIME_ERROR,\/\/本时段无合法权限$/;"	e	enum:__EVENT_STYPE
+EVENT_INTERVAL_ERROR	flashdb.h	/^	EVENT_INTERVAL_ERROR = 20,\/\/刷卡间隔太短 $/;"	e	enum:__EVENT_STYPE
+EVENT_LINKCONTROL	flashdb.h	/^	EVENT_LINKCONTROL,	\/\/联动事件类型$/;"	e	enum:__EVENT_STYPE
+EVENT_MUTICARD_OK	flashdb.h	/^	EVENT_MUTICARD_OK,	\/\/多卡开门正常开门$/;"	e	enum:__EVENT_STYPE
+EVENT_MUTILOCKLINGAGE_ERROR	flashdb.h	/^	EVENT_MUTILOCKLINGAGE_ERROR, 		\/\/双门互锁没通过$/;"	e	enum:__EVENT_STYPE
+EVENT_NORIGHT_ERROR	flashdb.h	/^	EVENT_NORIGHT_ERROR,\/\/本时段此门无权限$/;"	e	enum:__EVENT_STYPE
+EVENT_OK	flashdb.h	/^	EVENT_OK = 0,					\/\/正常刷卡开门$/;"	e	enum:__EVENT_STYPE
+EVENT_SUPPERPASSWORD_OK	flashdb.h	/^	EVENT_SUPPERPASSWORD_OK,	\/\/超级密码开门$/;"	e	enum:__EVENT_STYPE
+EVENT_UNEXPECTED_DOOROPEN	flashdb.h	/^	EVENT_UNEXPECTED_DOOROPEN,	\/\/门意外被打开 $/;"	e	enum:__EVENT_STYPE
+EventType	flashdb.h	/^	BYTE EventType;\/\/触发事件索引$/;"	m	struct:_3InOutFunDefine_
+EventType	flashdb.h	/^	U16 EventType;	$/;"	m	struct:_RTLog_
+FCT_ALL	flashdb.h	55;"	d
+FCT_ATTLOG	flashdb.h	33;"	d
+FCT_C3CARDAUTHORIZE	flashdb.h	70;"	d
+FCT_C3FIRSTCARD	flashdb.h	73;"	d
+FCT_C3GUARDEREVENTLOG	flashdb.h	75;"	d
+FCT_C3GUARDEREVENTLOG_OFFSET	flashdb.h	78;"	d
+FCT_C3HOLIDAY	flashdb.h	71;"	d
+FCT_C3INOUTFUN	flashdb.h	76;"	d
+FCT_C3MUTICARDOPENDOOR	flashdb.h	74;"	d
+FCT_C3TIMEZONE	flashdb.h	72;"	d
+FCT_C3USER	flashdb.h	69;"	d
+FCT_CUSTATTLOG	flashdb.h	53;"	d
+FCT_CUSTATTSTATE	flashdb.h	63;"	d
+FCT_CUSTVOICE	flashdb.h	65;"	d
+FCT_EMPTY	flashdb.h	31;"	d
+FCT_EXTUSER	flashdb.h	57;"	d
+FCT_FINGERTMP	flashdb.h	35;"	d
+FCT_OPLOG	flashdb.h	37;"	d
+FCT_SMS	flashdb.h	41;"	d
+FCT_SYSOPTIONS	flashdb.h	45;"	d
+FCT_SYSTEM	flashdb.h	47;"	d
+FCT_SYSTEM_NONE	flashdb.h	49;"	d
+FCT_UDATA	flashdb.h	43;"	d
+FCT_USER	flashdb.h	39;"	d
+FCT_WEBPAGES	flashdb.h	51;"	d
+FCT_WorkCode	flashdb.h	59;"	d
+FDB_AddAcessEvenLog	flashdb.c	/^int FDB_AddAcessEvenLog(U32 cardno,U32 pin,BYTE verified,BYTE ReaderID,$/;"	f
+FDB_AddFdOffset	flashdb.c	/^int FDB_AddFdOffset(PFdOffset FdOffset)$/;"	f
+FDB_AddOPLog	flashdb.c	/^int FDB_AddOPLog(U16 Admin, BYTE OP, U16 Objs1, U16 Objs2, U16 Objs3, U16 Objs4)$/;"	f
+FDB_CheckIntegrate	flashdb.c	/^int FDB_CheckIntegrate(void)		\/\/进行数据库正确性、完整性检查$/;"	f
+FDB_ClearData	flashdb.c	/^int FDB_ClearData(int ContentType)$/;"	f
+FDB_ClearData2	flashdb.c	/^int FDB_ClearData2(int ContentType)$/;"	f
+FDB_ClearData_helper	flashdb.c	/^int FDB_ClearData_helper(int ContentType, int delTemp)$/;"	f
+FDB_ClearDuressTmp	flashdb.h	278;"	d
+FDB_ClrFdOffset	flashdb.c	/^int FDB_ClrFdOffset(void)$/;"	f
+FDB_ClrOPLog	flashdb.c	/^int FDB_ClrOPLog(void)$/;"	f
+FDB_CntC3EvenLog	flashdb.c	/^int FDB_CntC3EvenLog(void)$/;"	f
+FDB_CntData	flashdb.c	/^int FDB_CntData(int fct)$/;"	f
+FDB_CntFdOffset	flashdb.c	/^int FDB_CntFdOffset(void)$/;"	f
+FDB_CntOPLog	flashdb.c	/^int FDB_CntOPLog(void)$/;"	f
+FDB_DelOldC3GuarderEventLog	flashdb.c	/^int FDB_DelOldC3GuarderEventLog(int delCount)$/;"	f
+FDB_ERROR_DATA	flashdb.h	91;"	d
+FDB_ERROR_IO	flashdb.h	88;"	d
+FDB_ERROR_NODATA	flashdb.h	89;"	d
+FDB_ERROR_NOSPACE	flashdb.h	90;"	d
+FDB_ERROR_NOTINIT	flashdb.h	86;"	d
+FDB_ERROR_OP	flashdb.h	87;"	d
+FDB_FID_EXISTS	flashdb.h	96;"	d
+FDB_ForAllData	flashdb.c	/^int FDB_ForAllData(int ContentType, ForARecFun fun, int MaxRecCount, void *param)$/;"	f
+FDB_ForDataFromCur	flashdb.c	/^int FDB_ForDataFromCur(int ContentType, ForARecFun fun, int MaxRecCount, void *param)$/;"	f
+FDB_ForDataFun	flashdb.c	/^int FDB_ForDataFun(int ContentType, int fromFirst, ForARecFun fun, int MaxRecCount, void *param)$/;"	f
+FDB_ForData_C3	flashdb.c	/^int FDB_ForData_C3(int ContentType, off_t fdOffset,ForARecFun fun, int MaxRecCount, void *param)$/;"	f
+FDB_FreeDBs	flashdb.c	/^void FDB_FreeDBs(void)$/;"	f
+FDB_GetC3UserByCard	flashdb.c	/^int FDB_GetC3UserByCard(int *card, PC3User user)$/;"	f
+FDB_GetFdOffset	flashdb.c	/^PFdOffset FDB_GetFdOffset(int ContentType, PFdOffset FdOffset)$/;"	f
+FDB_GetSizes	flashdb.c	/^int FDB_GetSizes(char* Sizes)$/;"	f
+FDB_GetTimezone	flashdb.c	/^int FDB_GetTimezone(int timzoneid,TTime time,PC3Timeperiod Timeperiod)$/;"	f
+FDB_GetcardauthorizeInfo2	flashdb.c	/^int FDB_GetcardauthorizeInfo2(int pin,int DoorID,TTime time)$/;"	f
+FDB_Getfirstcardopendoor	flashdb.c	/^int FDB_Getfirstcardopendoor(int pin,PC3Firstcardopendoor firstcardinfo)$/;"	f
+FDB_GetholidayInfo	flashdb.c	/^int FDB_GetholidayInfo(TTime time,int *holidaytype)$/;"	f
+FDB_InitDBs	flashdb.c	/^int FDB_InitDBs(BOOL OpenSign)$/;"	f
+FDB_OK	flashdb.h	85;"	d
+FDB_OVER_FLIMIT	flashdb.h	93;"	d
+FDB_OVER_UFLIMIT	flashdb.h	94;"	d
+FDB_OVER_ULIMIT	flashdb.h	95;"	d
+FDB_SetDuressTmp	flashdb.h	277;"	d
+FIRSTCARD	flashdb.h	/^	FIRSTCARD,$/;"	e	enum:KEEPOPEN_TYPE
+FIRSTCARDCAUSE	flashdb.h	/^	FIRSTCARDCAUSE,$/;"	e	enum:_OPENLOCKCAUSE
+FLASH_BOTTOM_BOOT	flash.h	24;"	d
+FLASH_DEVICECODE_WAIT_TIME	flash.c	23;"	d	file:
+FLASH_RESET_WAIT_TIME	flash.c	22;"	d	file:
+FLASH_SECTOR_COUNT	flash.h	16;"	d
+FLASH_SECTOR_ERASE_LOOP_TIMES	flash.c	27;"	d	file:
+FLASH_SECTOR_ERASE_LOOP_WAIT_TIME	flash.c	26;"	d	file:
+FLASH_SECTOR_ERASE_TRY_TIMES	flash.c	28;"	d	file:
+FLASH_SECTOR_ERASE_WAIT_TIME	flash.c	25;"	d	file:
+FLASH_SECTOR_WRITE_LOOP_TIMES	flash.c	32;"	d	file:
+FLASH_SECTOR_WRITE_LOOP_WAIT_TIME	flash.c	31;"	d	file:
+FLASH_SECTOR_WRITE_TRY_TIMES	flash.c	33;"	d	file:
+FLASH_SECTOR_WRITE_WAIT_TIME	flash.c	30;"	d	file:
+FLASH_TOP_BOOT	flash.h	23;"	d
+FREE_FLASH_COUNT	flash.h	20;"	d
+FREE_FLASH_START	flash.h	21;"	d
+FingerID	flashdb.h	/^	BYTE FingerID;$/;"	m	struct:_Template_
+FingerID	flashdb.h	/^	U8 FingerID;$/;"	m	struct:_FingerS_
+FlashBaseAddr	flash.h	/^REG16* FlashBaseAddr;	\/\/FLASH MEMORY START ADDRESS$/;"	v
+FlashReadBuffer	flash.c	/^int FlashReadBuffer(U32 Addr, void *Buffer, U32 Size)$/;"	f
+FlashReset	flash.c	/^void FlashReset(void)$/;"	f
+FlashSaveBuffer	flash.c	/^int FlashSaveBuffer(U32 Addr, void *Buffer, U32 Size)$/;"	f
+FlashSectorErase	flash.c	/^int FlashSectorErase(U32 Addr)$/;"	f
+FlashSectorEraseByIndex	flash.c	/^int FlashSectorEraseByIndex(int i)$/;"	f
+FlashSectorSizes	flash.h	/^U32 FlashSectorSizes[FLASH_SECTOR_COUNT];$/;"	v
+FlashWriteWord	flash.c	/^int FlashWriteWord(U32 Addr, U16 Data)$/;"	f
+ForARecFun	flashdb.h	/^typedef int (*ForARecFun)(void *rec, int index, void *param);$/;"	t
+GetCurFdrPos	flashdb.c	/^off_t GetCurFdrPos(int fd)$/;"	f
+GetCurrFdOffset	flashdb.c	/^off_t GetCurrFdOffset(int ContentType)$/;"	f
+GetDataInfo	flashdb.c	/^int GetDataInfo(int ContentType, int StatType, int Value)$/;"	f
+GetEndFdOffset	flashdb.c	/^off_t GetEndFdOffset(int ContentType)$/;"	f
+GetEndFdrPos	flashdb.c	/^off_t GetEndFdrPos(int fd)$/;"	f
+GetFlashID	flash.c	/^int GetFlashID(void)		$/;"	f
+GetFlashSectorIndex	flash.c	/^int GetFlashSectorIndex(U32 Address)$/;"	f
+GetFlashStartAddress	flash.c	/^U32 GetFlashStartAddress(int SecoterIndex)$/;"	f
+GetTimefromtimezone	flashdb.c	/^int	GetTimefromtimezone(int timezoneID,TTime currtime, int *starttime,int *endtime)	$/;"	f
+Group	flashdb.h	/^	U8 Group;		\/\/用户所属的分组$/;"	m	struct:_User_
+Group	flashdb.h	/^	U8 Group;$/;"	m	struct:_GroupUserRec_
+ID	flashdb.h	/^	U16 ID; 		\/\/数据内容标识 0表示记录已经无效}$/;"	m	struct:_SMS_
+ISADMIN	flashdb.h	179;"	d
+ISDURESSFP	flashdb.h	275;"	d
+ISINVALIDUSER	flashdb.h	190;"	d
+Identity	flashdb.h	/^	char Identity[10];$/;"	m	struct:_CustVoice_
+Identity	flashdb.h	/^	short Identity;$/;"	m	struct:_CustState_
+InAddr	flashdb.h	/^	BYTE InAddr;      \/\/触发事件位置   即门ID或辅佐输入的ID  1~4    0为任意位置$/;"	m	struct:_3InOutFunDefine_
+KEEPOPEN_TYPE	flashdb.h	/^enum KEEPOPEN_TYPE$/;"	g
+LINKCON	flashdb.h	/^	LINKCON		$/;"	e	enum:_OPENLOCKCAUSE
+LOG_READ_ALL	flashdb.h	518;"	d
+LOG_READ_NONE	flashdb.h	519;"	d
+LogIndex	flashdb.h	/^	U32 LogIndex;\/\/当前取的实时记录索引，必须小于等于Logcount$/;"	m	struct:_OVERSEERTLog_
+LogReadIndex	flashdb.h	/^	U32 LogReadIndex;\/\/读取记录指针$/;"	m	struct:_OVERSEERTLog_
+LogWriteIndex	flashdb.h	/^	U32 LogWriteIndex;\/\/保存记录指针$/;"	m	struct:_OVERSEERTLog_
+Logcount	flashdb.h	/^	U32 Logcount;\/\/产生的实时记录条数$/;"	m	struct:_OVERSEERTLog_
+MAXNAMELENGTH	flashdb.h	197;"	d
+MAXRTLOGCOUNT	flashdb.h	786;"	d
+MAXTEMPLATESIZE	flashdb.h	192;"	d
+MAXVALIDTMPSIZE	flashdb.h	193;"	d
+MAX_OPLOG_COUNT	flashdb.h	369;"	d
+MAX_PIN	flashdb.h	82;"	d
+MAX_PIN2	flashdb.h	83;"	d
+MAX_SMS_CONTENT_SIZE	flashdb.h	397;"	d
+MAX_SMS_COUNT	flashdb.h	398;"	d
+MAX_USER_FINGER_COUNT	flashdb.h	29;"	d
+MAX_WorkCode_COUNT	flashdb.h	409;"	d
+MutiCardTimeCount	flashdb.h	/^int MutiCardTimeCount;\/\/多卡计时	$/;"	m	struct:_muticardopendoor_
+NOCAUSE	flashdb.h	/^	NOCAUSE,$/;"	e	enum:_OPENLOCKCAUSE
+NO_LIMIT	flashdb.h	765;"	d
+NO_REASON	flashdb.h	/^	NO_REASON = 0, \/\/0.没原因 1.首卡，2.门设置常开 3.远程命令$/;"	e	enum:KEEPOPEN_TYPE
+Name	flashdb.h	/^	char Name[20];$/;"	m	struct:_CustVoice_
+Name	flashdb.h	/^	char Name[MAXNAMELENGTH];$/;"	m	struct:_User_
+Next	flashdb.h	/^	PRTLogNode Next;$/;"	m	struct:TRTLogNode
+OP	flashdb.h	/^	U16 OP;		\/\/2$/;"	m	struct:_OPLog_
+OP_ACC	flashdb.h	357;"	d
+OP_ACC_GRP	flashdb.h	354;"	d
+OP_ACC_TZ	flashdb.h	356;"	d
+OP_ACC_USER	flashdb.h	355;"	d
+OP_ALARM	flashdb.h	332;"	d
+OP_ALARM_VERIFY	flashdb.h	331;"	d
+OP_ANTIPASSBACK	flashdb.h	363;"	d
+OP_CHG_FP	flashdb.h	360;"	d
+OP_CHG_OPTION	flashdb.h	334;"	d
+OP_CLEAR_ADMIN	flashdb.h	353;"	d
+OP_CLEAR_DATA	flashdb.h	342;"	d
+OP_CLEAR_LOG	flashdb.h	352;"	d
+OP_DEL_FP	flashdb.h	339;"	d
+OP_DEL_PWD	flashdb.h	340;"	d
+OP_DEL_RFCARD	flashdb.h	341;"	d
+OP_DEL_USER	flashdb.h	338;"	d
+OP_DURESS	flashdb.h	361;"	d
+OP_ENROLL_FP	flashdb.h	335;"	d
+OP_ENROLL_PWD	flashdb.h	336;"	d
+OP_ENROLL_RFCARD	flashdb.h	337;"	d
+OP_ENROLL_USER	flashdb.h	359;"	d
+OP_MENU	flashdb.h	333;"	d
+OP_MF_CLEAR	flashdb.h	347;"	d
+OP_MF_CREATE	flashdb.h	343;"	d
+OP_MF_DUMP	flashdb.h	349;"	d
+OP_MF_ENROLL	flashdb.h	344;"	d
+OP_MF_MOVE	flashdb.h	348;"	d
+OP_MF_REG	flashdb.h	345;"	d
+OP_MF_UNREG	flashdb.h	346;"	d
+OP_POWER_OFF	flashdb.h	330;"	d
+OP_POWER_ON	flashdb.h	329;"	d
+OP_RES_OPTION	flashdb.h	351;"	d
+OP_SET_TIME	flashdb.h	350;"	d
+OP_UNLOCK	flashdb.h	358;"	d
+OP_VERIFYFAILED	flashdb.h	362;"	d
+OffSet	flashdb.h	/^	U32 OffSet;$/;"	m	struct:_FingerS_
+OpLogCnt	flashdb.c	/^	OpLogCnt, OpLogFree,$/;"	m	struct:_FSizes_	file:
+OpLogFree	flashdb.c	/^	OpLogCnt, OpLogFree,$/;"	m	struct:_FSizes_	file:
+OpSign	flashdb.h	/^	U8 OpSign;$/;"	m	struct:_FingerS_
+OpSign	flashdb.h	/^	U8 OpSign;$/;"	m	struct:_UserS_
+OutAddr	flashdb.h	/^	BYTE OutAddr;	\/\/输出动作位置 目前c3_400\/c4门锁为1~4, 辅助输出为1~4  $/;"	m	struct:_3InOutFunDefine_
+OutTime	flashdb.h	/^	BYTE OutTime;	\/\/输出动作时间 0关闭，1~254打开n秒，255常开$/;"	m	struct:_3InOutFunDefine_
+OutType	flashdb.h	/^	BYTE OutType;	\/\/输出类型  0为门锁，1为辅助输出$/;"	m	struct:_3InOutFunDefine_
+Oversee_RTLog	flashdb.h	/^TOverseeRTLog Oversee_RTLog;$/;"	v
+PAlarmRec	flashdb.h	/^}TAlarmRec, *PAlarmRec;$/;"	t	typeref:struct:_AlarmRec_
+PAttLog	flashdb.h	/^}TAttLog, *PAttLog;$/;"	t	typeref:struct:_AttLog_
+PC3AcessLog	flashdb.h	/^}GCC_PACKED TC3AcessLog,*PC3AcessLog;$/;"	t	typeref:struct:_C3AcessLog_
+PC3Firstcardopendoor	flashdb.h	/^}GCC_PACKED TC3Firstcardopendoor, *PC3Firstcardopendoor;$/;"	t	typeref:struct:_firstcardopendoor_
+PC3Holiday	flashdb.h	/^}GCC_PACKED TC3Holiday, *PC3Holiday;$/;"	t	typeref:struct:_holiday_
+PC3InOutFunDefine	flashdb.h	/^}GCC_PACKED TC3InOutFunDefine,*PC3InOutFunDefine;$/;"	t	typeref:struct:_3InOutFunDefine_
+PC3Inputpassword	flashdb.h	/^}GCC_PACKED TC3Inputpassword,*PC3Inputpassword;$/;"	t	typeref:struct:_inputpassword_
+PC3Muticardassemble	flashdb.h	/^}GCC_PACKED TC3Muticardassemble,*PC3Muticardassemble;$/;"	t	typeref:struct:_muticardassemble_
+PC3Muticardopendoor	flashdb.h	/^}GCC_PACKED TC3Muticardopendoor,*PC3Muticardopendoor;$/;"	t	typeref:struct:_muticardopendoor_
+PC3Timeperiod	flashdb.h	/^}GCC_PACKED TC3Timeperiod,*PC3Timeperiod;$/;"	t	typeref:struct:_Threetimeperiod_
+PC3Timezone	flashdb.h	/^}GCC_PACKED TC3Timezone,*PC3Timezone;$/;"	t	typeref:struct:_timezone_
+PC3User	flashdb.h	/^}GCC_PACKED TC3User, *PC3User;$/;"	t	typeref:struct:_C3User_
+PC3authorize	flashdb.h	/^}GCC_PACKED TC3authorize, *PC3authorize;$/;"	t	typeref:struct:_cardauthorize_
+PC3doorkeepOpen	flashdb.h	/^}GCC_PACKED TC3doorkeepOpen,*PC3doorkeepOpen;$/;"	t	typeref:struct:_doorkeepOpen_
+PCustState	flashdb.h	/^} TCustState, *PCustState;$/;"	t	typeref:struct:_CustState_
+PCustVoice	flashdb.h	/^} TCustVoice, *PCustVoice;$/;"	t	typeref:struct:_CustVoice_
+PExtUser	flashdb.h	/^}GCC_PACKED TExtUser, *PExtUser;$/;"	t	typeref:struct:_ExtUser_
+PExtendAttLog	flashdb.h	/^}GCC_PACKED TExtendAttLog, *PExtendAttLog;$/;"	t	typeref:struct:_ExtendAttLog_
+PFSizes	flashdb.c	/^}GCC_PACKED TFSizes, *PFSizes;$/;"	t	typeref:struct:_FSizes_	file:
+PFdOffset	flashdb.h	/^}GCC_PACKED TFdOffset,*PFdOffset;$/;"	t	typeref:struct:_fdoffset_
+PFilterRec	flashdb.h	/^}TFilterRec, *PFilterRec;$/;"	t	typeref:struct:_FilterRec_
+PFingerS	flashdb.h	/^}GCC_PACKED TFingerS, *PFingerS;$/;"	t	typeref:struct:_FingerS_
+PGroupUserRec	flashdb.h	/^}TGroupUserRec, *PGroupUserRec;$/;"	t	typeref:struct:_GroupUserRec_
+PIN	flashdb.h	/^	U16 PIN;        \/\/０表示无效记录$/;"	m	struct:_UData_
+PIN	flashdb.h	/^	U16 PIN;$/;"	m	struct:_AttLog_
+PIN	flashdb.h	/^	U16 PIN;$/;"	m	struct:_ExtUser_
+PIN	flashdb.h	/^	U16 PIN;$/;"	m	struct:_FilterRec_
+PIN	flashdb.h	/^	U16 PIN;$/;"	m	struct:_FingerS_
+PIN	flashdb.h	/^	U16 PIN;$/;"	m	struct:_GroupUserRec_
+PIN	flashdb.h	/^	U16 PIN;$/;"	m	struct:_Template_
+PIN	flashdb.h	/^	U16 PIN;$/;"	m	struct:_User_
+PIN	flashdb.h	/^	U32  PIN;\/\/用户识别号$/;"	m	struct:_C3User_
+PIN	flashdb.h	/^	U32  PIN;\/\/用户识别号$/;"	m	struct:_cardgroup_
+PIN	flashdb.h	/^	U32 PIN;$/;"	m	struct:_AlarmRec_
+PIN	flashdb.h	/^	U32 PIN;$/;"	m	struct:_ExtendAttLog_
+PIN2	flashdb.h	/^	U32 PIN2;		\/\/32位宽的用户第二识别号$/;"	m	struct:_User_
+PIN2	flashdb.h	/^	U32 PIN2;$/;"	m	struct:_FilterRec_
+PIN_WIDTH	flashdb.h	81;"	d
+POLLCARD	flashdb.h	/^	POLLCARD = 1,$/;"	e	enum:_OPENLOCKCAUSE
+POPLog	flashdb.h	/^}GCC_PACKED TOPLog, *POPLog;$/;"	t	typeref:struct:_OPLog_
+POverseeRTLog	flashdb.h	/^}GCC_PACKED TOverseeRTLog, *POverseeRTLog;$/;"	t	typeref:struct:_OVERSEERTLog_
+PRIVILLEGE0	flashdb.h	185;"	d
+PRIVILLEGE1	flashdb.h	186;"	d
+PRIVILLEGE2	flashdb.h	187;"	d
+PRIVILLEGE3	flashdb.h	188;"	d
+PRI_ATTLOG	flashdb.h	182;"	d
+PRI_ENROLL	flashdb.h	176;"	d
+PRI_INVALIDUSER	flashdb.h	174;"	d
+PRI_OPTIONS	flashdb.h	177;"	d
+PRI_SUPERVISOR	flashdb.h	178;"	d
+PRI_VALIDBIT	flashdb.h	175;"	d
+PRI_VALIDUSER	flashdb.h	173;"	d
+PRTLog	flashdb.h	/^} TRTLog, *PRTLog;$/;"	t	typeref:struct:_RTLog_
+PRTLogNode	flashdb.h	/^typedef struct TRTLogNode *PRTLogNode;$/;"	t	typeref:struct:TRTLogNode
+PSearchHandle	flashdb.h	/^}TSearchHandle, *PSearchHandle;$/;"	t	typeref:struct:_SearchHandle
+PSms	flashdb.h	/^}GCC_PACKED TSms, *PSms;    \/\/60 Bytes$/;"	t	typeref:struct:_SMS_
+PTemplate	flashdb.h	/^}GCC_PACKED TTemplate, *PTemplate;$/;"	t	typeref:struct:_Template_
+PUData	flashdb.h	/^}GCC_PACKED TUData, *PUData;  \/\/4Bytes$/;"	t	typeref:struct:_UData_
+PUser	flashdb.h	/^}GCC_PACKED TUser, *PUser;$/;"	t	typeref:struct:_User_
+PUserS	flashdb.h	/^}GCC_PACKED TUserS, *PUserS;$/;"	t	typeref:struct:_UserS_
+PWorkCode	flashdb.h	/^}GCC_PACKED TWorkCode,*PWorkCode;$/;"	t	typeref:struct:_WORKCODE_
+Password	flashdb.h	/^	char Password[5];$/;"	m	struct:_User_
+Ppollcard	flashdb.h	/^}GCC_PACKED Tpollcard, *Ppollcard;    \/\/$/;"	t	typeref:struct:_POLLCARD_
+Privilege	flashdb.h	/^	U8 Privilege;$/;"	m	struct:_User_
+PwdCnt	flashdb.c	/^	AdminCnt, PwdCnt,$/;"	m	struct:_FSizes_	file:
+RTLOGDATASIZE	flashdb.h	525;"	d
+RTLog	flashdb.h	/^	TC3AcessLog RTLog[MAXRTLOGCOUNT];$/;"	m	struct:_OVERSEERTLog_
+ResLog	flashdb.c	/^	ResTmp, ResUser, ResLog;$/;"	m	struct:_FSizes_	file:
+ResTmp	flashdb.c	/^	ResTmp, ResUser, ResLog;$/;"	m	struct:_FSizes_	file:
+ResUser	flashdb.c	/^	ResTmp, ResUser, ResLog;$/;"	m	struct:_FSizes_	file:
+Reserved	flashdb.h	/^	BYTE Reserved;	\/\/保留 以保证对齐$/;"	m	struct:_3InOutFunDefine_
+Reserved	flashdb.h	/^	U16 Reserved;$/;"	m	struct:_SMS_
+Reserver	flashdb.h	/^	U8  Reserver[2];$/;"	m	struct:_WORKCODE_
+STARTTIME_UNLIMITED	flashdb.h	405;"	d
+STAT_CNTADMIN	flashdb.h	23;"	d
+STAT_CNTADMINUSER	flashdb.h	22;"	d
+STAT_CNTPWDUSER	flashdb.h	24;"	d
+STAT_CNTTEMPLATE	flashdb.h	25;"	d
+STAT_COUNT	flashdb.h	20;"	d
+STAT_NEWVALIDLEN	flashdb.h	26;"	d
+STAT_VALIDLEN	flashdb.h	21;"	d
+STD_SECTOR_SIZE	flash.h	17;"	d
+SaveFdOffset	flashdb.c	/^int SaveFdOffset(int file_ID)$/;"	f
+SearchAndSave	flashdb.c	/^int SearchAndSave(int ContentType, char *buffer, U32 size)$/;"	f
+SearchEnd	flashdb.c	/^void SearchEnd(PSearchHandle sh)$/;"	f
+SearchFirst	flashdb.c	/^void SearchFirst(PSearchHandle sh)$/;"	f
+SearchNewFirst	flashdb.c	/^void SearchNewFirst(PSearchHandle sh)$/;"	f
+SearchNext	flashdb.c	/^BOOL SearchNext(PSearchHandle sh)$/;"	f
+SectorCnt	flashdb.c	/^	SectorCnt, SectorFree,$/;"	m	struct:_FSizes_	file:
+SectorFree	flashdb.c	/^	SectorCnt, SectorFree,$/;"	m	struct:_FSizes_	file:
+SelectFDFromConentType	flashdb.c	/^int SelectFDFromConentType(int ContentType)$/;"	f
+Size	flashdb.h	/^	U16 Size;$/;"	m	struct:_Template_
+SmsID	flashdb.h	/^	U16 SmsID;$/;"	m	struct:_UData_
+StartTime	flashdb.h	/^	U32 StartTime; 		\/\/起始时间$/;"	m	struct:_SMS_
+State	flashdb.h	/^	U8  State;\/\/两组反潜回 组1$/;"	m	struct:_AlarmRec_
+State2	flashdb.h	/^	U8  State2;$/;"	m	struct:_AlarmRec_
+StdLog	flashdb.c	/^	StdTmp, StdUser, StdLog,$/;"	m	struct:_FSizes_	file:
+StdTmp	flashdb.c	/^	StdTmp, StdUser, StdLog,$/;"	m	struct:_FSizes_	file:
+StdUser	flashdb.c	/^	StdTmp, StdUser, StdLog,$/;"	m	struct:_FSizes_	file:
+TAlarmRec	flashdb.h	/^}TAlarmRec, *PAlarmRec;$/;"	t	typeref:struct:_AlarmRec_
+TAttLog	flashdb.h	/^}TAttLog, *PAttLog;$/;"	t	typeref:struct:_AttLog_
+TC3AcessLog	flashdb.h	/^}GCC_PACKED TC3AcessLog,*PC3AcessLog;$/;"	t	typeref:struct:_C3AcessLog_
+TC3Cardandpassword	flashdb.h	/^}GCC_PACKED TC3Cardandpassword;$/;"	t	typeref:struct:_cardandpassword_
+TC3Cardgroup	flashdb.h	/^}GCC_PACKED TC3Cardgroup;$/;"	t	typeref:struct:_cardgroup_
+TC3Firstcardopendoor	flashdb.h	/^}GCC_PACKED TC3Firstcardopendoor, *PC3Firstcardopendoor;$/;"	t	typeref:struct:_firstcardopendoor_
+TC3Holiday	flashdb.h	/^}GCC_PACKED TC3Holiday, *PC3Holiday;$/;"	t	typeref:struct:_holiday_
+TC3InOutFunDefine	flashdb.h	/^}GCC_PACKED TC3InOutFunDefine,*PC3InOutFunDefine;$/;"	t	typeref:struct:_3InOutFunDefine_
+TC3Inputpassword	flashdb.h	/^}GCC_PACKED TC3Inputpassword,*PC3Inputpassword;$/;"	t	typeref:struct:_inputpassword_
+TC3Muticardassemble	flashdb.h	/^}GCC_PACKED TC3Muticardassemble,*PC3Muticardassemble;$/;"	t	typeref:struct:_muticardassemble_
+TC3Muticardopendoor	flashdb.h	/^}GCC_PACKED TC3Muticardopendoor,*PC3Muticardopendoor;$/;"	t	typeref:struct:_muticardopendoor_
+TC3Timeperiod	flashdb.h	/^}GCC_PACKED TC3Timeperiod,*PC3Timeperiod;$/;"	t	typeref:struct:_Threetimeperiod_
+TC3Timezone	flashdb.h	/^}GCC_PACKED TC3Timezone,*PC3Timezone;$/;"	t	typeref:struct:_timezone_
+TC3User	flashdb.h	/^}GCC_PACKED TC3User, *PC3User;$/;"	t	typeref:struct:_C3User_
+TC3authorize	flashdb.h	/^}GCC_PACKED TC3authorize, *PC3authorize;$/;"	t	typeref:struct:_cardauthorize_
+TC3doorOpenTimeOver	flashdb.h	/^}GCC_PACKED TC3doorOpenTimeOver;$/;"	t	typeref:struct:_dooropentimeover_
+TC3doorkeepOpen	flashdb.h	/^}GCC_PACKED TC3doorkeepOpen,*PC3doorkeepOpen;$/;"	t	typeref:struct:_doorkeepOpen_
+TC3machineinit	flashdb.h	/^}GCC_PACKED  TC3machineinit;$/;"	t	typeref:struct:_machine_init_
+TCatInfo	flashdb.c	/^}TCatInfo;$/;"	t	typeref:struct:__catInfo	file:
+TCustState	flashdb.h	/^} TCustState, *PCustState;$/;"	t	typeref:struct:_CustState_
+TCustVoice	flashdb.h	/^} TCustVoice, *PCustVoice;$/;"	t	typeref:struct:_CustVoice_
+TExtUser	flashdb.h	/^}GCC_PACKED TExtUser, *PExtUser;$/;"	t	typeref:struct:_ExtUser_
+TExtendAttLog	flashdb.h	/^}GCC_PACKED TExtendAttLog, *PExtendAttLog;$/;"	t	typeref:struct:_ExtendAttLog_
+TFSizes	flashdb.c	/^}GCC_PACKED TFSizes, *PFSizes;$/;"	t	typeref:struct:_FSizes_	file:
+TFdOffset	flashdb.h	/^}GCC_PACKED TFdOffset,*PFdOffset;$/;"	t	typeref:struct:_fdoffset_
+TFilterRec	flashdb.h	/^}TFilterRec, *PFilterRec;$/;"	t	typeref:struct:_FilterRec_
+TFingerS	flashdb.h	/^}GCC_PACKED TFingerS, *PFingerS;$/;"	t	typeref:struct:_FingerS_
+TGroupUserRec	flashdb.h	/^}TGroupUserRec, *PGroupUserRec;$/;"	t	typeref:struct:_GroupUserRec_
+TOPLog	flashdb.h	/^}GCC_PACKED TOPLog, *POPLog;$/;"	t	typeref:struct:_OPLog_
+TOverseeRTLog	flashdb.h	/^}GCC_PACKED TOverseeRTLog, *POverseeRTLog;$/;"	t	typeref:struct:_OVERSEERTLog_
+TRTLog	flashdb.h	/^} TRTLog, *PRTLog;$/;"	t	typeref:struct:_RTLog_
+TRTLogNode	flashdb.h	/^struct TRTLogNode{$/;"	s
+TSearchHandle	flashdb.h	/^}TSearchHandle, *PSearchHandle;$/;"	t	typeref:struct:_SearchHandle
+TSms	flashdb.h	/^}GCC_PACKED TSms, *PSms;    \/\/60 Bytes$/;"	t	typeref:struct:_SMS_
+TTemplate	flashdb.h	/^}GCC_PACKED TTemplate, *PTemplate;$/;"	t	typeref:struct:_Template_
+TUData	flashdb.h	/^}GCC_PACKED TUData, *PUData;  \/\/4Bytes$/;"	t	typeref:struct:_UData_
+TUser	flashdb.h	/^}GCC_PACKED TUser, *PUser;$/;"	t	typeref:struct:_User_
+TUserS	flashdb.h	/^}GCC_PACKED TUserS, *PUserS;$/;"	t	typeref:struct:_UserS_
+TWorkCode	flashdb.h	/^}GCC_PACKED TWorkCode,*PWorkCode;$/;"	t	typeref:struct:_WORKCODE_
+Tag	flashdb.h	/^	BYTE Tag;		\/\/类别$/;"	m	struct:_SMS_
+Template	flashdb.h	/^	BYTE Template[MAXTEMPLATESIZE]; \/\/maximize template length$/;"	m	struct:_Template_
+TimeZones	flashdb.h	/^	U16 TimeZones;		\/\/用户可用的时间段，位标志$/;"	m	struct:_User_
+TmpCnt	flashdb.c	/^	TmpCnt, TmpFree,$/;"	m	struct:_FSizes_	file:
+TmpFree	flashdb.c	/^	TmpCnt, TmpFree,$/;"	m	struct:_FSizes_	file:
+Total	flashdb.c	/^	int Total, TotalSector,$/;"	m	struct:_FSizes_	file:
+TotalSector	flashdb.c	/^	int Total, TotalSector,$/;"	m	struct:_FSizes_	file:
+Tpollcard	flashdb.h	/^}GCC_PACKED Tpollcard, *Ppollcard;    \/\/$/;"	t	typeref:struct:_POLLCARD_
+TruncFDAndSaveAs	flashdb.c	/^int TruncFDAndSaveAs(int fd, char *filename, char *buffer, int size)$/;"	f
+UDATA_TAG_ALL	flashdb.h	402;"	d
+UDATA_TAG_TEMP	flashdb.h	403;"	d
+UDATA_TAG_USERSMS	flashdb.h	401;"	d
+UseCustState	flashdb.h	/^	U16 UseCustState;$/;"	m	struct:_CustState_
+UseCustVoice	flashdb.h	/^	U16 UseCustVoice;$/;"	m	struct:_CustVoice_
+User	flashdb.h	/^	TUser User;$/;"	m	struct:_UserS_
+UserCnt	flashdb.c	/^	UserCnt, UserFree,$/;"	m	struct:_FSizes_	file:
+UserFree	flashdb.c	/^	UserCnt, UserFree,$/;"	m	struct:_FSizes_	file:
+Users	flashdb.h	/^	U16 Users[4];\/\/		\/\/2*4$/;"	m	struct:_OPLog_
+VALIDMINUTE_UNLIMITED	flashdb.h	406;"	d
+VS_FP	flashdb.h	/^	VS_FP,$/;"	e	enum:__VERIFY_STYLE
+VS_FP_AND_PW	flashdb.h	/^	VS_FP_AND_PW,$/;"	e	enum:__VERIFY_STYLE
+VS_FP_AND_PW_AND_RF	flashdb.h	/^	VS_FP_AND_PW_AND_RF,$/;"	e	enum:__VERIFY_STYLE
+VS_FP_AND_RF	flashdb.h	/^	VS_FP_AND_RF,$/;"	e	enum:__VERIFY_STYLE
+VS_FP_AND_RF_OR_PIN	flashdb.h	/^	VS_FP_AND_RF_OR_PIN,$/;"	e	enum:__VERIFY_STYLE
+VS_FP_OR_PW	flashdb.h	/^	VS_FP_OR_PW,$/;"	e	enum:__VERIFY_STYLE
+VS_FP_OR_PW_OR_RF	flashdb.h	/^	VS_FP_OR_PW_OR_RF=0,$/;"	e	enum:__VERIFY_STYLE
+VS_FP_OR_RF	flashdb.h	/^	VS_FP_OR_RF,$/;"	e	enum:__VERIFY_STYLE
+VS_NUM	flashdb.h	/^	VS_NUM=15,$/;"	e	enum:__VERIFY_STYLE
+VS_OTHER	flashdb.h	/^	VS_OTHER	$/;"	e	enum:__VERIFY_STYLE
+VS_PIN	flashdb.h	/^	VS_PIN,$/;"	e	enum:__VERIFY_STYLE
+VS_PIN_AND_FP	flashdb.h	/^	VS_PIN_AND_FP,$/;"	e	enum:__VERIFY_STYLE
+VS_PIN_AND_FP_AND_PW	flashdb.h	/^	VS_PIN_AND_FP_AND_PW,$/;"	e	enum:__VERIFY_STYLE
+VS_PW	flashdb.h	/^	VS_PW,$/;"	e	enum:__VERIFY_STYLE
+VS_PW_AND_RF	flashdb.h	/^	VS_PW_AND_RF,$/;"	e	enum:__VERIFY_STYLE
+VS_PW_OR_RF	flashdb.h	/^	VS_PW_OR_RF,$/;"	e	enum:__VERIFY_STYLE
+VS_RF	flashdb.h	/^	VS_RF,$/;"	e	enum:__VERIFY_STYLE
+Valid	flashdb.h	/^	BYTE Valid;$/;"	m	struct:_Template_
+ValidMinutes	flashdb.h	/^	U16 ValidMinutes; 	\/\/有效分钟数   ０＝永久$/;"	m	struct:_SMS_
+VerifyStyle	flashdb.h	/^	BYTE VerifyStyle;$/;"	m	struct:_ExtUser_
+WORKCODE	flashdb.h	/^	U32 WORKCODE;$/;"	m	struct:_WORKCODE_
+WORKID	flashdb.h	/^	U16 WORKID;$/;"	m	struct:_WORKCODE_
+_3InOutFunDefine_	flashdb.h	/^typedef struct _3InOutFunDefine_{$/;"	s
+_AlarmRec_	flashdb.h	/^typedef struct _AlarmRec_{$/;"	s
+_AttLog_	flashdb.h	/^typedef struct _AttLog_{$/;"	s
+_C3AcessLog_	flashdb.h	/^typedef struct _C3AcessLog_{$/;"	s
+_C3User_	flashdb.h	/^typedef struct _C3User_{$/;"	s
+_CustState_	flashdb.h	/^typedef struct _CustState_{$/;"	s
+_CustVoice_	flashdb.h	/^typedef struct _CustVoice_{$/;"	s
+_ExtUser_	flashdb.h	/^typedef struct _ExtUser_{$/;"	s
+_ExtendAttLog_	flashdb.h	/^typedef struct _ExtendAttLog_{$/;"	s
+_FLASHDB_H_	flashdb.h	12;"	d
+_FLASH_H_	flash.h	12;"	d
+_FSizes_	flashdb.c	/^typedef struct _FSizes_{  \/\/$/;"	s	file:
+_FilterRec_	flashdb.h	/^typedef struct _FilterRec_{$/;"	s
+_FingerS_	flashdb.h	/^typedef struct _FingerS_{$/;"	s
+_GroupUserRec_	flashdb.h	/^typedef struct _GroupUserRec_{$/;"	s
+_OPENLOCKCAUSE	flashdb.h	/^enum _OPENLOCKCAUSE$/;"	g
+_OPLog_	flashdb.h	/^typedef struct _OPLog_{$/;"	s
+_OVERSEERTLog_	flashdb.h	/^typedef struct _OVERSEERTLog_$/;"	s
+_POLLCARD_	flashdb.h	/^typedef struct _POLLCARD_{$/;"	s
+_RTLog_	flashdb.h	/^typedef struct _RTLog_{$/;"	s
+_SMS_	flashdb.h	/^typedef struct _SMS_{$/;"	s
+_SearchHandle	flashdb.h	/^typedef struct _SearchHandle{$/;"	s
+_Template_	flashdb.h	/^typedef struct _Template_{$/;"	s
+_Threetimeperiod_	flashdb.h	/^typedef struct _Threetimeperiod_{$/;"	s
+_UData_	flashdb.h	/^typedef struct _UData_{$/;"	s
+_UserS_	flashdb.h	/^typedef struct _UserS_{$/;"	s
+_User_	flashdb.h	/^typedef struct _User_{$/;"	s
+_WORKCODE_	flashdb.h	/^typedef struct _WORKCODE_{$/;"	s
+__EVENT_STYPE	flashdb.h	/^enum __EVENT_STYPE	$/;"	g
+__VERIFY_STYLE	flashdb.h	/^enum __VERIFY_STYLE$/;"	g
+__catInfo	flashdb.c	/^typedef struct __catInfo{$/;"	s	file:
+_cardandpassword_	flashdb.h	/^typedef struct _cardandpassword_{$/;"	s
+_cardauthorize_	flashdb.h	/^typedef struct _cardauthorize_{$/;"	s
+_cardgroup_	flashdb.h	/^typedef struct _cardgroup_{$/;"	s
+_doorkeepOpen_	flashdb.h	/^typedef struct _doorkeepOpen_{$/;"	s
+_dooropentimeover_	flashdb.h	/^typedef struct _dooropentimeover_{$/;"	s
+_fdoffset_	flashdb.h	/^typedef struct _fdoffset_$/;"	s
+_firstcardopendoor_	flashdb.h	/^typedef struct _firstcardopendoor_{$/;"	s
+_holiday_	flashdb.h	/^typedef struct _holiday_{$/;"	s
+_inputpassword_	flashdb.h	/^typedef struct _inputpassword_{$/;"	s
+_machine_init_	flashdb.h	/^typedef struct _machine_init_{$/;"	s
+_muticardassemble_	flashdb.h	/^typedef struct _muticardassemble_{$/;"	s
+_muticardopendoor_	flashdb.h	/^typedef struct _muticardopendoor_{$/;"	s
+_timezone_	flashdb.h	/^typedef struct _timezone_{$/;"	s
+authorizedoor	flashdb.h	/^	U32 authorizedoor;\/\/本时区id适用哪几个门，采用位映射方式 0x01 表示1号门，0x0f 表示全部4个门$/;"	m	struct:_cardauthorize_
+authorizetimezoneid	flashdb.h	/^	U32 authorizetimezoneid;\/\/4\/\/时区ID$/;"	m	struct:_cardauthorize_
+buffer	flashdb.c	/^	TBuffer *buffer;$/;"	m	struct:__catInfo	file:
+buffer	flashdb.h	/^	char *buffer;$/;"	m	struct:_SearchHandle
+bufferlen	flashdb.h	/^	int bufferlen;$/;"	m	struct:_SearchHandle
+c3MutiCardOpendoor	flashdb.h	/^	TC3Muticardopendoor c3MutiCardOpendoor[4];\/\/多卡开门组合$/;"	m	struct:_POLLCARD_
+c3cardandpasswordverify	flashdb.h	/^	TC3Cardandpassword c3cardandpasswordverify[8];\/\/卡密码双重难证$/;"	m	struct:_POLLCARD_
+c3cardauthorizeinfo	flashdb.h	/^	TC3authorize c3cardauthorizeinfo[8];$/;"	m	struct:_POLLCARD_
+c3doorkeepopen	flashdb.h	/^	TC3doorkeepOpen c3doorkeepopen[4];\/\/门常开控制参数$/;"	m	struct:_POLLCARD_
+c3doorpassword	flashdb.h	/^	TC3Inputpassword c3doorpassword[8];\/\/ 4个门对应的输入密码，作协迫密码，超级密码判断用	$/;"	m	struct:_POLLCARD_
+c3userinfo	flashdb.h	/^	TC3User c3userinfo[8];\/\/当前刷卡的卡号用户信息$/;"	m	struct:_POLLCARD_
+cardandpasswordsign	flashdb.h	/^	U32 cardandpasswordsign;\/\/判断记号$/;"	m	struct:_cardandpassword_
+cardno	flashdb.h	/^	U32 cardno;			\/\/  卡号$/;"	m	struct:_C3AcessLog_
+cardno	flashdb.h	/^	U32 cardno;\/\/卡号$/;"	m	struct:_C3User_
+cardno	flashdb.h	/^	U32 cardno;\/\/卡号$/;"	m	struct:_cardandpassword_
+change_count	flashdb.h	/^	U32 change_count;\/\/初始化码盘变化次数$/;"	m	struct:_machine_init_
+change_times	flashdb.h	/^	U32 change_times;\/\/初始化码盘时间$/;"	m	struct:_machine_init_
+checkfilestatus	flashdb.c	/^int checkfilestatus(const char* filename)$/;"	f
+currpos	flashdb.h	/^	off_t currpos;$/;"	m	struct:_fdoffset_
+datalen	flashdb.h	/^	int datalen;$/;"	m	struct:_SearchHandle
+doorID	flashdb.h	/^	BYTE doorID;			\/\/门ID$/;"	m	struct:_C3AcessLog_
+doorID	flashdb.h	/^	U32 doorID;$/;"	m	struct:_muticardassemble_
+doorID	flashdb.h	/^	U32 doorID;\/\/门ID$/;"	m	struct:_firstcardopendoor_
+end_time	flashdb.h	/^	U32 end_time;		\/\/失效启用时间$/;"	m	struct:_C3User_
+endtime	flashdb.h	/^	U32 endtime;	\/\/结束时间 $/;"	m	struct:_doorkeepOpen_
+even_type	flashdb.h	/^	BYTE even_type;		\/\/事件类型    见上面定义$/;"	m	struct:_C3AcessLog_
+fd	flashdb.h	/^	int fd;$/;"	m	struct:_SearchHandle
+fdC3CardAuthorize	flashdb.c	/^static int fdC3CardAuthorize = -1;$/;"	v	file:
+fdC3FirstCard	flashdb.c	/^static int fdC3FirstCard = -1;$/;"	v	file:
+fdC3GuarderEventLog	flashdb.c	/^int fdC3GuarderEventLog	= -1;$/;"	v
+fdC3Holiday	flashdb.c	/^static int fdC3Holiday = -1;$/;"	v	file:
+fdC3InOutFuntLog	flashdb.c	/^int fdC3InOutFuntLog = -1;$/;"	v
+fdC3MutiCardOpenDoor	flashdb.c	/^static int fdC3MutiCardOpenDoor = -1;$/;"	v	file:
+fdC3TimeZone	flashdb.c	/^static int fdC3TimeZone = -1;$/;"	v	file:
+fdC3TransactionOffset	flashdb.c	/^int fdC3TransactionOffset = -1;$/;"	v
+fdC3User	flashdb.c	/^int fdC3User = -1;$/;"	v
+fdOpLog	flashdb.c	/^static int fdOpLog=-1;$/;"	v	file:
+fdTransaction	flashdb.c	/^static int fdTransaction=-1;$/;"	v	file:
+fritime1	flashdb.h	/^	U32 fritime1;	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+fritime2	flashdb.h	/^	U32 fritime2;$/;"	m	struct:_timezone_
+fritime3	flashdb.h	/^	U32 fritime3;$/;"	m	struct:_timezone_
+gFdOffset	flashdb.c	/^static TFdOffset gFdOffset;$/;"	v	file:
+gFlash16	flash.h	/^REG16* gFlash16;	\/\/START ADDRESS FOR 2M BYTES OFFSET	$/;"	v
+group	flashdb.h	/^	U32 group;\/\/分组	$/;"	m	struct:_cardgroup_
+group	flashdb.h	/^	U32 group;\/\/分组$/;"	m	struct:_C3User_
+group	flashdb.h	/^	U32 group[5];\/\/组$/;"	m	struct:_muticardassemble_
+hol1time1	flashdb.h	/^	U32 hol1time1;\/\/假日1	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+hol1time2	flashdb.h	/^	U32 hol1time2;$/;"	m	struct:_timezone_
+hol2ime2	flashdb.h	/^	U32 hol2ime2;$/;"	m	struct:_timezone_
+hol2ime3	flashdb.h	/^	U32 hol2ime3;$/;"	m	struct:_timezone_
+hol2time1	flashdb.h	/^	U32 hol2time1;\/\/假日2	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+hol3time1	flashdb.h	/^	U32 hol3time1;\/\/假日3	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+hol3time2	flashdb.h	/^	U32 hol3time2;$/;"	m	struct:_timezone_
+hol3time3	flashdb.h	/^	U32 hol3time3;$/;"	m	struct:_timezone_
+holidayday	flashdb.h	/^	U32 holidayday;\/\/20100101表示2010年1月1日$/;"	m	struct:_holiday_
+holidaytype	flashdb.h	/^ 	U32 holidaytype;\/\/假日类型，只能为 1，2，3		$/;"	m	struct:_holiday_
+holt1ime3	flashdb.h	/^	U32 holt1ime3;$/;"	m	struct:_timezone_
+index	flashdb.h	/^	U16 index;$/;"	m	struct:_3InOutFunDefine_
+index	flashdb.h	/^	U32 index;$/;"	m	struct:_muticardassemble_
+inoutstate	flashdb.h	/^	BYTE inoutstate;		\/\/ 进出状态   进为0，出为1$/;"	m	struct:_C3AcessLog_
+keepOpenSign	flashdb.h	/^	U32 keepOpenSign;\/\/是否启用常开$/;"	m	struct:_doorkeepOpen_
+keepopenreason	flashdb.h	/^	U32  keepopenreason;\/\/启用常开的原因  \/\/0.没启用，1.首卡，2.门设置常开 3.远程命令$/;"	m	struct:_doorkeepOpen_
+keybuf	flashdb.h	/^	U32 keybuf[10];\/\/密码内容$/;"	m	struct:_inputpassword_
+keybufindex	flashdb.h	/^	U32 keybufindex;\/\/密码位索引$/;"	m	struct:_inputpassword_
+keybuftimeout	flashdb.h	/^	U32 keybuftimeout;\/\/输入密码计时$/;"	m	struct:_inputpassword_
+keyvalue	flashdb.h	/^	U32 keyvalue;\/\/转化为10进制值 $/;"	m	struct:_inputpassword_
+log	flashdb.h	/^	TRTLog log;$/;"	m	struct:TRTLogNode
+loop	flashdb.h	/^ 	U32 loop;		\/\/保留$/;"	m	struct:_holiday_
+machineintit	flashdb.h	/^	TC3machineinit machineintit;\/\/$/;"	m	struct:_POLLCARD_
+montime1	flashdb.h	/^	U32 montime1;	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+montime2	flashdb.h	/^	U32 montime2;$/;"	m	struct:_timezone_
+montime3	flashdb.h	/^	U32 montime3;$/;"	m	struct:_timezone_
+pSelectFDFromConentType	flashdb.c	/^int * pSelectFDFromConentType(int ContentType) \/******** Add For Web Server ********\/$/;"	f
+password	flashdb.h	/^	char password[6];\/\/4\/\/\/\/个人密码$/;"	m	struct:_C3User_
+password	flashdb.h	/^	char password[6];\/\/个人密码$/;"	m	struct:_cardandpassword_
+pin	flashdb.h	/^	U32 pin;				\/\/  pin号    $/;"	m	struct:_C3AcessLog_
+pin	flashdb.h	/^	U32 pin;\/\/$/;"	m	struct:_cardauthorize_
+pin	flashdb.h	/^	U32 pin;\/\/$/;"	m	struct:_firstcardopendoor_
+readfile	flashdb.c	/^int readfile(const char* filename,char *buf)$/;"	f
+reserved	flashdb.h	/^	BYTE reserved[2];$/;"	m	struct:_ExtendAttLog_
+reserved	flashdb.h	/^	U8 reserved[21];$/;"	m	struct:_ExtUser_
+resetBaseTime	flashdb.c	/^void resetBaseTime()$/;"	f
+sattime1	flashdb.h	/^	U32 sattime1;	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+sattime2	flashdb.h	/^	U32 sattime2;$/;"	m	struct:_timezone_
+sattime3	flashdb.h	/^	U32 sattime3;$/;"	m	struct:_timezone_
+start_time	flashdb.h	/^	U32 start_time;		\/\/开始有效时间 20100101表示2010年1-1$/;"	m	struct:_C3User_
+starttime	flashdb.h	/^	U32 starttime;\/\/ 有效开始时间 08:00  即为800$/;"	m	struct:_doorkeepOpen_
+status	flashdb.h	/^	BYTE status;$/;"	m	struct:_AttLog_
+status	flashdb.h	/^	BYTE status;$/;"	m	struct:_ExtendAttLog_
+status_now	flashdb.h	/^	U32 status_now;\/\/当前状态$/;"	m	struct:_machine_init_
+status_pre	flashdb.h	/^	U32 status_pre;\/\/上次状态$/;"	m	struct:_machine_init_
+suntime1	flashdb.h	/^	U32 suntime1;	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+suntime2	flashdb.h	/^	U32 suntime2;$/;"	m	struct:_timezone_
+suntime3	flashdb.h	/^	U32 suntime3;	$/;"	m	struct:_timezone_
+t	flashdb.c	/^	time_t t;$/;"	m	struct:__catInfo	file:
+thutime1	flashdb.h	/^	U32 thutime1;	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+thutime2	flashdb.h	/^	U32 thutime2;$/;"	m	struct:_timezone_
+thutime3	flashdb.h	/^	U32 thutime3;$/;"	m	struct:_timezone_
+time1	flashdb.h	/^	U32 time1;\/\/$/;"	m	struct:_Threetimeperiod_
+time2	flashdb.h	/^	U32 time2;\/\/$/;"	m	struct:_Threetimeperiod_
+time3	flashdb.h	/^	U32 time3;\/\/$/;"	m	struct:_Threetimeperiod_
+time_count	flashdb.h	/^	U32 time_count[8];\/\/刷卡间隔计时$/;"	m	struct:_POLLCARD_
+time_second	flashdb.h	/^	U32 time_second;      \/\/linux 格式时间  $/;"	m	struct:_C3AcessLog_
+time_second	flashdb.h	/^	time_t time_second;	\/\/4$/;"	m	struct:_OPLog_
+time_second	flashdb.h	/^	time_t time_second;$/;"	m	struct:_AttLog_
+time_second	flashdb.h	/^	time_t time_second;$/;"	m	struct:_ExtendAttLog_
+timezoneid	flashdb.h	/^	U32 timezoneid;	\/\/索引号	$/;"	m	struct:_timezone_
+timezoneid	flashdb.h	/^	U32 timezoneid;\/\/4\/\/$/;"	m	struct:_firstcardopendoor_
+tuetime1	flashdb.h	/^	U32 tuetime1;	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+tuetime2	flashdb.h	/^	U32 tuetime2;$/;"	m	struct:_timezone_
+tuetime3	flashdb.h	/^	U32 tuetime3;$/;"	m	struct:_timezone_
+verified	flashdb.h	/^	BYTE verified;		\/\/验证类型   见上面定义$/;"	m	struct:_C3AcessLog_
+verified	flashdb.h	/^	BYTE verified;$/;"	m	struct:_AttLog_
+verified	flashdb.h	/^	BYTE verified;$/;"	m	struct:_ExtendAttLog_
+wedtime1	flashdb.h	/^	U32 wedtime1;	\/\/如例8:30 ~12:00   值 为(830 << 16 + 1200)   即0x33e04b0$/;"	m	struct:_timezone_
+wedtime2	flashdb.h	/^	U32 wedtime2;$/;"	m	struct:_timezone_
+wedtime3	flashdb.h	/^	U32 wedtime3;$/;"	m	struct:_timezone_
+workcode	flashdb.h	/^	U32 workcode;$/;"	m	struct:_ExtendAttLog_
+writeAndHash	flashdb.c	/^int writeAndHash(int handle, void *buffer, int size, unsigned int *sum)$/;"	f
